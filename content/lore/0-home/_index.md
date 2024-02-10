@@ -30,7 +30,10 @@ Body text Body text Body text Body text Body text Body text Body text Body text 
 
 {{< columns >}} <!-- begin columns block -->
 
-![](https://lh4.googleusercontent.com/86R9oQTjB41XCgzBFuAvpCCrROj-r-9tZcrPBOu7By1pVP8r-BfJRv6GZj3aA6LV7H1vaTCYssiZcyW_rT8SwnrxyLlf-jBDAep43o3sQ7p-F6ait77VzuKuoKZKVgCCNQ=w1280)
+During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near the end of that ritual. A Grail failed to produce a wish and there was no determined winner, resulting in the leftover energy produced by the defeated Servants to turn into thaumaturgical energy, also known as the 'Grail Mud'. This mud spread across Fuyuki, devouring the entire city as it grew in size with each landmark, building or organism it consumed. As such, it wasn't long until the rest of the world had to contend with the Grail Mud.
+
+
+At its current rate, it was simply a matter of time until the mud consumed the entirety of the Earth. As such, Magi were forced to take the spotlight and defend themselves from this catastrophe via Magecraft and Servants of their own. This resulted in commoners finding out that Magecraft was real, gradually reducing the overall Mystery in the world and weakening Magecraft itself.
 
 <---> <!-- magic separator, between columns -->
 
@@ -40,7 +43,25 @@ During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near 
 At its current rate, it was simply a matter of time until the mud consumed the entirety of the Earth. As such, Magi were forced to take the spotlight and defend themselves from this catastrophe via Magecraft and Servants of their own. This resulted in commoners finding out that Magecraft was real, gradually reducing the overall Mystery in the world and weakening Magecraft itself.
 {{< /columns >}}
 
+## wrap text around image - use single column
+
+# float left
+{{< columns img-left >}}
+![](https://lh4.googleusercontent.com/86R9oQTjB41XCgzBFuAvpCCrROj-r-9tZcrPBOu7By1pVP8r-BfJRv6GZj3aA6LV7H1vaTCYssiZcyW_rT8SwnrxyLlf-jBDAep43o3sQ7p-F6ait77VzuKuoKZKVgCCNQ=w1280)  During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near the end of that ritual. A Grail failed to produce a wish and there was no determined winner, resulting in the leftover energy produced by the defeated Servants to turn into thaumaturgical energy, also known as the 'Grail Mud'. This mud spread across Fuyuki, devouring the entire city as it grew in size with each landmark, building or organism it consumed. As such, it wasn't long until the rest of the world had to contend with the Grail Mud.
+
+At its current rate, it was simply a matter of time until the mud consumed the entirety of the Earth. As such, Magi were forced to take the spotlight and defend themselves from this catastrophe via Magecraft and Servants of their own. This resulted in commoners finding out that Magecraft was real, gradually reducing the overall Mystery in the world and weakening Magecraft itself.
+
 Unfortunately, not even the combined efforts of the Mage's Association and several other Magi organizations could halt the mud's pace. At best, it could be slowed down. Because of this, some Magi started to think about how to survive in a world completely corrupted by Grail Mud. This resulted in Magi working alongside scientists and engineers, which led to the creation of the nomadic cities. Unfortunately, their structure was deemed too weak to resist the potent curses of the mud.
+{{< /columns >}}
+
+# float right
+{{< columns img-right >}}
+![](https://lh4.googleusercontent.com/86R9oQTjB41XCgzBFuAvpCCrROj-r-9tZcrPBOu7By1pVP8r-BfJRv6GZj3aA6LV7H1vaTCYssiZcyW_rT8SwnrxyLlf-jBDAep43o3sQ7p-F6ait77VzuKuoKZKVgCCNQ=w1280)  During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near the end of that ritual. A Grail failed to produce a wish and there was no determined winner, resulting in the leftover energy produced by the defeated Servants to turn into thaumaturgical energy, also known as the 'Grail Mud'. This mud spread across Fuyuki, devouring the entire city as it grew in size with each landmark, building or organism it consumed. As such, it wasn't long until the rest of the world had to contend with the Grail Mud.
+
+At its current rate, it was simply a matter of time until the mud consumed the entirety of the Earth. As such, Magi were forced to take the spotlight and defend themselves from this catastrophe via Magecraft and Servants of their own. This resulted in commoners finding out that Magecraft was real, gradually reducing the overall Mystery in the world and weakening Magecraft itself.
+
+Unfortunately, not even the combined efforts of the Mage's Association and several other Magi organizations could halt the mud's pace. At best, it could be slowed down. Because of this, some Magi started to think about how to survive in a world completely corrupted by Grail Mud. This resulted in Magi working alongside scientists and engineers, which led to the creation of the nomadic cities. Unfortunately, their structure was deemed too weak to resist the potent curses of the mud.
+{{< /columns >}}
 
 ## image gallery
 
@@ -122,3 +143,8 @@ Artist
 
 Playlist 
 {{< spotify type="playlist" id="37i9dQZF1DX6dvuioZhoLo" >}}
+
+
+# Archive
+[Archive]({{< static "/archive/index.html" >}})
+
