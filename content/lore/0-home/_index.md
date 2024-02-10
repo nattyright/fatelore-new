@@ -100,7 +100,7 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 {{< youtube Q2HB7giCchY >}}
 
 ## audio
-{{< audio "static\img\Spy_x_Family_Opening_-_Mixed_Nuts.mp3" >}}
+{{< audio "static/img/Spy_x_Family_Opening_-_Mixed_Nuts.mp3" >}}
 
 ## spotify
 Album 

@@ -10,6 +10,8 @@ collections: # A list of collections the CMS should be able to edit
     label: 'Home' # Used in the UI, ie.: "New Post"
     label_singular: 'Home Page'
     folder: 'content/lore/0-home' # The path to the folder where the documents are stored
+    media_folder: ''
+    public_folder: ''
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -25,6 +27,8 @@ collections: # A list of collections the CMS should be able to edit
     label: 'Introduction' # Used in the UI, ie.: "New Post"
     label_singular: 'Introduction Page'
     folder: 'content/lore/1-introduction' # The path to the folder where the documents are stored
+    media_folder: ''
+    public_folder: ''
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -40,6 +44,8 @@ collections: # A list of collections the CMS should be able to edit
     label: 'World & Setting' # Used in the UI, ie.: "New Post"
     label_singular: 'World & Setting Page'
     folder: 'content/lore/2-world-and-setting' # The path to the folder where the documents are stored
+    media_folder: ''
+    public_folder: ''
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -55,6 +61,8 @@ collections: # A list of collections the CMS should be able to edit
     label: 'Locations' # Used in the UI, ie.: "New Post"
     label_singular: 'Locations Page'
     folder: 'content/lore/3-locations' # The path to the folder where the documents are stored
+    media_folder: ''
+    public_folder: ''
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -70,6 +78,8 @@ collections: # A list of collections the CMS should be able to edit
     label: 'Factions' # Used in the UI, ie.: "New Post"
     label_singular: 'Factions Page'
     folder: 'content/lore/4-factions' # The path to the folder where the documents are stored
+    media_folder: ''
+    public_folder: ''
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -85,6 +95,8 @@ collections: # A list of collections the CMS should be able to edit
     label: 'Character Creation' # Used in the UI, ie.: "New Post"
     label_singular: 'Character Creation Page'
     folder: 'content/lore/5-character-creation' # The path to the folder where the documents are stored
+    media_folder: ''
+    public_folder: ''
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -100,6 +112,8 @@ collections: # A list of collections the CMS should be able to edit
     label: 'Roleplay' # Used in the UI, ie.: "New Post"
     label_singular: 'Roleplay Page'
     folder: 'content/lore/6-roleplay' # The path to the folder where the documents are stored
+    media_folder: ''
+    public_folder: ''
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
