@@ -1,14 +1,8 @@
-[build.environment]
-  NETLIFY_USE_YARN = "true"
-  YARN_VERSION = "1.22.17"
-
 [build]
-  command = "yarn build"
-  publish = "dist"
+publish = "public"  // default hugo build folder
+command = "hugo --gc --minify" // hugo build command
 
-[context.deploy-preview]
-  command = "yarn build:preview"
-
-[dev]
-  framework = "hugo"
-  targetPort = 3000
+[context.production.environment]
+HUGO_VERSION = "0.122.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
