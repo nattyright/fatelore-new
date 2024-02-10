@@ -1,0 +1,12 @@
+{
+    "folder-color.pathColors": [
+        {
+            "folderPath": "fatelore-new\\content\\",
+            "color": "foldercolorizer.Gold"
+        },
+        {
+            "folderPath": "fatelore-new\\layouts\\",
+            "color": "foldercolorizer.SpringGreen"
+        }
+    ]
+}

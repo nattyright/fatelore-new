@@ -1,8 +1,7 @@
 baseURL = 'starrynightrp.netlify.app/'
 languageCode = 'en-us'
-languageLang = 'en'
 title = 'My New Hugo Site'
+theme = "FixIt" 
 
 [params]
 images = ["img/og-image.jpg"]
-theme = "hugo-theme-monochrome"
