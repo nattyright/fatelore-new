@@ -20,14 +20,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: 'lore' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'Lore Pages' # Used in the UI, ie.: "New Post"
-    label_singular: 'Lore Page'
-    folder: 'content/lore' # The path to the folder where the documents are stored
+  - name: 'home' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Home' # Used in the UI, ie.: "New Post"
+    label_singular: 'Home Page'
+    folder: 'content/0-home' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    nested: # adding a nested object will show the collection folder structure
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
       preview: true
@@ -37,7 +34,93 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
-    # adding a meta object with a path property allows editing the path of entries
-    # moving an existing entry will move the entire sub tree of the entry to the new location
-    meta: { path: { widget: string, label: 'Path', index_file: '_index' } }
- #testse
+
+  - name: 'introduction' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Introduction' # Used in the UI, ie.: "New Post"
+    label_singular: 'Introduction Page'
+    folder: 'content/1-introduction' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: true
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {label: "Intro Blurb", name: "description", widget: "text"} # new
+      - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'world-and-setting' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'World & Setting' # Used in the UI, ie.: "New Post"
+    label_singular: 'World & Setting Page'
+    folder: 'content/2-world-and-setting' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: true
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {label: "Intro Blurb", name: "description", widget: "text"} # new
+      - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'locations' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Locations' # Used in the UI, ie.: "New Post"
+    label_singular: 'Locations Page'
+    folder: 'content/3-locations' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: true
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {label: "Intro Blurb", name: "description", widget: "text"} # new
+      - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'factions' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Factions' # Used in the UI, ie.: "New Post"
+    label_singular: 'Factions Page'
+    folder: 'content/4-factions' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: true
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {label: "Intro Blurb", name: "description", widget: "text"} # new
+      - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'character-creation' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Character Creation' # Used in the UI, ie.: "New Post"
+    label_singular: 'Character Creation Page'
+    folder: 'content/5-character-creation' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: true
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {label: "Intro Blurb", name: "description", widget: "text"} # new
+      - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'roleplay' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Roleplay' # Used in the UI, ie.: "New Post"
+    label_singular: 'Roleplay Page'
+    folder: 'content/6-roleplay' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: true
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {label: "Intro Blurb", name: "description", widget: "text"} # new
+      - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'Body', name: 'body', widget: 'markdown' }

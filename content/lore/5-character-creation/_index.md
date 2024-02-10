@@ -1,5 +1,6 @@
 ---
-title: Test Post
+title: Character Creation
+weight: 60
 date: 2024-02-10T14:20:09.187Z
 description: "Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro
   blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb
