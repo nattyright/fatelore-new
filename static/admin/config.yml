@@ -10,9 +10,6 @@ collections: # A list of collections the CMS should be able to edit
     label: 'Post' # Used in the UI, ie.: "New Post"
     folder: 'content/posts' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    nested: # adding a nested object will show the collection folder structure
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
       preview: true
@@ -22,10 +19,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'page' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'Page' # Used in the UI, ie.: "New Post"
-    folder: 'content/docs' # The path to the folder where the documents are stored
+  - name: 'lore' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Lore' # Used in the UI, ie.: "New Post"
+    folder: 'content/lore' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    nested: # adding a nested object will show the collection folder structure
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
       preview: true

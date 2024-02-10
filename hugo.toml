@@ -10,4 +10,4 @@ images = ["img/og-image.jpg"]
 # When not specified file structure and weights will be used
 #BookMenuBundle = '/menu'
 BookMenuBundle = ''
-BookSection='*'
+BookSection='/lore'
