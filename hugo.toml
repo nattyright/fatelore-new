@@ -1,4 +1,4 @@
-baseURL = 'starrynightrp.netlify.app/'
+baseURL = 'https://starrynightrp.netlify.app/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-theme-monochrome'
