@@ -7,6 +7,10 @@
         {
             "folderPath": "fatelore-new\\layouts\\",
             "color": "foldercolorizer.SpringGreen"
+        },
+        {
+            "folderPath": "fatelore-new\\themes\\hugo-book\\exampleSite\\content.en\\",
+            "color": "foldercolorizer.Copper"
         }
     ]
 }
