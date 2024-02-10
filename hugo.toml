@@ -1,7 +1,7 @@
 baseURL = 'https://starrynightrp.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-book'
+title = 'Fate/Starry Night'
+theme = ['hugo-book', 'hugo-shortcode-roneo-collection']
 
 [params]
 images = ["img/og-image.jpg"]
@@ -11,3 +11,8 @@ images = ["img/og-image.jpg"]
 #BookMenuBundle = '/menu'
 BookMenuBundle = ''
 BookSection='/lore'
+BookToC = 'true'
+
+[markup]
+[markup.tableOfContents]
+  startLevel = 1

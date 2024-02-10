@@ -8,6 +8,7 @@ description: "Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro
   blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb "
 image: /img/bg.png
 ---
+
 # heading
 
 Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text Body text
@@ -18,6 +19,7 @@ Body text Body text Body text Body text Body text Body text Body text Body text 
 
 
 # Formatting Shortcodes (enabled & tested)
+
 ## buttons
 
 {{< button href="https://sites.google.com/view/fatestarrynight/home?authuser=0" >}}Click Me{{< /button >}}
@@ -53,16 +55,21 @@ Unfortunately, not even the combined efforts of the Mage's Association and sever
   {{< img src="https://cdn.discordapp.com/emojis/1150178198743691367.webp?size=96&quality=lossless" >}}
 {{< /gallery >}}
 
-## details
+## icons
+{{< ico "heart" >}} {{< ico "star" >}} {{< ico "book" >}} {{< ico "cup" >}} {{< ico "sword" >}} {{< ico "sun" >}} {{< ico "snowman" >}} {{< ico "3d-rotate" >}}
 
+list of available icons: https://github.com/RoneoOrg/hugo-shortcode-roneo-collection/tree/main/assets/svg
+
+## details
 {{< details title="Title" open=false >}}
+
 ## Markdown content
 Lorem markdownum insigne...
 {{< /details >}}
 
 ## expand
-
 {{< expand "Custom Label" "..." >}}
+
 ## Markdown content
 Lorem markdownum insigne...
 {{< /expand >}}
@@ -74,11 +81,13 @@ Lorem markdownum insigne...
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 {{< /hint >}}
+
 {{< hint "warning" >}}
 **Markdown content**  
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 {{< /hint >}}
+
 {{< hint "danger" >}}
 **Markdown content**  
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
@@ -86,7 +95,6 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 {{< /hint >}}
 
 ## tabs
-
 {{< tabs "uniqueid" >}}
 {{< tab "MacOS" >}} # MacOS Content {{< /tab >}}
 {{< tab "Linux" >}} # Linux Content {{< /tab >}}
@@ -100,7 +108,7 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 {{< youtube Q2HB7giCchY >}}
 
 ## audio
-{{< audio "static/img/Spy_x_Family_Opening_-_Mixed_Nuts.mp3" >}}
+{{< audio "https://archive.org/download/call_cthulhu_2401_librivox/cthulhu_01_lovecraft_128kb.mp3" >}}
 
 ## spotify
 Album 
