@@ -1,9 +1,11 @@
 [submodule "themes/hugo-theme-monochrome"]
 	path = themes/hugo-theme-monochrome
 	url = https://github.com/kaiiiz/hugo-theme-monochrome.git
-	[submodule "themes/monochrome"]
-	path = themes/hugo-theme-monochrome
+
+[submodule "themes/monochrome"]
+	path = themes/monochrome
 	url = https://github.com/kaiiiz/hugo-theme-monochrome.git
+	
 [submodule "themes/FixIt"]
 	path = themes/FixIt
 	url = https://github.com/hugo-fixit/FixIt.git
