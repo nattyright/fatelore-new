@@ -1,3 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
+languageLang = 'en'
 title = 'My New Hugo Site'
+
+[params]
+images = ["img/og-image.jpg"]
+theme = "hugo-theme-monochrome"
