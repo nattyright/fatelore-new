@@ -19,8 +19,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'lore' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'Lore' # Used in the UI, ie.: "New Post"
+    label: 'Lore Pages' # Used in the UI, ie.: "New Post"
+    label_singular: 'Lore Page'
     folder: 'content/lore' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     nested: # adding a nested object will show the collection folder structure
@@ -35,4 +37,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
+    # adding a meta object with a path property allows editing the path of entries
+    # moving an existing entry will move the entire sub tree of the entry to the new location
+    meta: { path: { widget: string, label: 'Path', index_file: '_index' } }
  #testse
