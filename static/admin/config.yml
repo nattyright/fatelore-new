@@ -9,7 +9,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: 'home' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Home' # Used in the UI, ie.: "New Post"
     label_singular: 'Home Page'
-    folder: 'content/0-home' # The path to the folder where the documents are stored
+    folder: 'content/lore/0-home' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: 'introduction' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Introduction' # Used in the UI, ie.: "New Post"
     label_singular: 'Introduction Page'
-    folder: 'content/1-introduction' # The path to the folder where the documents are stored
+    folder: 'content/lore/1-introduction' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: 'world-and-setting' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'World & Setting' # Used in the UI, ie.: "New Post"
     label_singular: 'World & Setting Page'
-    folder: 'content/2-world-and-setting' # The path to the folder where the documents are stored
+    folder: 'content/lore/2-world-and-setting' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: 'locations' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Locations' # Used in the UI, ie.: "New Post"
     label_singular: 'Locations Page'
-    folder: 'content/3-locations' # The path to the folder where the documents are stored
+    folder: 'content/lore/3-locations' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -69,7 +69,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: 'factions' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Factions' # Used in the UI, ie.: "New Post"
     label_singular: 'Factions Page'
-    folder: 'content/4-factions' # The path to the folder where the documents are stored
+    folder: 'content/lore/4-factions' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -84,7 +84,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: 'character-creation' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Character Creation' # Used in the UI, ie.: "New Post"
     label_singular: 'Character Creation Page'
-    folder: 'content/5-character-creation' # The path to the folder where the documents are stored
+    folder: 'content/lore/5-character-creation' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
@@ -99,7 +99,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: 'roleplay' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Roleplay' # Used in the UI, ie.: "New Post"
     label_singular: 'Roleplay Page'
-    folder: 'content/6-roleplay' # The path to the folder where the documents are stored
+    folder: 'content/lore/6-roleplay' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
     editor:
