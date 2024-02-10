@@ -6,11 +6,23 @@
         },
         {
             "folderPath": "fatelore-new\\layouts\\",
-            "color": "foldercolorizer.SpringGreen"
+            "color": "foldercolorizer.CadetBlue"
         },
         {
             "folderPath": "fatelore-new\\themes\\hugo-book\\exampleSite\\content.en\\",
             "color": "foldercolorizer.Copper"
+        },
+        {
+            "folderPath": "fatelore-new\\assets\\",
+            "color": "foldercolorizer.LightSalmon"
+        },
+        {
+            "folderPath": "fatelore-new\\static\\",
+            "color": "foldercolorizer.Plum"
+        },
+        {
+            "folderPath": "fatelore-new\\themes\\",
+            "color": "foldercolorizer.SeaGreenMedium"
         }
     ]
 }

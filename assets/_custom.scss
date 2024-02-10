@@ -1,3 +1,5 @@
+/* Shortcode Hacks*/
+/* [columns] support inline image */
 .flex-even.img-left {
 	img {
 		float: left;
@@ -5,7 +7,6 @@
 		max-width: 300px !important;
 	}
 }
-
 .flex-even.img-right {
 	img {
 		float: right;
