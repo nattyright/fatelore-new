@@ -22,6 +22,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'File', name: 'file', widget: 'file', required: false}
+      - { label: 'Code', name: 'code', widget: 'code' } # new
 
   - name: 'introduction' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Introduction' # Used in the UI, ie.: "New Post"
@@ -55,7 +57,8 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown' } # new
+
 
   - name: 'locations' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Locations' # Used in the UI, ie.: "New Post"
