@@ -129,7 +129,7 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 {{< youtube Q2HB7giCchY >}}
 
 ## audio
-{{< audio "https://archive.org/download/call_cthulhu_2401_librivox/cthulhu_01_lovecraft_128kb.mp3" >}}
+{{< audio "spy_x_family_opening_-_mixed_nuts.mp3" >}}
 
 ## spotify
 Album 
