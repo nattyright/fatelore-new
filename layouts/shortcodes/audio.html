@@ -21,8 +21,7 @@
 
 <figure {{ with $class }}class="{{ . }}"{{ end }}>
   <audio controls class="player" preload="{{ $preload }}">
-    {{ with $src }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+    {{ with $src }}<source src="./{{ . | relURL }}" type="audio/mpeg">{{ end }}
   </audio>
-  {{/*  <a href="{{ .Get "src"  }}" class="button small" download><i class="icon fas fa-download"></i></a>  */}}
   {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>

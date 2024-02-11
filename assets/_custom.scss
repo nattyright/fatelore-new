@@ -14,3 +14,23 @@
 		max-width: 300px !important;
 	}
 }
+
+.container {
+	.book-menu {
+		nav {
+			padding-top: 10px;
+		}
+		.book-brand span{
+			margin: auto;
+		}
+	}
+	.book-page {
+		padding-top: 14em;
+	}
+	.book-toc {
+		nav {
+			padding-top: 10px;
+		}
+		
+	}
+}
