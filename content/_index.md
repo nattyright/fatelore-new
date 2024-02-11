@@ -1,5 +1,5 @@
 ---
-title: Shortcode & Styling Cheatsheet
+title: Styling Cheatsheet
 type: docs
 ---
 
