@@ -1,7 +1,7 @@
 baseURL = 'https://starrynightrp.netlify.app/'
 languageCode = 'en-us'
 title = 'Fate/Starry Night'
-theme = ['hugo-book', 'hugo-shortcode-roneo-collection']
+theme = ['hugo-book-nat', 'hugo-shortcode-roneo-collection']
 
 [params]
 images = ["img/og-image.jpg"]
