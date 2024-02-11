@@ -21,8 +21,8 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'File', name: 'file', widget: 'file', required: false}
 
   - name: 'introduction' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Introduction' # Used in the UI, ie.: "New Post"
@@ -39,6 +39,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'world-and-setting' # Used in routes, ie.: /admin/collections/:slug/edit
@@ -56,6 +57,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' } # new
 
 
@@ -74,6 +76,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'factions' # Used in routes, ie.: /admin/collections/:slug/edit
@@ -91,6 +94,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'character-creation' # Used in routes, ie.: /admin/collections/:slug/edit
@@ -108,6 +112,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'roleplay' # Used in routes, ie.: /admin/collections/:slug/edit
@@ -125,4 +130,5 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - {label: "Intro Blurb", name: "description", widget: "text"} # new
       - {label: "Image", name: "image", widget: "image", required: false} # new
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
