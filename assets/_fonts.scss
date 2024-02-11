@@ -1,1 +1,6 @@
-/* Replace default font with custom fonts (e.g. local files or remote like google fonts) */
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+  }

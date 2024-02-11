@@ -1,4 +1,5 @@
 /* Customise or override scss styles */
+$h1-color: #c14343;
 
 /* Shortcode Hacks*/
 /* [columns] support inline image */
@@ -17,21 +18,48 @@
 	}
 }
 
+/* Text */
+h1, h2, h3, h4, h5, h6 { font-weight: 600 !important; }
+h1, h2, h3, h4 { color: $h1-color; }
+h5 { color: gray; }
+h6 { color: lightgray; }
+em, .cm-em { color: #69b597; }
+
 /* Main Page Layout */
+body {
+	overflow: scroll;
+}
+
+
 .container {
+	max-width: 90em;
+
 	.book-menu {
 		nav {
 			padding-top: 10px;
+
+			li {
+				font-size: 14px;
+			}
 		}
 		.book-brand span{
 			margin: auto;
+			color: $h1-color;
+			font-weight: 600;
+			font-size: 22px;
 		}
+
 	}
 	.book-page {
 		padding-top: 13em;
+		padding-left: 40px;
+		padding-right: 40px;
+		height: 100%;
+		overflow-y: scroll;
 	
 		.book-header-pc {
 			height: 100px;
+			color: $h1-color;
 			font-size: 70px;
 			margin-bottom: 10px;
 		}
@@ -39,7 +67,24 @@
 	.book-toc {
 		nav {
 			padding-top: 10px;
+
+			li {
+				font-size: 14px;
+			}
 		}
 		
 	}
+}
+
+/* Dark Theme */
+body {
+	background: #0b0f13;
+
+	.book-menu-content {
+		background: #0b0f13 !important;
+	}
+	.book-page {
+		background: #1a1e24;
+	}
+
 }

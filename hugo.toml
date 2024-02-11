@@ -5,6 +5,7 @@ theme = ['hugo-book-nat', 'hugo-shortcode-roneo-collection']
 
 [params]
 images = ["img/og-image.jpg"]
+BookTheme = 'dark'
 
 # (Optional, default none) Set leaf bundle to render as side menu
 # When not specified file structure and weights will be used

@@ -5,7 +5,7 @@ type: docs
 
 # Hugo Markdown Guide
 
-Basically discord (discord uses a flavored Markdown syntax) but with support for more elements
+*Basically* discord (discord uses a flavored Markdown syntax) but with support for more elements
 
 https://www.markdownguide.org/tools/hugo/
 
