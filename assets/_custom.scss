@@ -1,3 +1,5 @@
+/* Customise or override scss styles */
+
 /* Shortcode Hacks*/
 /* [columns] support inline image */
 .flex-even.img-left {
@@ -15,6 +17,7 @@
 	}
 }
 
+/* Main Page Layout */
 .container {
 	.book-menu {
 		nav {
@@ -31,35 +34,6 @@
 			height: 100px;
 			font-size: 70px;
 			margin-bottom: 10px;
-/*
-			hr {
-				border: 0;
-				height: 2px;
-				margin:3px 0;
-				position:relative;
-				background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 10%,rgba(0,0,0,0.65) 30%,rgba(0,0,0,0.9) 95%,rgba(0,0,0,0) 100%);
-				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(10%,rgba(0,0,0,0.4)), color-stop(30%,rgba(0,0,0,0.65)), color-stop(95%,rgba(0,0,0,0.9)), color-stop(100%,rgba(0,0,0,0))); 
-				background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 10%,rgba(0,0,0,0.65) 30%,rgba(0,0,0,0.9) 95%,rgba(0,0,0,0) 100%); 
-				background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 10%,rgba(0,0,0,0.65) 30%,rgba(0,0,0,0.9) 95%,rgba(0,0,0,0) 100%); 
-				background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 10%,rgba(0,0,0,0.65) 30%,rgba(0,0,0,0.9) 95%,rgba(0,0,0,0) 100%); 
-				background: linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 10%,rgba(0,0,0,0.65) 30%,rgba(0,0,0,0.9) 95%,rgba(0,0,0,0) 100%); 
-
-
-				background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 10%,rgba(0,0,0,0.65) 30%,rgba(0,0,0,0.9) 95%,rgba(0,0,0,0) 100%); 
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); 
-			}
-			
-			hr:before {
-				content: "";
-				display: block;
-				border-top: solid 1px #f9f9f9;
-				width: 100%;
-				height: 1px;
-				position: absolute;
-				top: 50%;
-				z-index: 1;
-			}
-*/
 		}
 	}
 	.book-toc {
