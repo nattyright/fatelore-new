@@ -23,6 +23,10 @@
         {
             "folderPath": "fatelore-new\\themes\\",
             "color": "foldercolorizer.SeaGreenMedium"
+        },
+        {
+            "folderPath": "fatelore-new\\themes\\hugo-book-nat\\",
+            "color": "foldercolorizer.CarrotOrange"
         }
     ]
 }
