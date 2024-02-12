@@ -17,6 +17,35 @@ $h1-color: #c14343;
 		max-width: 300px !important;
 	}
 }
+/* Tupper Mimic Styling */
+.tupper-box {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	.tupper-left {
+		width: 60px;
+		margin-right: 14px;
+		img {
+			display: block;
+			object-fit: cover;
+			margin: auto;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			background-color:white;
+		}
+	}
+	.tupper-right {
+		width: calc(100% - 60px);
+		.tupper-name {
+			margin-bottom: -18px;
+			font-size: 18px;
+			font-weight: 700;
+			color: #eeeeee;
+		}
+	}
+}
+
 
 /* Text */
 h1, h2, h3, h4, h5, h6 { font-weight: 600 !important; }
@@ -26,11 +55,6 @@ h6 { color: lightgray; }
 em, .cm-em { color: #69b597; }
 
 /* Main Page Layout */
-body {
-	overflow: scroll;
-}
-
-
 .container {
 	max-width: 90em;
 
@@ -55,7 +79,6 @@ body {
 		padding-left: 40px;
 		padding-right: 40px;
 		height: 100%;
-		overflow-y: scroll;
 	
 		.book-header-pc {
 			height: 100px;

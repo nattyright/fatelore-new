@@ -1,0 +1,71 @@
+<!--
+Parameters:
+    bracket - (Required) album / track / playlist / artist
+    id - (Required) Target ID
+    width - (Optional) width
+    height - (Optional) height
+-->
+
+{{ if .IsNamedParams }}
+<!--
+<iframe src="https://open.spotify.com/embed/{{ .Get "type" }}/{{ .Get "id" }}"
+    width="{{ default "100%" (.Get "width") }}"
+    height="{{ default "380" (.Get "height") }}"
+    frameborder="0"
+    allowtransparency="true"
+    allow="encrypted-media"></iframe>
+-->
+
+    {{ $counter := 1 }}
+    {{ range split .Inner "%%" }}
+
+        {{ if modBool $counter 2 }} <!-- if counter is odd (starting from idx 1), it's a tupper text bracket (aka persona) -->
+            <h1> {{ . }} </h1>
+        {{ else }} <!-- else counter is even (starting from idx 2), it's the actual post content -->
+            <p> {{ . }} </p>
+        {{ end }}
+        {{ $counter = add $counter 1 }}
+
+    {{ end }}
+
+{{ else }}
+<!--
+<iframe src="https://open.spotify.com/embed/{{ .Get 0 }}/{{ .Get 1 }}"
+    width="{{ default "100%" (.Get 2) }}"
+    height="{{ default "380" (.Get 3) }}"
+    frameborder="0"
+    allowtransparency="true"
+    allow="encrypted-media"></iframe>
+-->
+
+    {{ $tuppers := index .Site.Data "tupper" }}
+
+    {{ $items := split .Inner "%%" }}
+
+    {{ range $index, $item := $items }}
+
+        {{ if and (gt $index 0) (not (modBool $index 2)) }}
+
+            {{ $tupperID := index $items $index }}
+            {{ $tupper := index $tuppers $tupperID }}
+
+            <div class="tupper-box"> 
+                <div class="tupper-left">
+                    <img src=' {{ index $tupper "pfp" }} '>
+                </div>
+                <div class="tupper-right markdown-inner">
+                    <p class="tupper-name" style='color: {{ default "white" (index $tupper "color") }} ;'> {{ index $tupper "name" }} </p>
+                    {{ index $items (add $index 1) | $.Page.RenderString }}
+                </div>
+            </div>
+            
+        
+        {{ end }}
+
+    {{ end }}
+
+
+    
+{{ end }}
+
+
