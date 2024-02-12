@@ -221,6 +221,30 @@ Playlist
 
 # Extended Shortcodes (In Development)
 ## Discord Tupper Style Posting
+```tpl
+{{</* tupper */>}}
+%%CHAR_NAME%%
+CHAR_POST
+CHAR_POST
+CHAR_POST
+
+%%CHAR_NAME%%
+CHAR_POST
+CHAR_POST
+CHAR_POST
+CHAR_POST
+{{</* /tupper */>}}
+
+Also add your '''tupper''' handle in data/tupper.json in the below format:
+
+"CHAR_NAME": {
+        "name": "YOUR_CHAR_FULL_NAME",
+        "pfp": "img-tupper/NAME_OF_PFP_IMAGE.png",
+        "color": "HTML_COLOR_NAME(GOOGLE IT)"
+        }
+```
+
+
 {{< tupper >}}
 
 %%aida%%
