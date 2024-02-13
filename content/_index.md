@@ -260,4 +260,10 @@ At its current rate, it was simply a matter of time until the mud consumed the e
 {{< /tupper >}}
 
 ## ID Card
+```tpl
+{{</* idcard name="CHAR_NAME" */>}}
+
+and create your char profile doc!
+```
+
 {{< idcard name="Astroboy" >}}
