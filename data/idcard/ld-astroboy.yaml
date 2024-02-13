@@ -1,5 +1,6 @@
 name: Laplace's Demon
 alias: astroboy
+imglink: https://cdn.discordapp.com/attachments/694903118793801738/1121099604990107838/SPOILER_uehehhhh.png
 gender: None
 age: 300+
 height: 158cm
@@ -14,5 +15,12 @@ circuit:
   artificial: 
     rank: A
     location: Entire Body
+
+primary_text_color: '' # Text color for left hand titles
+primary_text_border_color: '' # Border text color for left hand titles
+primary_font_weight: 'normal' # Font weight for left hand titles
+secondary_text_color: '' # Text color for right hand titles
+secondary_text_border_color: '' # Border text color for right hand titles
+secondary_font_weight: 'normal' # Font weight for right hand titles
 
 
