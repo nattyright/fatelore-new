@@ -1,0 +1,68 @@
+{{ $names := index .Site.Data "names" }}
+{{ $name := index $names (.Get "name") }}
+{{ $idURL := index $name "idcard" }}
+{{ $profile := index .Site.Data.idcard $idURL }}
+
+<div class="idcard-box">
+    <div class="idcard-left">
+        <div class="idcard-left-content">
+            <div class="idcard-left-name"> 
+                {{ index $profile "name" }} 
+            </div>
+            <div class="idcard-left-alias">
+                @ {{ index $profile "alias" }}
+            </div>
+            <table class="tg">
+                <tbody>
+                    <tr>
+                        <td class="idcard-table-title">Gender</td>
+                        <td> {{ index $profile "gender" }} </td>
+                    </tr>
+                    <tr>
+                        <td class="idcard-table-title">Age</td>
+                        <td> {{ index $profile "age" }} </td>
+                    </tr>
+                    <tr>
+                        <td class="idcard-table-title">Height</td>
+                        <td> {{ index $profile "height" }} </td>
+                    </tr>
+                    <tr>
+                        <td class="idcard-table-title">Weight</td>
+                        <td> {{ index $profile "weight" }} </td>
+                    </tr>
+                    <tr>
+                        <td class="idcard-table-title">Affiliation</td>
+                        <td> {{ index $profile "affiliation" }} </td>
+                    </tr>
+                    <!--
+                    <tr>
+                        <td class="idcard-table-title">Profession</td>
+                        <td> {{ index $profile "profession" }} </td>
+                    </tr>
+                    -->
+                </tbody>
+            </table>
+        </div>
+
+
+ 
+    </div>
+    <div class="idcard-right">
+        <img src="https://cdn.discordapp.com/attachments/694903118793801738/1121099604990107838/SPOILER_uehehhhh.png">
+        <div class="idcard-right-gradient"></div>
+        <div class="thaum-apt">
+            <!--<i class="fa fa-star"></i>-->
+
+            <div class="idcard-right-title">—Origin—</div>
+            <div> {{ index $profile "origin" }} </div>
+            <div class="idcard-right-title">—Affinity—</div>
+            <div> {{ index $profile "affinity" }} </div>
+            <div class="idcard-right-title">—Natural Magic Circuit—</div>
+            <div> {{ index (index (index $profile "circuit") "natural") "rank" }} </div>
+            <div class="idcard-right-title">—Artificial Magic Circuit—</div>
+            <div> {{ index (index (index $profile "circuit") "artificial") "rank" }} </div>
+        </div>
+    </div>
+</div>
+
+

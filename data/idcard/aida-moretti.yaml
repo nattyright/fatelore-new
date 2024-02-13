@@ -1,0 +1,16 @@
+name: Aida Moretti
+alias: none
+gender: Female
+age: 22
+height: 168cm
+weight: 55kg
+affiliation: Alexandria
+profession: Librarian
+origin: none
+affinity: Wind, Water
+circuit:
+  natural: 
+    rank: B
+  artificial: 
+    rank: C
+    location: Shoulder Blades

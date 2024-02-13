@@ -1,0 +1,18 @@
+name: Laplace's Demon
+alias: astroboy
+gender: None
+age: 300+
+height: 158cm
+weight: 46kg
+affiliation: Republic
+profession: Fortune?Teller?
+origin: none
+affinity: Ether
+circuit:
+  natural: 
+    rank: None
+  artificial: 
+    rank: A
+    location: Entire Body
+
+

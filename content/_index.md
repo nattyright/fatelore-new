@@ -258,3 +258,6 @@ During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near 
 At its current rate, it was simply a matter of time until the mud consumed the entirety of the Earth. As such, Magi were forced to take the spotlight and defend themselves from this catastrophe via Magecraft and Servants of their own. This resulted in commoners finding out that Magecraft was real, gradually reducing the overall Mystery in the world and weakening Magecraft itself.
 
 {{< /tupper >}}
+
+## ID Card
+{{< idcard name="Astroboy" >}}
