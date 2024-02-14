@@ -1,0 +1,24 @@
+name: Nineball
+alias: 9ball
+imglink: https://cdn.discordapp.com/attachments/530404985838764032/1207080436937916416/latest.png?ex=65de5842&is=65cbe342&hm=bbf0e6dc06f5f0463b2f92fd0b4023ac17f27281e24173a08393987cf57ae0cc&
+gender: 9
+age: 999+
+height: 999cm
+weight: 999kg
+affiliation: Neo Holy Empire
+profession: Hustler
+origin: none
+affinity: Billiards
+circuit:
+  natural: 
+    rank: 9
+  artificial: 
+    rank: 9
+    location: 9
+
+primary_text_color: '#000000' # Text color for left hand titles
+primary_text_border_color: '' # Border text color for left hand titles
+primary_font_weight: 'bold' # Font weight for left hand titles
+secondary_text_color: '#EEAA01' # Text color for right hand titles
+secondary_text_border_color: '' # Border text color for right hand titles
+secondary_font_weight: 'bold' # Font weight for right hand titles

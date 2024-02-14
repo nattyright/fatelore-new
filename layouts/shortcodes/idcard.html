@@ -2,37 +2,62 @@
 {{ $name := index $names (.Get "name") }}
 {{ $idURL := index $name "idcard" }}
 {{ $profile := index .Site.Data.idcard $idURL }}
+<style>
 
+    /* Custom CSS styling that is character unique */
+    [class^='{{ index $profile "name" }}_'][class$="_custom-primary-color"] {
+        font-weight: {{ index $profile "primary_font_weight"}};
+        -webkit-text-stroke: {{ index $profile "primary_text_border_color"}};
+        color: {{ index $profile "primary_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_custom-secondary-color"] {
+        font-weight: {{ index $profile "secondary_font_weight"}};
+        -webkit-text-stroke: {{ index $profile "secondary_text_border_color"}};
+        color: {{ index $profile "secondary_text_color"}}
+    }
+
+    /* Blur and opacity change on image hover that helps with text reading hopefully */
+    .idcard-img {
+        transition: opacity 0.3s;
+    }
+    
+    .idcard-img:hover {
+        opacity: 0.5;
+        filter: blur(2px);
+    }
+
+</style>
 <div class="idcard-box">
     <div class="idcard-left">
         <div class="idcard-left-content">
             <div class="idcard-left-name"> 
-                {{ index $profile "name" }} 
+                <span class='{{ index $profile "name" }}__custom-primary-color'>{{ index $profile "name" }} </span>
             </div>
             <div class="idcard-left-alias">
-                @ {{ index $profile "alias" }}
+                @ <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "alias" }}</span>
             </div>
             <table class="tg">
                 <tbody>
                     <tr>
-                        <td class="idcard-table-title">Gender</td>
-                        <td> {{ index $profile "gender" }} </td>
+                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Gender </span></td>
+                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "gender" }} </span></td>
                     </tr>
                     <tr>
-                        <td class="idcard-table-title">Age</td>
-                        <td> {{ index $profile "age" }} </td>
+                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Age </span></td>
+                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "age" }} </span></td>
                     </tr>
                     <tr>
-                        <td class="idcard-table-title">Height</td>
-                        <td> {{ index $profile "height" }} </td>
+                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Height </span></td>
+                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "height" }} </span></td>
                     </tr>
                     <tr>
-                        <td class="idcard-table-title">Weight</td>
-                        <td> {{ index $profile "weight" }} </td>
+                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'> Weight </span></td>
+                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "weight" }} </span></td>
                     </tr>
                     <tr>
-                        <td class="idcard-table-title">Affiliation</td>
-                        <td> {{ index $profile "affiliation" }} </td>
+                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Affiliation </span></td>
+                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "affiliation" }} </span></td>
                     </tr>
                     <!--
                     <tr>
@@ -48,19 +73,22 @@
  
     </div>
     <div class="idcard-right">
-        <img src="https://cdn.discordapp.com/attachments/694903118793801738/1121099604990107838/SPOILER_uehehhhh.png">
+        <!--<img src="https://cdn.discordapp.com/attachments/694903118793801738/1121099604990107838/SPOILER_uehehhhh.png">-->
+        <span class="idcard-img">
+        <img src='{{ index $profile "imglink" }}'>
+        </span>
         <div class="idcard-right-gradient"></div>
         <div class="thaum-apt">
             <!--<i class="fa fa-star"></i>-->
 
-            <div class="idcard-right-title">—Origin—</div>
-            <div> {{ index $profile "origin" }} </div>
-            <div class="idcard-right-title">—Affinity—</div>
-            <div> {{ index $profile "affinity" }} </div>
-            <div class="idcard-right-title">—Natural Magic Circuit—</div>
-            <div> {{ index (index (index $profile "circuit") "natural") "rank" }} </div>
-            <div class="idcard-right-title">—Artificial Magic Circuit—</div>
-            <div> {{ index (index (index $profile "circuit") "artificial") "rank" }} </div>
+            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Origin—</span></div>
+            <div> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "origin" }}</span> </div>
+            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Affinity—</span></div>
+            <div> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "affinity" }} </span></div>
+            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Natural Magic Circuit—</span></div>
+            <div> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index (index (index $profile "circuit") "natural") "rank" }} </span></div>
+            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Artificial Magic Circuit—</span></div>
+            <div> <span class='{{ index $profile "name" }}__custom-secondary-color'> {{ index (index (index $profile "circuit") "artificial") "rank" }} </span></div>
         </div>
     </div>
 </div>

@@ -1,0 +1,24 @@
+name: Zlatan
+alias: '"Journalist of the Deeps"'
+imglink: https://cdn.discordapp.com/attachments/530404985838764032/1207081013105270836/neuvillette_genshin_impact_drawn_by_mirshroom__b4ce383b9e89a88d124502ea36ba08a7.png?ex=65de58cc&is=65cbe3cc&hm=cb55eb044ecedd82e8f39074c45978d1c48adc6dd498349bb5c432a4247d5a51&
+gender: Male
+age: 39
+height: 198cm
+weight: 91kg
+affiliation: Freelance
+profession: Journalist
+origin: none
+affinity: ! "\U0001F41F"
+circuit:
+  natural: 
+    rank: '?'
+  artificial: 
+    rank: '?'
+    location: '???'
+
+primary_text_color: '#1285F1' # Text color for left hand titles
+primary_text_border_color: '' # Border text color for left hand titles
+primary_font_weight: 'bold' # Font weight for left hand titles
+secondary_text_color: '#FFFFFF' # Text color for right hand titles
+secondary_text_border_color: '0.5px black' # Border text color for right hand titles
+secondary_font_weight: 'bold' # Font weight for right hand titles

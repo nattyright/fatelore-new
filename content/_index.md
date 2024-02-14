@@ -267,3 +267,7 @@ and create your char profile doc!
 ```
 
 {{< idcard name="Astroboy" >}}
+
+{{< idcard name="Nineball" >}}
+
+{{< idcard name="Zlatan" >}}
