@@ -157,6 +157,7 @@ $h1-color: #c14343;
 
 		.thaum-apt {
 			position: absolute;
+			z-index: 999;
 
 			//center element with position absolute
 			left: 0;
@@ -178,6 +179,7 @@ $h1-color: #c14343;
 
 		.idcard-right-gradient {
 			position: absolute;
+			z-index: 800;
 			bottom: 0;
 			left: 0;
 			right: 0;

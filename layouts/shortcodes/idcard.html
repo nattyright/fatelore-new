@@ -33,9 +33,11 @@
     /* Blur and opacity change on image hover that helps with text reading hopefully */
     .idcard-img {
         transition: opacity 0.3s;
+        z-index:0;
     }
     
-    .idcard-img:hover {
+    .idcard-img:hover,
+    .thaum-apt:hover + .idcard-img {
         opacity: 0.5;
         filter: blur(2px);
     }
@@ -91,10 +93,7 @@
  
     </div>
     <div class="idcard-right">
-        <span class="idcard-img">
-        <img src='{{ index $profile "imglink" }}'>
-        </span>
-        <div class="idcard-right-gradient"></div>
+
         <div class="thaum-apt">
             <!--<i class="fa fa-star"></i>-->
 
@@ -107,6 +106,10 @@
             <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Artificial Magic Circuit—</span></div>
             <div> <span class='{{ index $profile "name" }}__custom-secondary-color'> {{ index (index (index $profile "circuit") "artificial") "rank" }} </span></div>
         </div>
+        <span class="idcard-img">
+            <img src='{{ index $profile "imglink" }}'>
+            </span>
+            <div class="idcard-right-gradient"></div>
     </div>
 </div>
 
