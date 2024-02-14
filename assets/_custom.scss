@@ -66,7 +66,7 @@ $h1-color: #c14343;
 		position: relative;
 		.idcard-left-content {
 			position: absolute;
-			bottom: 10px;
+			top: 15px;
 			width: 100%;
 			.idcard-left-name {
 				font-size: 50px;
@@ -78,28 +78,62 @@ $h1-color: #c14343;
 				margin-top: 5px;
 				text-align: center;
 			}
-			table {
-				margin-left: 25%;
-				margin-top: 10px;
-				width: 50%;
-	
-				font-size: 18px;
-				tr {
-					background: none !important;
-					td {
-						padding: 1px 0;
-						width: 100%;
-						border: none !important;
+			.idcard-left-table {
+				background: URL("https://i.imgur.com/0uTY30N.png") rgba(255,255,255,1);
+				border-radius: 10px;
+				width: 140%;
+				height: 50%;
+				height: 300px;
+				margin-left: -20px;
+				padding: 20px 0;
+				margin-bottom: 40px;
+				transform: rotate(8deg);
+				margin-left: -10px;
+				margin-top: 5px;
+				box-shadow: 11px 4px 13px #000;
+				-webkit-backface-visibility: hidden; /* Get rid of anti-aliasing for transformed images */
+				.idcard-left-table-topbar {
+					height: 10px;
+					margin-left: 30px;
+					margin-top: 10px;
+					background-color: #d14e4e;
+				}
+				table {
+					margin-left: 31px;
+					margin-top: 5px;
+					width: 65%;
+					height: 197px;
+					font-size: 18px;
+					font-family: Montserrat;
+					tr {
+						background: none !important;
+						border-bottom: 2px solid red;
+						td {
+							padding: 1px 0;
+							width: 100%;
+							border: none !important;
+						}
+						td:nth-child(1) {
+							font-weight: 900;
+							text-align: left;
+							width: 25%;
+						}
+						td:nth-child(2) {
+							text-align: right;
+							width: 300px;
+						}
 					}
-					td:nth-child(1) {
-						font-weight: 900;
-						text-align: left;
-					}
-					td:nth-child(2) {
-						text-align: right;
+					tr:last-child {
+						border-bottom: none;
 					}
 				}
+				.idcard-left-table-bottombar {
+					height: 10px;
+					margin-left: 30px;
+					background-color: #d14e4e;
+				}
 			}
+
 		}
 
 	}
@@ -107,7 +141,9 @@ $h1-color: #c14343;
 		width: 50%;
 		min-width: 300px;
 		position: relative;
-
+		border-radius: 10px;
+		background-color: rgba(0, 0, 0, 0.9);		
+		box-shadow: -5px 0px 10px rgba(0,0,0,0.5);
 		img {
 			height: 100%;
 			width: 100%;
@@ -116,7 +152,7 @@ $h1-color: #c14343;
 			background-color:white;
 			border-radius: 10px;
 
-			box-shadow: -5px 0px 10px rgba(0,0,0,0.5);
+			
 		}
 
 		.thaum-apt {

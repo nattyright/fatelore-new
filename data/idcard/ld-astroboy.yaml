@@ -16,10 +16,10 @@ circuit:
     rank: A
     location: Entire Body
 
-primary_text_color: '' # Text color for left hand titles
+primary_text_color: '#444' # Text color for left hand titles
 primary_text_border_color: '' # Border text color for left hand titles
 primary_font_weight: 'normal' # Font weight for left hand titles
-secondary_text_color: '' # Text color for right hand titles
+secondary_text_color: '#444' # Text color for right hand titles
 secondary_text_border_color: '' # Border text color for right hand titles
 secondary_font_weight: 'normal' # Font weight for right hand titles
 

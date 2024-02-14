@@ -17,6 +17,19 @@
         color: {{ index $profile "secondary_text_color"}}
     }
 
+    [class^='{{ index $profile "name" }}_'][class$="_idcard-left-table-rightphoto"] {
+        background-image: URL(' {{ index $profile "imglink" }} ');
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        -webkit-backface-visibility: hidden; /* Get rid of anti-aliasing for transformed images */
+
+        height: 216px;
+        width: 130px;
+        float: right;
+        border: 2px solid #d14e4e;
+    }
+
     /* Blur and opacity change on image hover that helps with text reading hopefully */
     .idcard-img {
         transition: opacity 0.3s;
@@ -31,49 +44,53 @@
 <div class="idcard-box">
     <div class="idcard-left">
         <div class="idcard-left-content">
+
+            <div class="idcard-left-table">
+                <div class="idcard-left-table-topbar"></div>
+                <div class='{{ index $profile "name" }}__idcard-left-table-rightphoto'></div>
+                <table class="tg">
+                    <tbody>
+                        <tr>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Gender </span></td>
+                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "gender" }} </span></td>
+                        </tr>
+                        <tr>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Age </span></td>
+                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "age" }} </span></td>
+                        </tr>
+                        <tr>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Height </span></td>
+                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "height" }} </span></td>
+                        </tr>
+                        <tr>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'> Weight </span></td>
+                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "weight" }} </span></td>
+                        </tr>
+                        <tr>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Affiliation </span></td>
+                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "affiliation" }} </span></td>
+                        </tr>
+                        <tr>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Profession </span></td>
+                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "profession" }} </span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="idcard-left-table-bottombar"></div>
+            </div>
             <div class="idcard-left-name"> 
                 <span class='{{ index $profile "name" }}__custom-primary-color'>{{ index $profile "name" }} </span>
             </div>
             <div class="idcard-left-alias">
                 @ <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "alias" }}</span>
             </div>
-            <table class="tg">
-                <tbody>
-                    <tr>
-                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Gender </span></td>
-                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "gender" }} </span></td>
-                    </tr>
-                    <tr>
-                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Age </span></td>
-                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "age" }} </span></td>
-                    </tr>
-                    <tr>
-                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Height </span></td>
-                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "height" }} </span></td>
-                    </tr>
-                    <tr>
-                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'> Weight </span></td>
-                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "weight" }} </span></td>
-                    </tr>
-                    <tr>
-                        <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>Affiliation </span></td>
-                        <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "affiliation" }} </span></td>
-                    </tr>
-                    <!--
-                    <tr>
-                        <td class="idcard-table-title">Profession</td>
-                        <td> {{ index $profile "profession" }} </td>
-                    </tr>
-                    -->
-                </tbody>
-            </table>
+            
         </div>
 
 
  
     </div>
     <div class="idcard-right">
-        <!--<img src="https://cdn.discordapp.com/attachments/694903118793801738/1121099604990107838/SPOILER_uehehhhh.png">-->
         <span class="idcard-img">
         <img src='{{ index $profile "imglink" }}'>
         </span>
