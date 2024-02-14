@@ -146,6 +146,7 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: false
     extension: yaml
+    format: yaml
     fields: # The fields each document in this collection have
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
