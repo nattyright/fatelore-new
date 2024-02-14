@@ -149,11 +149,3 @@ collections: # A list of collections the CMS should be able to edit
     format: yaml
     fields: # The fields each document in this collection have
       - {label: 'IdCard', name: title, widget: string}
-        - label: Params
-          name: params
-          widget: object
-          fields:
-            - label: Open Graph Image
-              name: images
-              widget: list
-              field: { label: Image, name: image, widget: image }
