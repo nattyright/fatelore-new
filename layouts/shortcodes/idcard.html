@@ -29,32 +29,16 @@
         float: right;
         border: 2px solid #d14e4e;
     }
-
-    /* Blur and opacity change on image hover that helps with text reading hopefully */
-    .idcard-img {
-        transition: opacity 0.3s;
-        z-index:0;
-    }
     
-    .idcard-img:hover,
-    .thaum-apt:hover + .idcard-img {
-        opacity: 0.5;
-        filter: blur(2px);
-        transform: scale(1.5);
-    }
-
-    .idcard-img:hover  ~ .idcard-right-gradient,
-    .thaum-apt:hover  ~ .idcard-right-gradient {
-        height: 55%;    
-    }
-
 </style>
+
+
 <div class="idcard-box">
     <div class="idcard-left">
         <div class="idcard-left-content">
 
             <i class="fa fa-paperclip"></i>
-            
+
             <div class="idcard-left-table">
                 <div class="idcard-left-table-topbar"></div>
                 <div class='{{ index $profile "name" }}__idcard-left-table-rightphoto'></div>

@@ -1,0 +1,15 @@
+/* [columns] support inline image */
+.flex-even.img-left {
+	img {
+		float: left;
+		margin-right: 20px;
+		max-width: 300px !important;
+	}
+}
+.flex-even.img-right {
+	img {
+		float: right;
+		margin-left: 20px;
+		max-width: 300px !important;
+	}
+}

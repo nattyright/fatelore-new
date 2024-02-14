@@ -1,0 +1,29 @@
+/* Tupper Mimic Styling */
+.tupper-box {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	.tupper-left {
+		width: 50px;
+		margin-right: 14px;
+		img {
+			display: block;
+			object-fit: cover;
+			margin: auto;
+			width: 45px;
+			height: 45px;
+			border-radius: 50%;
+			background-color:white;
+		}
+	}
+	.tupper-right {
+		width: calc(100% - 60px);
+		.tupper-name {
+			margin-bottom: -18px;
+			margin-top: -5px;
+			font-size: 18px;
+			font-weight: 700;
+			color: #eeeeee;
+		}
+	}
+}

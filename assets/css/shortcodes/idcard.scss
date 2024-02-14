@@ -1,0 +1,176 @@
+/* ID Card Styling */
+.idcard-box {
+	display: flex;
+	flex-direction: row;
+	padding: 0 0;
+	max-width: 700px;
+	max-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 10px;
+	border: 1px dashed rgba(255,255,255,0.1);
+
+	.idcard-left {
+		width: 50%;
+		position: relative;
+		.idcard-left-content {
+			position: absolute;
+			top: 15px;
+			width: 100%;
+			
+			.fa-paperclip {
+				font-size: 82px;
+				position: absolute;
+				color: steelblue;
+				z-index: 1001;
+				transform: translate(14px, -45px) scaleX(-1) rotate(177deg);
+				-webkit-text-stroke: 1.5px #183853;
+			}
+
+			.idcard-left-name {
+				font-size: 50px;
+				text-align: center;
+				line-height: 40px;
+				padding: 0 10px;
+			}
+			.idcard-left-alias {
+				margin-top: 5px;
+				text-align: center;
+			}
+			.idcard-left-table {
+				background: URL("https://i.imgur.com/0uTY30N.png") rgba(255,255,255,1);
+				border-radius: 10px;
+				width: 140%;
+				height: 50%;
+				height: 300px;
+				margin-left: -20px;
+				padding: 20px 0;
+				margin-bottom: 40px;
+				transform: rotate(8deg);
+				margin-left: -10px;
+				margin-top: 5px;
+				box-shadow: 11px 4px 13px #000;
+				-webkit-backface-visibility: hidden; /* Get rid of anti-aliasing for transformed images */
+				.idcard-left-table-topbar {
+					height: 7px;
+					margin-left: 30px;
+					margin-top: 15px;
+					background-color: #d14e4e;
+				}
+				table {
+					margin-left: 31px;
+					margin-top: 5px;
+					width: 65%;
+					height: 197px;
+					font-size: 16px;
+					line-height: 22px;
+					font-family: Montserrat;
+					tr {
+						background: none !important;
+						border-bottom: 1px solid red;
+						-webkit-backface-visibility: hidden; /* border antialiasing */
+						box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white; /* border antialiasing */
+						td {
+							padding: 1px 0;
+							width: 100%;
+							border: none !important;
+						}
+						td:nth-child(1) {
+							font-weight: 900;
+							text-align: left;
+							width: 25%;
+						}
+						td:nth-child(2) {
+							text-align: right;
+							width: 300px;
+						}
+					}
+					tr:last-child {
+						border-bottom: none;
+					}
+				}
+				.idcard-left-table-bottombar {
+					height: 7px;
+					margin-left: 30px;
+					background-color: #d14e4e;
+				}
+			}
+
+		}
+
+	}
+	.idcard-right {
+		width: 50%;
+		min-width: 300px;
+		position: relative;
+		border-radius: 10px;
+		background-color: rgba(0, 0, 0, 0.9);		
+		box-shadow: -5px 0px 10px rgba(0,0,0,0.5);
+		img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			margin: auto;
+			background-color:white;
+			border-radius: 10px;
+
+			
+		}
+
+		.thaum-apt {
+			position: absolute;
+			z-index: 999;
+
+			//center element with position absolute
+			left: 0;
+			right: 0;
+			margin-left:auto;
+			margin-right:auto;
+
+			padding-top: calc(100% - 20px);
+			bottom: 20px;
+			font-size: 15px;
+			line-height: 22px;
+			text-align: center;
+			color: rgba(50,50,50,0.8);
+
+			.idcard-right-title {
+				font-size: 17px;
+				font-weight: 500;
+			}
+		}
+
+		.idcard-right-gradient {
+			transition: height 0.2s;
+
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 40%;
+			background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(255,255,255,0.5), rgba(255,255,255,0.7), rgba(255,255,255,0.8));
+			border-radius: 10px;
+		}
+	}
+}
+
+    /* Blur and opacity change on image hover that helps with text reading hopefully */
+    .idcard-img {
+        transition: opacity 0.3s;
+        z-index:0;
+    }
+    
+    .idcard-img:hover,
+    .thaum-apt:hover + .idcard-img {
+        opacity: 0.5;
+        filter: blur(2px);
+        transform: scale(1.5);
+    }
+
+    .idcard-img:hover  ~ .idcard-right-gradient,
+    .thaum-apt:hover  ~ .idcard-right-gradient {
+        height: 55%;    
+    }
