@@ -68,6 +68,16 @@ $h1-color: #c14343;
 			position: absolute;
 			top: 15px;
 			width: 100%;
+			
+			.fa-paperclip {
+				font-size: 82px;
+				position: absolute;
+				color: steelblue;
+				z-index: 1001;
+				transform: translate(14px, -45px) scaleX(-1) rotate(177deg);
+				-webkit-text-stroke: 1.5px #183853;
+			}
+			
 			.idcard-left-name {
 				font-size: 50px;
 				text-align: center;
@@ -93,9 +103,9 @@ $h1-color: #c14343;
 				box-shadow: 11px 4px 13px #000;
 				-webkit-backface-visibility: hidden; /* Get rid of anti-aliasing for transformed images */
 				.idcard-left-table-topbar {
-					height: 10px;
+					height: 7px;
 					margin-left: 30px;
-					margin-top: 10px;
+					margin-top: 15px;
 					background-color: #d14e4e;
 				}
 				table {
@@ -103,11 +113,14 @@ $h1-color: #c14343;
 					margin-top: 5px;
 					width: 65%;
 					height: 197px;
-					font-size: 18px;
+					font-size: 16px;
+					line-height: 22px;
 					font-family: Montserrat;
 					tr {
 						background: none !important;
-						border-bottom: 2px solid red;
+						border-bottom: 1px solid red;
+						-webkit-backface-visibility: hidden; /* border antialiasing */
+						box-shadow: 0 0 1px 0px white inset, 0 0 1px 0px white; /* border antialiasing */
 						td {
 							padding: 1px 0;
 							width: 100%;
@@ -128,7 +141,7 @@ $h1-color: #c14343;
 					}
 				}
 				.idcard-left-table-bottombar {
-					height: 10px;
+					height: 7px;
 					margin-left: 30px;
 					background-color: #d14e4e;
 				}
