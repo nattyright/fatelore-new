@@ -149,4 +149,4 @@ collections: # A list of collections the CMS should be able to edit
     format: yaml
     fields: # The fields each document in this collection have
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'code' }
