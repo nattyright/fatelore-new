@@ -132,3 +132,20 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+  # hacks - upload .yaml to /data/idcard
+  - name: 'upload-idcard' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'upload-idcard' # Used in the UI, ie.: "New Post"
+    label_singular: 'upload-idcard'
+    folder: 'data/idcard' # The path to the folder where the documents are stored
+    media_folder: ''
+    public_folder: ''
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: false
+    extension: yaml
+    fields: # The fields each document in this collection have
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
+      - { label: 'Body', name: 'body', widget: 'markdown' }
