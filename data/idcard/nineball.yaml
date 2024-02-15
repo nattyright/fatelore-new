@@ -16,9 +16,66 @@ circuit:
     rank: 9
     location: 9
 
-primary_text_color: '#000000' # Text color for left hand titles
-primary_text_border_color: '' # Border text color for left hand titles
-primary_font_weight: 'bold' # Font weight for left hand titles
-secondary_text_color: '#EEAA01' # Text color for right hand titles
-secondary_text_border_color: '' # Border text color for right hand titles
-secondary_font_weight: 'bold' # Font weight for right hand titles
+
+
+### ID Card Styling
+
+## Name and Alias
+# Name
+name_text_color: '#000000'
+name_font_weight: 'bold'
+alias_text_color: '#EEAA01'
+alias_font_weight: 'normal'
+
+## Left hand / Paperclip side
+# Gender
+gender_title_text_color: '#000000'
+gender_output_text_color: '#EEAA01'
+gender_font_weight: 'bold'
+
+# Age
+age_title_text_color: '#000000'
+age_output_text_color: '#EEAA01'
+age_font_weight: 'bold'
+
+# Height
+height_title_text_color: '#000000'
+height_output_text_color: '#EEAA01'
+height_font_weight: 'bold'
+
+# Weight
+weight_title_text_color: '#000000'
+weight_output_text_color: '#EEAA01'
+weight_font_weight: 'bold'
+
+# Affiliation
+aff_title_text_color: '#000000'
+aff_output_text_color: '#EEAA01'
+aff_font_weight: 'bold'
+
+# Profession
+prof_title_text_color: '#000000'
+prof_output_text_color: '#EEAA01'
+prof_font_weight: 'bold'
+
+
+## Right hand / Image text
+# Origin
+origin_title_text_color: '#000000'
+origin_output_text_color: '#EEAA01'
+origin_font_weight: 'bold'
+
+# Affinity
+affi_title_text_color: '#000000'
+affi_output_text_color: '#EEAA01'
+affi_font_weight: 'bold'
+
+# Natural Magic Circuit
+nmc_title_text_color: '#000000'
+nmc_output_text_color: '#EEAA01'
+nmc_font_weight: 'bold'
+
+# Artificial Magic Circuit
+amc_title_text_color: '#000000'
+amc_output_text_color: '#EEAA01'
+amc_font_weight: 'bold'
