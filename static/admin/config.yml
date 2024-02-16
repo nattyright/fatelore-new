@@ -127,4 +127,9 @@ collections: # A list of collections the CMS should be able to edit
     extension: yaml
     format: yaml
     fields: # The fields each document in this collection have
-      - {label: 'IdCard', name: title, widget: string}
+      - label: card
+        name: card
+        widget: list
+        fields:
+          - {label: label1, name: name, widget: string}
+          - {label: label2, name: position, widget: string}
