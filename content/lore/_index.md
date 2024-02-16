@@ -1,6 +1,5 @@
 ---
 title: pages-index
-date: 2024-02-10T14:20:09.187Z
 ---
 # heading 
 

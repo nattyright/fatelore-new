@@ -1,7 +1,6 @@
 ---
 title: Home
 weight: 10
-date: 2024-02-10T14:20:09.187Z
 ---
 
 # Heading 1
