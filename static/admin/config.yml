@@ -140,24 +140,26 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Affinity, name: affinity, widget: string}
       - label: Circuit
         name: circuit
-        widget: list
-        allow_add: false
+        widget: object
+        collapsed: false
         fields:
           - label: Natural Circuit
             name: natural
-            widget: list
-            allow_add: false
+            widget: object
+        collapsed: false
             fields:
               - {label: Rank, name: rank, widget: string}      
           - label: Artificial Circuit
             name: artificial
-            widget: list
-            allow_add: false
+            widget: object
+        collapsed: false
             fields:
               - {label: Rank, name: rank, widget: string}
               - {label: Location, name: location, widget: string}
       - label: ID Card Styling
         name: styling
+        widget: object
+        collapsed: false
         fields:
           - {label: Color of Full Name, name: name_text_color, widget: string}
           - {label: Font Weight of Full Name, name: name_font_weight, widget: string}
