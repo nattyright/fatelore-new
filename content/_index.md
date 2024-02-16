@@ -23,7 +23,7 @@ https://www.markdownguide.org/tools/hugo/
 
 ## spoilers
 ```tpl
-{{/*< spoiler >*/}}spoiler text{{/*< /spoiler >*/}}.
+{{</* spoiler */>}}spoiler text{{</* /spoiler */>}}.
 
 ```
 This is a spoiler {{< spoiler >}}post bluecats{{< /spoiler >}}.
