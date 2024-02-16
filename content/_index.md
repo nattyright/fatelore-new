@@ -63,7 +63,7 @@ At its current rate, it was simply a matter of time until the mud consumed the e
 ```
 
 {{< columns img-left >}}
-![](grailkun.png)  During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near the end of that ritual. A Grail failed to produce a wish and there was no determined winner, resulting in the leftover energy produced by the defeated Servants to turn into thaumaturgical energy, also known as the 'Grail Mud'. This mud spread across Fuyuki, devouring the entire city as it grew in size with each landmark, building or organism it consumed. As such, it wasn't long until the rest of the world had to contend with the Grail Mud.
+![](_media/grailkun.png)  During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near the end of that ritual. A Grail failed to produce a wish and there was no determined winner, resulting in the leftover energy produced by the defeated Servants to turn into thaumaturgical energy, also known as the 'Grail Mud'. This mud spread across Fuyuki, devouring the entire city as it grew in size with each landmark, building or organism it consumed. As such, it wasn't long until the rest of the world had to contend with the Grail Mud.
 
 At its current rate, it was simply a matter of time until the mud consumed the entirety of the Earth. As such, Magi were forced to take the spotlight and defend themselves from this catastrophe via Magecraft and Servants of their own. This resulted in commoners finding out that Magecraft was real, gradually reducing the overall Mystery in the world and weakening Magecraft itself.
 
@@ -78,7 +78,7 @@ Unfortunately, not even the combined efforts of the Mage's Association and sever
 ```
 
 {{< columns img-right >}}
-![](grailkun.png)  During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near the end of that ritual. A Grail failed to produce a wish and there was no determined winner, resulting in the leftover energy produced by the defeated Servants to turn into thaumaturgical energy, also known as the 'Grail Mud'. This mud spread across Fuyuki, devouring the entire city as it grew in size with each landmark, building or organism it consumed. As such, it wasn't long until the rest of the world had to contend with the Grail Mud.
+![](_media/grailkun.png)  During the 5th Holy Grail War set in Fuyuki (2004), a catastrophe occurred near the end of that ritual. A Grail failed to produce a wish and there was no determined winner, resulting in the leftover energy produced by the defeated Servants to turn into thaumaturgical energy, also known as the 'Grail Mud'. This mud spread across Fuyuki, devouring the entire city as it grew in size with each landmark, building or organism it consumed. As such, it wasn't long until the rest of the world had to contend with the Grail Mud.
 
 At its current rate, it was simply a matter of time until the mud consumed the entirety of the Earth. As such, Magi were forced to take the spotlight and defend themselves from this catastrophe via Magecraft and Servants of their own. This resulted in commoners finding out that Magecraft was real, gradually reducing the overall Mystery in the world and weakening Magecraft itself.
 
@@ -94,9 +94,9 @@ Unfortunately, not even the combined efforts of the Mage's Association and sever
 ```
 
 {{< gallery class="content-gallery" >}}
-  {{< img src="grailkun.png" >}}
-  {{< img src="grailkun.png" >}}
-  {{< img src="grailkun.png" >}}
+  {{< img src="_media/grailkun.png" >}}
+  {{< img src="_media/grailkun.png" >}}
+  {{< img src="_media/grailkun.png" >}}
 {{< /gallery >}}
 {{< gallery class="content-gallery" >}}
   {{< img src="https://cdn.discordapp.com/emojis/1150178198743691367.webp?size=96&quality=lossless" >}}
@@ -188,7 +188,7 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
 ```tpl
 {{</* audio "RELATIVE_FILE_PATH/URL(use file upload)" */>}}
 ```
-{{< audio "spy_x_family_opening_-_mixed_nuts.mp3" >}}
+{{< audio "_media/spy_x_family_opening_-_mixed_nuts.mp3" >}}
 
 ## spotify
 ```tpl
