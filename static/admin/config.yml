@@ -127,81 +127,81 @@ collections: # A list of collections the CMS should be able to edit
     extension: yaml
     format: yaml
     fields: # The fields each document in this collection have
-      - { label: Full Name, name: name, widget: string}
-      - { label: Alias, name: alias, widget: string}
-      - { label: Face Claim URL (Please make sure the URL ends in an image format, such as .jpg or .png), name: imglink, widget: string}
-      - { label: Gender, name: gender, widget: string}
-      - { label: Age, name: age, widget: string}
-      - { label: Height, name: height, widget: string}
-      - { label: Weight, name: weight, widget: string}
-      - { label: Affiliation, name: affiliation, widget: string}
-      - { label: Profession, name: profession, widget: string}
-      - { label: Origin, name: origin, widget: string}
-      - { label: Affinity, name: affinity, widget: string}
+      - {label: Full Name, name: name, widget: string}
+      - {label: Alias, name: alias, widget: string}
+      - {label: Face Claim URL (Please make sure the URL ends in an image format, such as .jpg or .png), name: imglink, widget: string}
+      - {label: Gender, name: gender, widget: string}
+      - {label: Age, name: age, widget: string}
+      - {label: Height, name: height, widget: string}
+      - {label: Weight, name: weight, widget: string}
+      - {label: Affiliation, name: affiliation, widget: string}
+      - {label: Profession, name: profession, widget: string}
+      - {label: Origin, name: origin, widget: string}
+      - {label: Affinity, name: affinity, widget: string}
       - label: Circuit
         name: circuit
-        widget: object
-        collapsed: false
+        widget: list
+        allow_add: false
         fields:
           - label: Natural Circuit
             name: natural
-            widget: object
-        collapsed: false
+            widget: list
+            allow_add: false
             fields:
               - {label: Rank, name: rank, widget: string}      
           - label: Artificial Circuit
             name: artificial
-            widget: object
-        collapsed: false
+            widget: list
+            allow_add: false
             fields:
               - {label: Rank, name: rank, widget: string}
               - {label: Location, name: location, widget: string}
       - label: ID Card Styling
         name: styling
-        widget: object
-        collapsed: false
+        widget: list
+        allow_add: false
         fields:
-          - { label: Color of Full Name, name: name_text_color, widget: string}
-          - { label: Font Weight of Full Name, name: name_font_weight, widget: string}
-          - { label: Color of Alias, name: alias_text_color, widget: string}
-          - { label: Font Weight of Alias, name: alias_font_weight, widget: string}
+          - {label: Color of Full Name, name: name_text_color, widget: string}
+          - {label: Font Weight of Full Name, name: name_font_weight, widget: string}
+          - {label: Color of Alias, name: alias_text_color, widget: string}
+          - {label: Font Weight of Alias, name: alias_font_weight, widget: string}
 
-          - { label: Color of Gender (Title), name: gender_title_text_color, widget: string}
-          - { label: Color of Gender, name: gender_output_text_color, widget: string}
-          - { label: Font Weight of Gender, name: gender_font_weight, widget: string}
+          - {label: Color of Gender (Title), name: gender_title_text_color, widget: string}
+          - {label: Color of Gender, name: gender_output_text_color, widget: string}
+          - {label: Font Weight of Gender, name: gender_font_weight, widget: string}
 
-          - { label: Color of Age (Title), name: age_title_text_color, widget: string}
-          - { label: Color of Age, name: age_output_text_color, widget: string}
-          - { label: Font Weight of Age, name: age_font_weight, widget: string}
+          - {label: Color of Age (Title), name: age_title_text_color, widget: string}
+          - {label: Color of Age, name: age_output_text_color, widget: string}
+          - {label: Font Weight of Age, name: age_font_weight, widget: string}
 
-          - { label: Color of Height (Title), name: height_title_text_color, widget: string}
-          - { label: Color of Height, name: height_output_text_color, widget: string}
-          - { label: Font Weight of Height, name: height_font_weight, widget: string}
+          - {label: Color of Height (Title), name: height_title_text_color, widget: string}
+          - {label: Color of Height, name: height_output_text_color, widget: string}
+          - {label: Font Weight of Height, name: height_font_weight, widget: string}
 
-          - { label: Color of Weight (Title), name: weight_title_text_color, widget: string}
-          - { label: Color of Weight, name: weight_output_text_color, widget: string}
-          - { label: Font Weight of Weight, name: weight_font_weight, widget: string}
+          - {label: Color of Weight (Title), name: weight_title_text_color, widget: string}
+          - {label: Color of Weight, name: weight_output_text_color, widget: string}
+          - {label: Font Weight of Weight, name: weight_font_weight, widget: string}
 
-          - { label: Color of Affiliation (Title), name: aff_title_text_color, widget: string}
-          - { label: Color of Affiliation, name: aff_output_text_color, widget: string}
-          - { label: Font Weight of Affiliation, name: aff_font_weight, widget: string}
+          - {label: Color of Affiliation (Title), name: aff_title_text_color, widget: string}
+          - {label: Color of Affiliation, name: aff_output_text_color, widget: string}
+          - {label: Font Weight of Affiliation, name: aff_font_weight, widget: string}
 
-          - { label: Color of Profession (Title), name: prof_title_text_color, widget: string}
-          - { label: Color of Profession, name: prof_output_text_color, widget: string}
-          - { label: Font Weight of Profession, name: prof_font_weight, widget: string}
+          - {label: Color of Profession (Title), name: prof_title_text_color, widget: string}
+          - {label: Color of Profession, name: prof_output_text_color, widget: string}
+          - {label: Font Weight of Profession, name: prof_font_weight, widget: string}
 
-          - { label: Color of Origin (Title), name: origin_title_text_color, widget: string}
-          - { label: Color of Origin, name: origin_output_text_color, widget: string}
-          - { label: Font Weight of , name: origin_font_weight, widget: string}
+          - {label: Color of Origin (Title), name: origin_title_text_color, widget: string}
+          - {label: Color of Origin, name: origin_output_text_color, widget: string}
+          - {label: Font Weight of , name: origin_font_weight, widget: string}
 
-          - { label: Color of Affiliation (Title), name: affi_title_text_color, widget: string}
-          - { label: Color of Affiliation, name: affi_output_text_color, widget: string}
-          - { label: Font Weight of Affiliation, name: affi_font_weight, widget: string}
+          - {label: Color of Affiliation (Title), name: affi_title_text_color, widget: string}
+          - {label: Color of Affiliation, name: affi_output_text_color, widget: string}
+          - {label: Font Weight of Affiliation, name: affi_font_weight, widget: string}
 
-          - { label: Color of Natural Magic Circuit (Title), name: nmc_title_text_color, widget: string}
-          - { label: Color of Natural Magic Circuit, name: nmc_output_text_color, widget: string}
-          - { label: Font Weight of Natural Magic Circuit, name: nmc_font_weight, widget: string}
+          - {label: Color of Natural Magic Circuit (Title), name: nmc_title_text_color, widget: string}
+          - {label: Color of Natural Magic Circuit, name: nmc_output_text_color, widget: string}
+          - {label: Font Weight of Natural Magic Circuit, name: nmc_font_weight, widget: string}
 
-          - { label: Color of Artificial Magic Circuit (Title), name: amc_title_text_color, widget: string}
-          - { label: Color of Artificial Magic Circuit, name: amc_output_text_color, widget: string}
-          - { label: Font Weight of Artificial Magic Circuit, name: amc_font_weight, widget: string}
+          - {label: Color of Artificial Magic Circuit (Title), name: amc_title_text_color, widget: string}
+          - {label: Color of Artificial Magic Circuit, name: amc_output_text_color, widget: string}
+          - {label: Font Weight of Artificial Magic Circuit, name: amc_font_weight, widget: string}
