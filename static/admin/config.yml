@@ -19,8 +19,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - {label: "Intro Blurb", name: "description", widget: "text"} # new
-      - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -37,8 +35,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - {label: "Intro Blurb", name: "description", widget: "text"} # new
-      - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -55,8 +51,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - {label: "Intro Blurb", name: "description", widget: "text"} # new
-      - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' } # new
 
@@ -74,8 +68,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - {label: "Intro Blurb", name: "description", widget: "text"} # new
-      - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -92,8 +84,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - {label: "Intro Blurb", name: "description", widget: "text"} # new
-      - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -110,8 +100,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - {label: "Intro Blurb", name: "description", widget: "text"} # new
-      - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -128,8 +116,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - {label: "Intro Blurb", name: "description", widget: "text"} # new
-      - {label: "Image", name: "image", widget: "image", required: false} # new
       - { label: 'File', name: 'file', widget: 'file', required: false} # new
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
