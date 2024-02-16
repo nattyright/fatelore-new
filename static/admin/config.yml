@@ -158,8 +158,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Location, name: location, widget: string}
       - label: ID Card Styling
         name: styling
-        widget: list
-        allow_add: false
         fields:
           - {label: Color of Full Name, name: name_text_color, widget: string}
           - {label: Font Weight of Full Name, name: name_font_weight, widget: string}
