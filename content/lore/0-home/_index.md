@@ -1,6 +1,7 @@
 ---
 title: Home
 weight: 10
+file: kaminami_yoshitaka.jpg
 ---
 # Heading 1
 
