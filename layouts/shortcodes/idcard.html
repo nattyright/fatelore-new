@@ -5,16 +5,127 @@
 <style>
 
     /* Custom CSS styling that is character unique */
-    [class^='{{ index $profile "name" }}_'][class$="_custom-primary-color"] {
-        font-weight: {{ index $profile "primary_font_weight"}};
-        -webkit-text-stroke: {{ index $profile "primary_text_border_color"}};
-        color: {{ index $profile "primary_text_color"}};
+
+    /* Name */
+    [class^='{{ index $profile "name" }}_'][class$="_name_text_color"] {
+        font-weight: {{ index $profile "name_font_weight"}};
+        color: {{ index $profile "name_text_color"}};
     }
 
-    [class^='{{ index $profile "name" }}_'][class$="_custom-secondary-color"] {
-        font-weight: {{ index $profile "secondary_font_weight"}};
-        -webkit-text-stroke: {{ index $profile "secondary_text_border_color"}};
-        color: {{ index $profile "secondary_text_color"}}
+    /* Alias */
+    [class^='{{ index $profile "name" }}_'][class$="_alias_text_color"] {
+        font-weight: {{ index $profile "alias_font_weight"}};
+        color: {{ index $profile "alias_text_color"}};
+    }
+
+    /* Gender fields */
+    [class^='{{ index $profile "name" }}_'][class$="_gender_title_text_color"] {
+        font-weight: {{ index $profile "gender_font_weight"}};
+        color: {{ index $profile "gender_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_gender_output_text_color"] {
+        font-weight: {{ index $profile "gender_font_weight"}};
+        color: {{ index $profile "gender_output_text_color"}};
+    }
+
+    /* Age fields */
+    [class^='{{ index $profile "name" }}_'][class$="_age_title_text_color"] {
+        font-weight: {{ index $profile "age_font_weight"}};
+        color: {{ index $profile "age_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_age_output_text_color"] {
+        font-weight: {{ index $profile "age_font_weight"}};
+        color: {{ index $profile "age_output_text_color"}};
+    }
+
+    /* Height fields */
+    [class^='{{ index $profile "name" }}_'][class$="_height_title_text_color"] {
+        font-weight: {{ index $profile "height_font_weight"}};
+        color: {{ index $profile "height_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_height_output_text_color"] {
+        font-weight: {{ index $profile "height_font_weight"}};
+        color: {{ index $profile "height_output_text_color"}};
+    }
+
+    /* Weight fields */
+    [class^='{{ index $profile "name" }}_'][class$="_weight_title_text_color"] {
+        font-weight: {{ index $profile "weight_font_weight"}};
+        color: {{ index $profile "weight_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_weight_output_text_color"] {
+        font-weight: {{ index $profile "weight_font_weight"}};
+        color: {{ index $profile "weight_output_text_color"}};
+    }
+
+    /* Affiliation fields */
+    [class^='{{ index $profile "name" }}_'][class$="_aff_title_text_color"] {
+        font-weight: {{ index $profile "aff_font_weight"}};
+        color: {{ index $profile "aff_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_aff_output_text_color"] {
+        font-weight: {{ index $profile "aff_font_weight"}};
+        color: {{ index $profile "aff_output_text_color"}};
+    }
+
+    /* Profession fields */
+    [class^='{{ index $profile "name" }}_'][class$="_prof_title_text_color"] {
+        font-weight: {{ index $profile "prof_font_weight"}};
+        color: {{ index $profile "prof_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_prof_output_text_color"] {
+        font-weight: {{ index $profile "prof_font_weight"}};
+        color: {{ index $profile "prof_output_text_color"}};
+    }
+
+    /* Origin fields */
+    [class^='{{ index $profile "name" }}_'][class$="_origin_title_text_color"] {
+        font-weight: {{ index $profile "origin_font_weight"}};
+        color: {{ index $profile "origin_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_origin_output_text_color"] {
+        font-weight: {{ index $profile "origin_font_weight"}};
+        color: {{ index $profile "origin_output_text_color"}};
+    }
+
+    /* Affinity fields */
+    [class^='{{ index $profile "name" }}_'][class$="_affi_title_text_color"] {
+        font-weight: {{ index $profile "affi_font_weight"}};
+        color: {{ index $profile "affi_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_affi_output_text_color"] {
+        font-weight: {{ index $profile "affi_font_weight"}};
+        color: {{ index $profile "affi_output_text_color"}};
+    }
+
+    /* Natural Magic Circuit fields */
+    [class^='{{ index $profile "name" }}_'][class$="_nmc_title_text_color"] {
+        font-weight: {{ index $profile "nmc_font_weight"}};
+        color: {{ index $profile "nmc_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_nmc_output_text_color"] {
+        font-weight: {{ index $profile "nmc_font_weight"}};
+        color: {{ index $profile "nmc_output_text_color"}};
+    }
+
+    /* Artificial Magic Circuit fields */
+    [class^='{{ index $profile "name" }}_'][class$="_amc_title_text_color"] {
+        font-weight: {{ index $profile "amc_font_weight"}};
+        color: {{ index $profile "amc_title_text_color"}};
+    }
+
+    [class^='{{ index $profile "name" }}_'][class$="_amc_output_text_color"] {
+        font-weight: {{ index $profile "amc_font_weight"}};
+        color: {{ index $profile "amc_output_text_color"}};
     }
 
     [class^='{{ index $profile "name" }}_'][class$="_idcard-left-table-rightphoto"] {
@@ -45,38 +156,38 @@
                 <table class="tg">
                     <tbody>
                         <tr>
-                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>GENDER </span></td>
-                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "gender" }} </span></td>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__gender_title_text_color'>GENDER </span></td>
+                            <td> <span class='{{ index $profile "name" }}__gender_output_text_color'>{{ index $profile "gender" }} </span></td>
                         </tr>
                         <tr>
-                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>AGE </span></td>
-                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "age" }} </span></td>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__age_title_text_color'>AGE </span></td>
+                            <td> <span class='{{ index $profile "name" }}__age_output_text_color'>{{ index $profile "age" }} </span></td>
                         </tr>
                         <tr>
-                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>HEIGHT </span></td>
-                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "height" }} </span></td>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__height_title_text_color'>HEIGHT </span></td>
+                            <td> <span class='{{ index $profile "name" }}__height_output_text_color'>{{ index $profile "height" }} </span></td>
                         </tr>
                         <tr>
-                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'> WEIGHT </span></td>
-                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "weight" }} </span></td>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__weight_title_text_color'> WEIGHT </span></td>
+                            <td> <span class='{{ index $profile "name" }}__weight_output_text_color'>{{ index $profile "weight" }} </span></td>
                         </tr>
                         <tr>
-                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>AFFILIATION </span></td>
-                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "affiliation" }} </span></td>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__aff_title_text_color'>AFFILIATION </span></td>
+                            <td> <span class='{{ index $profile "name" }}__aff_output_text_color'>{{ index $profile "affiliation" }} </span></td>
                         </tr>
                         <tr>
-                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__custom-primary-color'>PROFESSION </span></td>
-                            <td> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "profession" }} </span></td>
+                            <td class="idcard-table-title"> <span class='{{ index $profile "name" }}__prof_title_text_color'>PROFESSION </span></td>
+                            <td> <span class='{{ index $profile "name" }}__prof_output_text_color'>{{ index $profile "profession" }} </span></td>
                         </tr>
                     </tbody>
                 </table>
                 <div class="idcard-left-table-bottombar"></div>
             </div>
             <div class="idcard-left-name"> 
-                <span class='{{ index $profile "name" }}__custom-primary-color'>{{ index $profile "name" }} </span>
+                <span class='{{ index $profile "name" }}__name_text_color'>{{ index $profile "name" }} </span>
             </div>
             <div class="idcard-left-alias">
-                @ <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "alias" }}</span>
+                @ <span class='{{ index $profile "name" }}__alias_text_color'>{{ index $profile "alias" }}</span>
             </div>
             
         </div>
@@ -89,14 +200,14 @@
         <div class="thaum-apt">
             <!--<i class="fa fa-star"></i>-->
 
-            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Origin—</span></div>
-            <div> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "origin" }}</span> </div>
-            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Affinity—</span></div>
-            <div> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index $profile "affinity" }} </span></div>
-            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Natural Magic Circuit—</span></div>
-            <div> <span class='{{ index $profile "name" }}__custom-secondary-color'>{{ index (index (index $profile "circuit") "natural") "rank" }} </span></div>
-            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__custom-primary-color'>—Artificial Magic Circuit—</span></div>
-            <div> <span class='{{ index $profile "name" }}__custom-secondary-color'> {{ index (index (index $profile "circuit") "artificial") "rank" }} </span></div>
+            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__origin_title_text_color'>—Origin—</span></div>
+            <div> <span class='{{ index $profile "name" }}__origin_output_text_color'>{{ index $profile "origin" }}</span> </div>
+            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__affi_title_text_color'>—Affinity—</span></div>
+            <div> <span class='{{ index $profile "name" }}__affi_output_text_color'>{{ index $profile "affinity" }} </span></div>
+            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__nmc_title_text_color'>—Natural Magic Circuit—</span></div>
+            <div> <span class='{{ index $profile "name" }}__nmc_output_text_color'>{{ index (index (index $profile "circuit") "natural") "rank" }} </span></div>
+            <div class="idcard-right-title"><span class='{{ index $profile "name" }}__amc_title_text_color'>—Artificial Magic Circuit—</span></div>
+            <div> <span class='{{ index $profile "name" }}__amc_output_text_color'> {{ index (index (index $profile "circuit") "artificial") "rank" }} </span></div>
         </div>
         <span class="idcard-img">
             <img src='{{ index $profile "imglink" }}'>
