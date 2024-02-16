@@ -6,9 +6,9 @@ title: Sheet Templates and Guidelines
 
 # Character Guidelines
 
-Players are advised to follow the listed Guidelines. Characters that are unjustifiably edgy, simplistic, or whose exaggerated or lacking characters traits otherwise do not contribute to creating a compelling character will most likely be rejected. There are ways of incorporating extreme character traits of course, but doing so requires care, attention, and balance, and such effort is usually rewarded with much more memorable characters.
+Players are advised to follow the listed Guidelines. Characters that are unjustifiably edgy, simplistic, or whose exaggerated or lacking character traits otherwise do not contribute to creating a compelling character will most likely be rejected. There are ways of incorporating extreme character traits of course, but doing so requires care, attention, and balance, and such effort is usually rewarded with much more memorable characters.
 
-Additionally, please keep in mind that no pure Gods, Divine Spirits, or Pseudo Servants are allowed as characters on this server. The natural exceptions to this rule are demigods or Divine Servants that were once mortal, lost their divinity, or gained gained it over the course of their life. The most notable example of this would be Heracles.
+Additionally, please keep in mind that no pure Gods, Divine Spirits, or Pseudo Servants are allowed as characters on this server. The natural exceptions to this rule are demigods or Divine Servants that were once mortal, lost their divinity, or gained it over the course of their life. The most notable example of this would be Heracles.
 
 # Ability Guidelines
 
@@ -18,14 +18,14 @@ Our main philosophy when it comes to abilities is the following:
 
 **We do not condone any abilities that rob somebody else of their agency or freedom.**
 
-Abilities that actively encourage power and meta-gaming do any degree are likewise extremely likely to being rejected. Overall, we try our best to approve a wide variety of abilities, but will show no mercy when it comes to abilities that are too heavily weighed towards oneself, because at that point you are, whether intentionally or not, disregarding and disrespecting your partner and offering them a negative experience.
+Abilities that actively encourage power and meta-gaming to any degree are likewise extremely likely to be rejected. Overall, we try our best to approve a wide variety of abilities, but will show no mercy when it comes to abilities that are too heavily weighted towards oneself, because at that point you are, whether intentionally or not, disregarding and disrespecting your partner and offering them a negative experience.
 
 Therefore it is recommended to avoid making abilities that fit under this description. 
 
 Please note that you are technically still allowed to make characters with such abilities, considering how far to the extreme they lean on the spectrum. But if you fail to balance that ability properly despite all of the warnings given above, do not be surprised if your Sheet is rejected if you are asked to alter the nature of your character's abilities.
 
 1. Instant kill or nuke abilities.
-2. Abilities that act as perfect counters to specific traits must be clearly defined and have room for counterplay. For instance, a dragon-slaying skill that allows you to deal additional damage against them is fine, but one that kills them instantly is not. An Anti-Divinity skill that gives you extra defenses against the Divine is fine, but one that makes you immune to all damage from Divine sources is not. These skills should also be backed up in writing and an integral part of your character's characterization. If your character is an expert at fighting certain types of opponents, then that should be reflected in how they act, think and behave. Please do not treat these attributes as free damage modifiers, and instead consider them as additional tools to flesh our your character's personality.
+2. Abilities that act as perfect counters to specific traits must be clearly defined and have room for counterplay. For instance, a dragon-slaying skill that allows you to deal additional damage against them is fine, but one that kills them instantly is not. An Anti-Divinity skill that gives you extra defenses against the Divine is fine, but one that makes you immune to all damage from Divine sources is not. These skills should also be backed up in writing and an integral part of your character's characterization. If your character is an expert at fighting certain types of opponents, then that should be reflected in how they act, think and behave. Please do not treat these attributes as free damage modifiers, and instead consider them as additional tools to flesh out your character's personality.
 3. Abilities that buff or debuff other character's abilities must have clear limitations and restrictions.
 4. Abilities that grant a character access to various other abilities for the price of one, such as Imperial Privilege, Inherent Wisdom, etc.
 5. Abilities that “make the impossible possible”, such as Pioneer of the Stars, must be clearly defined in how they work, and have clear limits. If the description is too vague, staff will deny it outright.
