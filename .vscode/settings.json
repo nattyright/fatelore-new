@@ -27,6 +27,9 @@
         {
             "folderPath": "fatelore-new\\themes\\hugo-book-nat\\",
             "color": "foldercolorizer.CarrotOrange"
+        },
+        {
+            "folderPath": "fatelore-new\\content\\_unused_menu\\"
         }
     ]
 }
