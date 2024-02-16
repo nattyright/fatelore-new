@@ -30,6 +30,12 @@
         },
         {
             "folderPath": "fatelore-new\\content\\_unused_menu\\"
+        },
+        {
+            "folderPath": "fatelore-new\\content\\_unused_posts\\"
+        },
+        {
+            "folderPath": "fatelore-new\\content\\_unused_docs\\"
         }
     ]
 }

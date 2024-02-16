@@ -21,6 +21,14 @@ https://www.markdownguide.org/tools/hugo/
 {{< button href="https://sites.google.com/view/fatestarrynight/home?authuser=0" >}}Click Me{{< /button >}}
 {{< button href="https://sites.google.com/view/fatestarrynight/home?authuser=0" >}}Click Me{{< /button >}}
 
+## spoilers
+```tpl
+{{/*< spoiler >*/}}spoiler text{{/*< /spoiler >*/}}.
+
+```
+This is a spoiler {{< spoiler >}}post bluecats{{< /spoiler >}}.
+
+
 ## columns (> 2 columns supported)
 
 ```tpl
