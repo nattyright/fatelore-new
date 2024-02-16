@@ -16,66 +16,67 @@ circuit:
     rank: A
     location: Entire Body
 
-### ID Card Styling
+styling:
+  ### ID Card Styling
 
-## Name and Alias
-# Name
-name_text_color: '#9C918D'
-name_font_weight: 'normal'
-alias_text_color: '#22201F'
-alias_font_weight: 'normal'
+  ## Name and Alias
+  # Name
+  name_text_color: '#9C918D'
+  name_font_weight: 'normal'
+  alias_text_color: '#22201F'
+  alias_font_weight: 'normal'
 
-## Left hand / Paperclip side
-# Gender
-gender_title_text_color: '#9C918D'
-gender_output_text_color: '#22201F'
-gender_font_weight: 'normal'
+  ## Left hand / Paperclip side
+  # Gender
+  gender_title_text_color: '#9C918D'
+  gender_output_text_color: '#22201F'
+  gender_font_weight: 'normal'
 
-# Age
-age_title_text_color: '#9C918D'
-age_output_text_color: '#22201F'
-age_font_weight: 'normal'
+  # Age
+  age_title_text_color: '#9C918D'
+  age_output_text_color: '#22201F'
+  age_font_weight: 'normal'
 
-# Height
-height_title_text_color: '#9C918D'
-height_output_text_color: '#22201F'
-height_font_weight: 'normal'
+  # Height
+  height_title_text_color: '#9C918D'
+  height_output_text_color: '#22201F'
+  height_font_weight: 'normal'
 
-# Weight
-weight_title_text_color: '#9C918D'
-weight_output_text_color: '#22201F'
-weight_font_weight: 'normal'
+  # Weight
+  weight_title_text_color: '#9C918D'
+  weight_output_text_color: '#22201F'
+  weight_font_weight: 'normal'
 
-# Affiliation
-aff_title_text_color: '#9C918D'
-aff_output_text_color: '#22201F'
-aff_font_weight: 'normal'
+  # Affiliation
+  aff_title_text_color: '#9C918D'
+  aff_output_text_color: '#22201F'
+  aff_font_weight: 'normal'
 
-# Profession
-prof_title_text_color: '#9C918D'
-prof_output_text_color: '#22201F'
-prof_font_weight: 'normal'
+  # Profession
+  prof_title_text_color: '#9C918D'
+  prof_output_text_color: '#22201F'
+  prof_font_weight: 'normal'
 
 
-## Right hand / Image text
-# Origin
-origin_title_text_color: '#9C918D'
-origin_output_text_color: '#22201F'
-origin_font_weight: 'normal'
+  ## Right hand / Image text
+  # Origin
+  origin_title_text_color: '#9C918D'
+  origin_output_text_color: '#22201F'
+  origin_font_weight: 'normal'
 
-# Affinity
-affi_title_text_color: '#9C918D'
-affi_output_text_color: '#22201F'
-affi_font_weight: 'normal'
+  # Affinity
+  affi_title_text_color: '#9C918D'
+  affi_output_text_color: '#22201F'
+  affi_font_weight: 'normal'
 
-# Natural Magic Circuit
-nmc_title_text_color: '#9C918D'
-nmc_output_text_color: '#22201F'
-nmc_font_weight: 'normal'
+  # Natural Magic Circuit
+  nmc_title_text_color: '#9C918D'
+  nmc_output_text_color: '#22201F'
+  nmc_font_weight: 'normal'
 
-# Artificial Magic Circuit
-amc_title_text_color: '#9C918D'
-amc_output_text_color: '#22201F'
-amc_font_weight: 'normal'
+  # Artificial Magic Circuit
+  amc_title_text_color: '#9C918D'
+  amc_output_text_color: '#22201F'
+  amc_font_weight: 'normal'
 
 

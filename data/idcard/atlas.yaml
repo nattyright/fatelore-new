@@ -17,65 +17,65 @@ circuit:
     location: '???'
 
 
+styling:
+  ### ID Card Styling
 
-### ID Card Styling
+  ## Name and Alias
+  # Name
+  name_text_color: '#1285F1'
+  name_font_weight: 'bold'
+  alias_text_color: '#00B7B7'
+  alias_font_weight: 'normal'
 
-## Name and Alias
-# Name
-name_text_color: '#1285F1'
-name_font_weight: 'bold'
-alias_text_color: '#00B7B7'
-alias_font_weight: 'normal'
+  ## Left hand / Paperclip side
+  # Gender
+  gender_title_text_color: '#F14112'
+  gender_output_text_color: '#FFB4EC'
+  gender_font_weight: 'bold'
 
-## Left hand / Paperclip side
-# Gender
-gender_title_text_color: '#F14112'
-gender_output_text_color: '#FFB4EC'
-gender_font_weight: 'bold'
+  # Age
+  age_title_text_color: '#F19D12'
+  age_output_text_color: '#E7B4FF'
+  age_font_weight: 'bold'
 
-# Age
-age_title_text_color: '#F19D12'
-age_output_text_color: '#E7B4FF'
-age_font_weight: 'bold'
+  # Height
+  height_title_text_color: '#B4F112'
+  height_output_text_color: '#C4B4FF'
+  height_font_weight: 'bold'
 
-# Height
-height_title_text_color: '#B4F112'
-height_output_text_color: '#C4B4FF'
-height_font_weight: 'bold'
+  # Weight
+  weight_title_text_color: '#12F145'
+  weight_output_text_color: '#B4CEFF'
+  weight_font_weight: 'bold'
 
-# Weight
-weight_title_text_color: '#12F145'
-weight_output_text_color: '#B4CEFF'
-weight_font_weight: 'bold'
+  # Affiliation
+  aff_title_text_color: '#12F1B4'
+  aff_output_text_color: '#B4F1FF'
+  aff_font_weight: 'bold'
 
-# Affiliation
-aff_title_text_color: '#12F1B4'
-aff_output_text_color: '#B4F1FF'
-aff_font_weight: 'bold'
-
-# Profession
-prof_title_text_color: '#1220F1'
-prof_output_text_color: '#B4FFDF'
-prof_font_weight: 'bold'
+  # Profession
+  prof_title_text_color: '#1220F1'
+  prof_output_text_color: '#B4FFDF'
+  prof_font_weight: 'bold'
 
 
-## Right hand / Image text
-# Origin
-origin_title_text_color: '#F112B8'
-origin_output_text_color: '#B6FFB4'
-origin_font_weight: 'bold'
+  ## Right hand / Image text
+  # Origin
+  origin_title_text_color: '#F112B8'
+  origin_output_text_color: '#B6FFB4'
+  origin_font_weight: 'bold'
 
-# Affinity
-affi_title_text_color: '#EE12F1'
-affi_output_text_color: '#DEFFB4'
-affi_font_weight: 'bold'
+  # Affinity
+  affi_title_text_color: '#EE12F1'
+  affi_output_text_color: '#DEFFB4'
+  affi_font_weight: 'bold'
 
-# Natural Magic Circuit
-nmc_title_text_color: '#AA12F1'
-nmc_output_text_color: '#FFF6B4'
-nmc_font_weight: 'bold'
+  # Natural Magic Circuit
+  nmc_title_text_color: '#AA12F1'
+  nmc_output_text_color: '#FFF6B4'
+  nmc_font_weight: 'bold'
 
-# Artificial Magic Circuit
-amc_title_text_color: '#5912F1'
-amc_output_text_color: '#FFCBB4'
-amc_font_weight: 'bold'
+  # Artificial Magic Circuit
+  amc_title_text_color: '#5912F1'
+  amc_output_text_color: '#FFCBB4'
+  amc_font_weight: 'bold'
