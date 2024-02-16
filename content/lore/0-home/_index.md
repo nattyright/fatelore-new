@@ -6,7 +6,7 @@ description: "Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro
   blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb
   Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro
   blurb Intro blurb Intro blurb Intro blurb Intro blurb Intro blurb "
-image: /img/bg.png
+image: home/banner.png
 ---
 
 # Heading 1
