@@ -127,9 +127,29 @@ collections: # A list of collections the CMS should be able to edit
     extension: yaml
     format: yaml
     fields: # The fields each document in this collection have
-      - label: card
-        name: card
+      - {label: Full Name, name: name, widget: string}
+      - {label: Alias, name: alias, widget: string}
+      - {label: Face Claim URL, name: imglink, widget: string}
+      - {label: Gender, name: gender, widget: string}
+      - {label: Age, name: age, widget: string}
+      - {label: Height, name: height, widget: string}
+      - {label: Weight, name: weight, widget: string}
+      - {label: Affiliation, name: affiliation, widget: string}
+      - {label: Profession, name: profession, widget: string}
+      - {label: Origin, name: origin, widget: string}
+      - {label: Affinity, name: affinity, widget: string}
+      - label: Circuit
+        name: circuit
         widget: list
         fields:
-          - {label: label1, name: name, widget: string}
-          - {label: label2, name: position, widget: string}
+          - label: Natural Circuit
+            name: natural
+            widget: list
+            fields:
+              - {label: Rank, name: rank, widget: string}      
+          - label: Artificial Circuit
+            name: artificial
+            widget: list
+            fields:
+              - {label: Rank, name: rank, widget: string}
+              - {label: Location, name: location, widget: string}
