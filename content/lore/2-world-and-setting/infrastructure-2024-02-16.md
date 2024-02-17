@@ -32,42 +32,64 @@ The majority of humans have taken to the sea ever since the cataclysm destroyed 
 
 Each nomadic city takes on the shape of a star with either 8, 6, 4, or 2 arms. The more arms there are, the bigger and more developed the city is.
 
-### STELLA MARIS ![](../media/city-stellamaris.png)
-###### *The 8 Armed Star*
+
+
+## STELLA MARIS ![](../media/city-stellamaris.png)
+
+{{< columns >}}
+##### *The 8 Armed Star*
+`Stella Maris` cities are mostly megapolises that have fully developed. They act like an average old world city, with a wide array of facilities that cater to people from different backgrounds. While they don't specialize in anything specific, these cities tend to be the most robust in both the technological and magecraft scene, since they have become hotspots for other, lesser cities to latch onto and trade with.
+<--->
 |                   |                  |
 | ----------------- | ---------------- |
 | **Capacity (humans)** | Up to 10 million |
 | **Number of Stars**   | ~30              |
+{{< /columns >}}
 
-`Stella Maris` cities are mostly megapolises that have fully developed. They act like an average old world city, with a wide array of facilities that cater to people from different backgrounds. While they don't specialize in anything specific, these cities tend to be the most robust in both the technological and magecraft scene, since they have become hotspots for other, lesser cities to latch onto and trade with.
 
-### CYNOSURA ![](../media/city-cynosura.png)
-###### *The 6 Armed Star*
+
+## CYNOSURA ![](../media/city-cynosura.png)
+
+{{< columns >}}
+##### *The 6 Armed Star*
+`Cynosura` cities' developments are usually propelled by specializing in specific departments such as being the center of commerce, research, and the cultivation of various goods. While more ambitious cities set out on turning themselves into a megapolis, the majority are content with their status and are happy to remain as a lesser, albeit fully functioning city.
+<--->
 |                   |                 |
 | ----------------- | --------------- |
 | **Capacity (humans)** | Up to 5 million |
 | **Number of Stars**   | ~150            | 
+{{< /columns >}}
 
-`Cynosura` cities' developments are usually propelled by specializing in specific departments such as being the center of commerce, research, and the cultivation of various goods. While more ambitious cities set out on turning themselves into a megapolis, the majority are content with their status and are happy to remain as a lesser, albeit fully functioning city.
 
 
-### DHRUVA ![](../media/city-dhruva.png)
-###### *The 4 Armed Star*
+## DHRUVA ![](../media/city-dhruva.png)
+
+{{< columns >}}
+##### *The 4 Armed Star*
+`Dhruva` cities are a lot smaller and a lot more restricted in function, usually unable to fully sustain themselves and have to import various goods to keep the city running. However, this in turn makes them more focused in serving their respective purposes. In addition, their smaller size grants them the capability to migrate on water, albeit at a much slower pace that most ships.
+<--->
 |                   |                 |
 | ----------------- | --------------- |
 | **Capacity (humans)** | Up to 1 million |
 | **Number of Stars**   | ~600            | 
+{{< /columns >}}
 
-`Dhruva` cities are a lot smaller and a lot more restricted in function, usually unable to fully sustain themselves and have to import various goods to keep the city running. However, this in turn makes them more focused in serving their respective purposes. In addition, their smaller size grants them the capability to migrate on water, albeit at a much slower pace that most ships.
 
-### POLARIS  ![](../media/city-polaris.png)
-###### *The 2 Armed 'Star' (AKA ships)*
+
+## POLARIS  ![](../media/city-polaris.png)
+
+{{< columns >}}
+##### *The 2 Armed 'Star' (AKA ships)*
+Due to resource constraints, ships make up the majority of the new world's **intercity** transportation. For simplicity's sake, all ships are classified as 2 armed 'stars' (`Polaris`) due to them taking on the shape of a thin diamond from the bird's-eye view. These can be as small as a boat or as large as a cruiser, serving various functions such as transportation, entertainment, cargo, or militaristic.
+<--->
 |                   |                  |
 | ----------------- | ---------------- |
 | **Capacity (humans)** | Up to 5 thousand |
 | **Number of Stars**   | Varies           |
+{{< /columns >}}
 
-Due to resource constraints, ships make up the majority of the new world's **intercity** transportation. For simplicity's sake, all ships are classified as 2 armed 'stars' (`Polaris`) due to them taking on the shape of a thin diamond from the bird's-eye view. These can be as small as a boat or as large as a cruiser, serving various functions such as transportation, entertainment, cargo, or militaristic.
+
+
 
 # Communication
 ## City Wide Web (CWW/Citynet)

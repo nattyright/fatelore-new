@@ -5,6 +5,7 @@ $folder-icon-color: #863737;
 $file-icon-color: #586477;
 $color-link: #84b2ff;
 $text-normal: #bccad8;
+$sub-color: #2f3b4d;
 
 
 /* Import CSS files */
@@ -54,7 +55,12 @@ h6 { color: lightgray; }
 em, .cm-em { color: #69b597; }
 body { color: $text-normal; letter-spacing: -0.015em;}
 
-
+.markdown code {
+    color: $h1-color;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    padding: 0.1em 0.4em;
+}
 
 
 /* Main Page Layout */
@@ -107,6 +113,11 @@ body {
 				font-size: 70px;
 				margin-bottom: 10px;
 			}
+			h2 img {
+				height: 40px;
+				max-width: 40px;
+				margin-bottom: -10px;
+			}
 		}
 
 		.book-toc {
@@ -117,6 +128,7 @@ body {
 				div {
 					margin-top: 10% !important;
 					padding-top: 10px;
+					text-transform: uppercase;
 				}
 				nav {
 					padding-top: 0 !important;
@@ -125,16 +137,39 @@ body {
 						padding-bottom:0;
 
 						font-size: 14px;
-						padding-left: 12px;
+						padding-left: 14px;
+						a {
+							color: $text-normal;
+						}
+						ul {
+							margin-left: -9px;
+							border-left: 2px solid $sub-color;
+							li:before {
+								content: "◆";
+								padding-right: 5px;
+								font-weight: 900;
+								font-size: 10px;
+								color: $sub-color;
+								position: absolute;
+								margin-left: -15px;
+								margin-top: 3px;
+							}
+							ul {
+								margin-left: -12px;
+							}
+						}
+						img {
+							max-height: 10px;
+							max-width: 10px;
+						}
 					}
 					li:before {
 						content: "H";
 						padding-right: 5px;
 						font-weight: 900;
-						font-family: var(--font-monospace);
-						color: var(--lite-accent);
+						color: $h1-color;
 						position: absolute;
-						margin-left: -10px;
+						margin-left: -12px;
 					}
 				}
 		

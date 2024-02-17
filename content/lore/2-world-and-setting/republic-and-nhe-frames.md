@@ -12,7 +12,7 @@ Starting from Season 4, *Church frames* have also been introduced. Compared to R
 
 # Republic Frames
 
-### Serial Number & Kill Switch
+## Serial Number & Kill Switch
 
 Each Servant summoned into a Republic Frame can be tracked using the *unique serial number* assigned to each frame. They can also be **forced to shut down** via _Republic's_ central network that monitors these Mystic Codes. This essentially works as a **kill switch** that allows an authorized personnel to disable the Mystic Code, effectively killing the Servant.
 
@@ -22,7 +22,7 @@ A Master has access to said kill switch **only if they have bonded with the serv
 
 A Servant can, however, technically escape the kill signal by leaving the city they inhabit and avoiding contact with a city's radio waves. However, this is merely a temporary solution, since cities are the only locations in the world where one can obtain mana batteries. In a sense, they would be dooming themselves to a slow death since they cannot absorb atmospheric mana and lack a Master.
 
-### Command Spells?
+## Command Spells?
 
 As of now, `Republic frames` are unable to generate Command Spells upon summoning a Servant. The processor chip's 10% of the Grail's data simply does not include this necessary function.
 
@@ -32,7 +32,7 @@ Despite _Republic's_ various research departments pouring vast amounts of resour
 
 On the other hand, `Church frames` are able to generate three strokes of Command Spells upon the successful summoning of a Servant, but are missing other coveted functions of a Republic frame due to possessing a different 10% of the Grail data.
 
-### Bonding
+## Bonding
 
 Arguably, the most unique feature that comes with a Republic Frame is its ability to *bond* with a Master.
 
