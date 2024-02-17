@@ -34,6 +34,18 @@ nav {
     margin-bottom: 15px !important;
     border-bottom: 5px solid #242e3c;
 }
+.h1:after {
+	content: "";
+	background: black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100px;
+	width: 100px;
+}
+h1 {
+	border-bottom: 5px solid #242e3c;
+}
 h1, h2, h3, h4, h5, h6 { font-weight: 800 !important; }
 h1, h2, h3, h4 { color: $h1-color; }
 h5 { color: gray; }

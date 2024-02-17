@@ -1,5 +1,5 @@
 ---
-title: Master Parameter Guidelines
+title: Master Parameter Guide
 weight: 40
 ---
 # Strength

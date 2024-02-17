@@ -1,5 +1,5 @@
 ---
-title: Servant Parameter Guidelines
+title: Servant Parameter Guide
 weight: 50
 ---
 # Strength

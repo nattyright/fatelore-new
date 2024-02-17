@@ -1,14 +1,14 @@
 ---
 title: Neo Holy Empire
-weight: 40
+weight: 50
 ---
-Like in the original Fate/Stay Night, the Holy Church is an organization that specializes in the hunting of heresy and demons. Being a subsection of the Roman Catholic Church, it works from the shadows through zealots known as Executors and agents of the Burial Agency. They have a tenuous relationship with the Mage’s Association and are also known to monitor Holy Grail Wars as impartial and unbiased judges, albeit there have been rumours of them favouring certain sides over the other.
+Like in the original *Fate/Stay Night*, the Holy Church is an organization that specializes in the hunting of heresy and demons. Being a subsection of the Roman Catholic Church, it works from the shadows through zealots known as Executors and agents of the Burial Agency. They have a tenuous relationship with the Mage’s Association and are also known to monitor Holy Grail Wars as impartial and unbiased judges, albeit there have been rumours of them favouring certain sides over the other.
 
 Unfortunately, like any other large organization in the world, the Holy Church crumbled and split off in the face of the apocalypse. The Grail Mud destroyed its base, and its unique miracles could not save it. Numerous holy relics were lost and the pope was reported missing once the Grail Mud submerged the entirety of Rome.
 
 However, some of the agents of the Holy Church saw warning signs of the impending apocalypse. Rejecting the orders of the pope, they split off the Holy Church in advance and started roaming the world once the apocalypse started. Eventually, they came across a prophet. A ‘messiah’ that would lead them to salvation…
 
-The messiah gathered more followers, and the former agents of the church assisted them in their endeavours. Eventually, the Holy Church would be reborn as the Neo Holy Empire, an organization that calls itself the spiritual successor to the Holy Church from 100 years ago. 
+The messiah gathered more followers, and the former agents of the church assisted them in their endeavours. Eventually, the Holy Church would be reborn as the **Neo Holy Empire**, an organization that calls itself the spiritual successor to the Holy Church from 100 years ago. 
 
 # Influence
 
@@ -58,6 +58,32 @@ The audacity behind that message was enough to infuriate most of the higher-ups 
 
 However, this was a huge blow to the Church, for the reason they contacted Republic was due to them wanting to obtain the 10% Holy Grail Data that was used in the production of S.E.R.V.A.N.T. Mystic Codes. While the Church has obtained their own 10% of data, it is a different category than what Republic obtained, and one could say that their two fragments of data serve two different purposes.
 
+
+
+# The Four Heavenly Generals
+
+The Neo Holy Empire, the kingdom of the Church, is the pinnacle of organisation in the new world. With both great influence and great territory, they boast several Stella Maris cities under their domain as well as many smaller ones, a feat that the other factions could only dream of. Through uniting all beliefs, religions, and creeds under one banner, it also grants peace to those who stand beneath it.
+
+But peace is as fleeting as the waves of the sea. An illusion carefully maintained through proper management and care. Left unattended, a perfect garden will grow weeds, and an empire is no different. A vigilant gardener can maintain their manor grounds with some effort, but what about an entire national park? One man can only do so much. That is why the Church’s leader needed vassals.
+
+But who? Who to entrust such an important task? Who to trust with the wellbeing of hundreds of thousands? Humans were flawed, fickle and self-interested, a critic made apparent by thousands of years of history, written in the ink of revolution and tyranny. That is why the Church’s leader turned to those who had already proven themselves, calling upon four great Servants of the past with notable Spirit Origins. 
+
+`One would govern science and healthcare. `
+
+`One would govern outer politics and peacekeeping.`
+
+`One would govern industrialisation and architecture.`
+
+`One would govern war and expansion.`
+
+These four, the Four Heavenly Generals, were the arms of the Church, overseeing the entirety of the Neo Holy Empire. To see entire cities of humans governed by servants is odd, but not only do the citizens have complete trust in them, they could not oppose them even if they wanted to. The will of the Church’s leader is absolute, and to disagree with the Heavenly Generals is to disagree with the entirety of the Church, those who seek the best for their subjects, and those who have proven their merit time and time again. 
+
+To disagree with such a thing is foolishness, nothing more.
+
+
+
+
+
 # Executors
 
 ## Hierarchy
@@ -66,13 +92,10 @@ Roughly 1000 executors operate worldwide at any given time. However, it’s impo
 
 Below is a general breakdown of their internal structure:
 
-**Official executors:** 10%
-
-**Bodyguards for distinguished church personnel:** 10%
-
-**Instructors & scouts for promising executor candidates:** 20%
-
-**Law enforcement:** 60%
+**Official executors:** `10%` <br>
+**Bodyguards for distinguished church personnel:** `10%` <br>
+**Instructors & scouts for promising executor candidates:** `20%` <br>
+**Law enforcement:** `60%`
 
 ## Background
 
@@ -136,6 +159,7 @@ Executors’ uniforms are all tailored at Church-affiliated cities. Each uniform
 
 The color palette of each uniform is black with white accents. Accessories are permitted so long as they don’t get in the way of combat.
 
+{{< hint "info" >}}
 ## RP Help
 
 The most important takeaways from this section are:
@@ -147,3 +171,5 @@ The most important takeaways from this section are:
 How does low faith come into play then? 
 
 Executors with low faith may exhibit erratic behavior, complain more, or have normal-ish values and morals compared to Executors with high faith. However, no matter what they do or what they think and no matter how you may need to write crack to justify yourself IRP, they still place the utmost trust in the Church and will not doubt the Church under any circumstances.
+
+{{< /hint >}}

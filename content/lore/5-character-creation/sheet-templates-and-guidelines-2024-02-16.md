@@ -1,9 +1,13 @@
 ---
-title: Sheet Templates and Guidelines
+title: Templates and Guides
 weight: 30
 ---
+
+<br>
+<div style="text-align:center; font-weight: bold;">
 {{< button href="https://docs.google.com/document/d/1AlHDXzhkIwCN7zn_OCtl30sHC59_vtEm4YjxN5zpuSQ/edit?usp=sharing" >}}Master Sheet Template{{< /button >}}
 {{< button href="https://docs.google.com/document/d/1gy_UPFkEup8EqP57KU2CfPA3BS-FYWRPZeU31CYZpBU/edit?usp=sharing" >}}Servant Sheet Template{{< /button >}}
+</div>
 
 # Character Guidelines
 
@@ -17,7 +21,7 @@ In addition to the above, a character's abilities too are subject to rules and g
 
 Our main philosophy when it comes to abilities is the following:
 
-**We do not condone any abilities that rob somebody else of their agency or freedom.**
+***We do not condone any abilities that rob somebody else of their agency or freedom.***
 
 Abilities that actively encourage power and meta-gaming to any degree are likewise extremely likely to be rejected. Overall, we try our best to approve a wide variety of abilities, but will show no mercy when it comes to abilities that are too heavily weighted towards oneself, because at that point you are, whether intentionally or not, disregarding and disrespecting your partner and offering them a negative experience.
 
@@ -34,6 +38,10 @@ Please note that you are technically still allowed to make characters with such 
 7. No abilities that grant omniscience or omnipotence, such as Sha Naqba Imuru or high ranks of Clairvoyance.
 8. Time Manipulation and Time Control abilities are allowed, but must be balanced extremely well to be considered for approval. Anything that breaks the rules above will be met with an instant rejection. Do not be surprised if your sheet gets rejected for having Time Manipulation, since it’s a very tricky ability to handle correctly.
 
-**Note:** This list should be considered a Living Document. Do not be surprised if more abilities are added or removed from the list, nor should you consider the absence of a similarly controversial ability as a sign that it is allowed.
+{{< hint "danger" >}}
+## **Note** 
+
+This list should be considered a Living Document. Do not be surprised if more abilities are added or removed from the list, nor should you consider the absence of a similarly controversial ability as a sign that it is allowed.
 
 Additionally, we reserve the right to deny any abilities that we think lack the required depth and detail to justify their effect. Shoddily or insufficiently explained abilities often create problems in a roleplaying environment, especially so in combat. If your Sheet is denied for this reason, we ask that you further elaborate on your abilities.
+{{< /hint >}}

@@ -36,6 +36,10 @@
         },
         {
             "folderPath": "fatelore-new\\content\\_unused_docs\\"
+        },
+        {
+            "folderPath": "fatelore-new\\content\\lore\\",
+            "color": "foldercolorizer.DeepSkyBlue"
         }
     ]
 }

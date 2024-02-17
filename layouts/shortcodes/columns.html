@@ -1,8 +1,9 @@
 {{- $image := .Get 0 -}}
+{{- $imageStyling := .Get 1 -}}
 
 <div class="book-columns flex flex-wrap">
 {{ range split .Inner "<--->" }}
-  <div class="flex-even markdown-inner {{ $image }}">
+  <div class="flex-even markdown-inner {{ $image }} {{ $imageStyling }}">
     {{ . | $.Page.RenderString }}
   </div>
 {{ end }}

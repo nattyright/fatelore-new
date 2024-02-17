@@ -1,7 +1,7 @@
 ---
 title: Home
 weight: 10
-file: ""
+draft: true
 ---
 # Heading 1
 

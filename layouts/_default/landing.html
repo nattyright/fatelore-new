@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="{{ default .Site.Language.Lang .Site.LanguageCode  }}" dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<head>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    
+    .bg {
+      /* The image used */
+      background-image: url(_media/kaminami_yoshitaka.jpg);
+
+      /* Full height */
+      height: 100%; 
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .bg-mask {
+      background-color: rgba(0,0,0,0.5);
+      height: 100%;
+      width: 100%;
+      z-index:999;
+      position:absolute;
+      top:0;
+    }
+
+
+    .landing-text {
+      z-index: 999;
+      position: absolute; 
+      left: 50%;
+      top: 40%;
+
+      width: 80%;
+
+      text-align: center;
+      color: aliceblue;
+      font-family: Nunito, Arial;
+      font-weight: 700;
+
+    }
+    .landing-text-1,
+    .landing-text-2,
+    .landing-link {
+      position: relative; 
+      left: -50%; 
+    }
+    .landing-text-2 {
+      font-weight: 400;
+    }
+    
+    a {
+      /* text-transform: uppercase; */
+      font-size: 22px;
+      color: white;
+      text-decoration: none;
+      position: relative;
+      display: block;
+      -webkit-transition: all 0.1s linear;
+      transition: all 0.1s linear;
+    }
+    a:link,
+    a:visited,
+    a:hover {
+      color: aliceblue;
+    }
+    a:hover {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      transform: scale(1.05);  
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="bg-mask"></div>
+  <div class="bg"></div>
+  
+  <div class="landing-text">
+    <p class="landing-text-1">
+      The calamitous Flood has come and gone. <br>
+      In the scattered remnants of a broken World, Humanity has taken its next step forward.
+    </p>
+
+    <p class="landing-text-2">
+      Attempting to restore the Grail that lies at the heart of it all.
+    </p>
+
+    <div class="landing-link">
+      <a href="/lore/1-introduction">Enter.</a>
+    </div>
+  </div>
+
+  
+
+  
+</body>
+</html>
+
