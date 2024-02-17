@@ -1,7 +1,6 @@
 ---
 title: Styling Cheatsheet
 weight: 10
-draft: true
 ---
 
 
