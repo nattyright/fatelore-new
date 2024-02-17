@@ -4,6 +4,7 @@ $dark-accent: #652121;
 $folder-icon-color: #863737;
 $file-icon-color: #586477;
 $color-link: #84b2ff;
+$text-normal: #bccad8;
 
 
 /* Import CSS files */
@@ -26,11 +27,19 @@ nav {
 
 
 /* Text */
-h1, h2, h3, h4, h5, h6 { font-weight: 600 !important; }
+.book-header-pc { 
+	letter-spacing: -0.04em; 
+	font-weight: 600; 
+	height: 87px !important;
+    margin-bottom: 15px !important;
+    border-bottom: 5px solid #242e3c;
+}
+h1, h2, h3, h4, h5, h6 { font-weight: 800 !important; }
 h1, h2, h3, h4 { color: $h1-color; }
 h5 { color: gray; }
 h6 { color: lightgray; }
 em, .cm-em { color: #69b597; }
+body { color: $text-normal; letter-spacing: -0.015em;}
 
 /* Main Page Layout */
 .container {
