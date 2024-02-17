@@ -1,12 +1,12 @@
 {
     "ada": {
         "name": "Ada Lovelace",
-        "pfp": "img-tupper/ada.png",
+        "pfp": "img/tupper/ada.png",
         "color": "skyblue"
     },
     "aida": {
         "name": "Aida Moretti",
-        "pfp": "img-tupper/aida.png",
+        "pfp": "img/tupper/aida.png",
         "color": "plum"
     }
  }

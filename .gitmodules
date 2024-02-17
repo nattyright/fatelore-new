@@ -1,16 +1,7 @@
-[submodule "themes/FixIt"]
-	path = themes/FixIt
-	url = https://github.com/hugo-fixit/FixIt.git
-[submodule "themes/hugo-theme-monochrome"]
-	path = themes/hugo-theme-monochrome
-	url = https://github.com/kaiiiz/hugo-theme-monochrome.git
 [submodule "themes/hugo-shortcode-roneo-collection"]
 	path = themes/hugo-shortcode-roneo-collection
 	url = https://gitlab.com/Roneo/hugo-shortcode-roneo-collection.git
 
-[submodule "themes/hugo-book"]
-	path = themes/hugo-book
-	url = https://github.com/alex-shpak/hugo-book
 [submodule "themes/hugo-book-nat"]
 	path = themes/hugo-book-nat
 	url = https://github.com/nattyright/hugo-book.git
