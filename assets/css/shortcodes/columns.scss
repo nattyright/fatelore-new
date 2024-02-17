@@ -16,9 +16,15 @@
 
 
 .flex-even.img-left.medium,
-.flex-even.img-right.medium,{
+.flex-even.img-right.medium {
 	img {
 		max-width: 250px !important;
 		max-height: 450px !important;
 	}
+}
+
+
+.flex-even.markdown-inner {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
 }

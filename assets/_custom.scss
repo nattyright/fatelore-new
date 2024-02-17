@@ -34,7 +34,7 @@ nav {
 	font-weight: 600; 
 	height: 87px !important;
     margin-bottom: 15px !important;
-    border-bottom: 5px solid #242e3c;
+    border-bottom: 5px solid rgba(12, 14, 15, 0.3);
 }
 .h1:after {
 	content: "";
@@ -45,11 +45,19 @@ nav {
 	height: 100px;
 	width: 100px;
 }
-h1 {
-	border-bottom: 5px solid #242e3c;
+
+h1, h2, h3, h4, h5, h6 { 
+	font-weight: 800 !important; 
+
+	margin-top: 15px !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 3px !important;
 }
-h1, h2, h3, h4, h5, h6 { font-weight: 800 !important; }
-h1, h2, h3, h4 { color: $h1-color; }
+h1, h2, h3, h4 { border-bottom: 3px solid rgba(12, 14, 15, 0.3); color: $h1-color; }
+h1 { max-width: 80%; }
+h2 { max-width: 50%; }
+h3 { max-width: 45%; }
+h4 { max-width: 30%; }
 h5 { color: gray; }
 h6 { color: lightgray; }
 em, .cm-em { color: #69b597; }
