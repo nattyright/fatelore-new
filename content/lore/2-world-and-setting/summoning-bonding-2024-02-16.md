@@ -1,5 +1,6 @@
 ---
 title: Summoning & Bonding
+weight: 80
 ---
 # Summoning
 

@@ -1,5 +1,6 @@
 ---
 title: Neo Holy Empire
+weight: 40
 ---
 Like in the original Fate/Stay Night, the Holy Church is an organization that specializes in the hunting of heresy and demons. Being a subsection of the Roman Catholic Church, it works from the shadows through zealots known as Executors and agents of the Burial Agency. They have a tenuous relationship with the Mage’s Association and are also known to monitor Holy Grail Wars as impartial and unbiased judges, albeit there have been rumours of them favouring certain sides over the other.
 
