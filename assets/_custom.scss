@@ -93,12 +93,16 @@ body {
 				box-shadow: -3px 0 6px -2px rgba(11, 15, 19, 0.8);
 				nav {
 					padding-top: 10px;
-					.book-brand span{
-						margin: auto;
-						color: $h1-color;
-						font-weight: 600;
-						font-size: 22px;
-					}
+					.book-brand {
+						border: none;
+						max-width: 100%;
+						span{
+							margin: auto;
+							color: $h1-color;
+							font-weight: 600;
+							font-size: 22px;
+						}
+					}	
 					li {
 						font-size: 14px;
 					}
