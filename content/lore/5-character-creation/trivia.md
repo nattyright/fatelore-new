@@ -72,6 +72,22 @@ At the last moment, Aoko managed to thicken the magical energy running through h
 
 {{< /details >}}
 
+{{< details title="***As Ghost Liners, Servants are closer in nature to spiritual beings given temporary form rather than inherently physical familiars, and as such, they can only be affected by objects and attacks with magical or spiritual attributes unless achieving physical incarnation and becoming true residents of the material plane.***" open=false >}}
+
+"Of course it's amazing. Not just Saber, but all the Servants are heroic spirits. There's the fact that they're spirits, but they can't be hurt by normal means. That's because Servants themselves are divine mysteries.\
+"The only ones that can physically hurt the Servants are other Servants, heroic spirits like them. So in other words, if a Servant was using it, even a paper knife could hurt Saber."
+
+* *Fate/Stay Night, Visual Novel, Fate, Day 10*
+
+"Right, next question. Are Servants still spirits even if they take physical form? So you can't hurt them with normal weapons?"\
+"…Let's see. A normal Servant will be able to nullify them, but those consumed by Sakura are another matter.\
+Having received bodies from Sakura, they cannot return to spiritual form.\
+Strong magical weapons should be able to penetrate through their shadows."
+
+* *Fate/Stay Night, Visual Novel, Heaven's Feel, Day 15*
+
+{{< /details >}}
+
 # Fate/Zero
 
 {{< details title="***Magic Circuits produce heat when processing magical energy.***" open=false >}}
