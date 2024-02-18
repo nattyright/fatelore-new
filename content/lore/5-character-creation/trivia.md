@@ -4,7 +4,7 @@ weight: 70
 ---
 # Kara no Kyoukai
 
-{{< details title="***Certain relics or beings that have accumulated enough history and mystery can obliterate magic formulae with the sheer crushing weight of their existence.***" open=false >}}
+{{< details title="**Certain relics or beings that have accumulated enough history and mystery can obliterate magic formulae with the sheer crushing weight of their existence.**" open=false >}}
 
 “Shiki, I know that’s an old piece of history. Don’t even think of pulling that out unless you want to cut down the ward around this place.” Shiki freezes as soon as she says that. “It’s impressive and all, and I can even read the Kuji: ‘let the warrior-god light my way.’ It’s cool. But the wards that I’ve put up won’t be a match for a sword with that kind of history.”\
 \
@@ -18,7 +18,7 @@ weight: 70
 
 # Fate/Stay Night (+Mahōtsukai no Yoru)
 
-{{< details title="***Anything that produces it's own magical energy gains a natural amount of magic resistance.***" open=false >}}
+{{< details title="**Anything that produces it's own magical energy gains a natural amount of magic resistance.**" open=false >}}
 
 Magi have magic resistance.\
 It is the power to repel "magic" such as hypnotism, binding, and coercion.\
@@ -37,8 +37,7 @@ It does not matter if the target has a Magic Circuit or not, as people will blee
 * *Fate/Stay Night, Visual Novel, Unlimited Blade Works, Day 6*
 
 {{< /details >}}
-
-{{< details title="***You can 'wash away' spells that have yet to fully form, or those composed purely of the Imaginary Element, Ether. <br> <br> This can be done for offensive or defensive purposes, but spells that have already taken hold, or those constructed more solidly with other Elements require proper countermeasures.***" open=false >}}
+{{< details title="***You can 'wash away' spells that have yet to fully form, or those composed purely of the Imaginary Element, Ether. <br> <br> This can be done for offensive or defensive purposes, but spells that have already taken hold, or those constructed more solidly with other Elements require proper countermeasures.**" open=false >}}
 
 ...My spirits weaken.\
 As the magic is complete, there's no way I can dispel it.\
@@ -72,7 +71,7 @@ At the last moment, Aoko managed to thicken the magical energy running through h
 
 {{< /details >}}
 
-{{< details title="***As Ghost Liners, Servants are closer in nature to spiritual beings given temporary form rather than inherently physical familiars, and as such, they can only be affected by objects and attacks with magical or spiritual attributes unless achieving physical incarnation and becoming true residents of the material plane.***" open=false >}}
+{{< details title="**As Ghost Liners, Servants are closer in nature to spiritual beings given temporary form rather than inherently physical familiars, and as such, they can only be affected by objects and attacks with magical or spiritual attributes unless achieving physical incarnation and becoming true residents of the material plane.**" open=false >}}
 
 "Of course it's amazing. Not just Saber, but all the Servants are heroic spirits. There's the fact that they're spirits, but they can't be hurt by normal means. That's because Servants themselves are divine mysteries.\
 "The only ones that can physically hurt the Servants are other Servants, heroic spirits like them. So in other words, if a Servant was using it, even a paper knife could hurt Saber."
@@ -90,7 +89,7 @@ Strong magical weapons should be able to penetrate through their shadows."
 
 # Fate/Zero
 
-{{< details title="***Magic Circuits produce heat when processing magical energy.***" open=false >}}
+{{< details title="**Magic Circuits produce heat when processing magical energy.**" open=false >}}
 
 Furthermore, in addition a specter IR heat detector scope is installed as a sideways support. This one is also electronically equipped for night vision, although the image display isn't an intensity amplifier, but displays the heat patterns of the subject. It can perceive temperature variations from -5 to 60°C up to 200 meters with an 1.8 magnification.
 
@@ -100,7 +99,7 @@ Having discovered that the operation of Magic Circuits changed the temperature o
 
 {{< /details >}}
 
-{{< details title="***In Spirit Form, Servants do not have access to their Phyiscal Senses must rely on Spiritual Sensations.***" open=false >}}
+{{< details title="**In Spirit Form, Servants do not have access to their Phyiscal Senses must rely on Spiritual Sensations.**" open=false >}}
 
 Assassin hid in the perfect spot to observe the straightforward battle — the crane that loomed beside the cliff. The location was about 500 meters away from the site of the skirmish. As a Servant with eyesight surpassing that of a human he could clearly discern the two’s conflict, even spotting their expressions with accuracy. Meanwhile, the two combatants barely had time to consider if they were being spied upon.
 
@@ -114,7 +113,7 @@ Assassin, who understood his Master’s intentions, silently gazed at the battle
 
 # Fate/Apocrypha
 
-{{< details title="***Even mundane objects, like rocks and twigs, can damage a Servant if laced with magical energy to allow for mere physical objects to affect a spiritual being.***" open=false >}}
+{{< details title="**Even mundane objects, like rocks and twigs, can damage a Servant if laced with magical energy to allow for mere physical objects to affect a spiritual being.**" open=false >}}
 
 Five eyes, located in various places on Berserker’s shoulders, neck and abdomen, all turned to glare at Archer of Red and Ruler. The two female Servants instantly separated to the left and right respectively as if flicked away. Not caring about that, Berserker of Red swung his sword with all his might.
 
@@ -135,7 +134,7 @@ Though, it was the first time Ruler had witnessed of the phenomenon of prana cli
 
 # Fate/Grand Order
 
-{{< details title="***Servants can most certainly get drunk if they choose to.***" open=false >}}
+{{< details title="**Servants can most certainly get drunk if they choose to.**" open=false >}}
 
 **Cursed Arm:** ...I did not know that Servants could get drunk.
 
@@ -147,7 +146,7 @@ Though, it was the first time Ruler had witnessed of the phenomenon of prana cli
 
 # The Case Files of Lord El-Melloi II (+Mahōtsukai no Yoru)
 
-{{< details title="***Connecting yourself to another Mage's Magic Circuits puts you completely at their mercy.***" open=false >}}
+{{< details title="**Connecting yourself to another Mage's Magic Circuits puts you completely at their mercy.**" open=false >}}
 
 As Luvia realized what he had done after grabbing her wrist, her eyebrows shot upwards.
 
@@ -173,7 +172,7 @@ Attempting to establish a link to the Magic Circuits of another mage was like pr
 
 {{< /details >}}
 
-{{< details title="***In most cases, a Mage will always have the advantage when operating in their own Workshop and hindered when intruding on someone else's, though the extent of this effect greatly depends on the quality of the Workshop and the Mage who maintains it.***" open=false >}}
+{{< details title="**In most cases, a Mage will always have the advantage when operating in their own Workshop and hindered when intruding on someone else's, though the extent of this effect greatly depends on the quality of the Workshop and the Mage who maintains it.**" open=false >}}
 
 "Please, no need for bluffs," the astrologer laughed, watching Luvia with one eye closed. "I may look like a mess, but I really am an astrologer. Sure, the Edelfelt's Jewel Magic is beyond my field of expertise, but if I walk in to an astrological ritual halfway there's no way I wouldn't recognize it. Oh and don't bother being flustered about it either, this is another magus' workshop. The land and the air themselves are against us. I guess it figures that Geryuon Ashbourne wouldn't set this up so it could all be solved in an instant with fortune-telling. Though I suppose we're still not sure if that killing was brought on by Geryuon himself."
 

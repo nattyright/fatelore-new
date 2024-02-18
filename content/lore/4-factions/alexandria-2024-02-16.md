@@ -85,8 +85,7 @@ Moreover, the simplistic nature of an imageboard limits the types of data that c
 
 # Extra Lore + City Map
 
-[placeholder]
-
+[Link]({{< static "/maps/map_alexandria.html" >}})
 
 
 

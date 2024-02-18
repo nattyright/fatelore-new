@@ -4,7 +4,7 @@ weight: 60
 ---
 
 # Saber 
-{{< columns img-left medium >}}
+{{< columns img-right medium >}}
 ![](../media/saber.jpg) A melee combatant considered to be the preeminent class of the seven Servants. Applicable Heroic Spirits must possess exceptional abilites. This class is referred to as one of the Three Knights, alongside Archer and Lancer.
 
 Posesses Anti-Magic, which offers resistance against magecraft, and Riding, a skill that enables the use of mounts such as horses.
@@ -20,7 +20,7 @@ Posesses Anti-Magic, which offers resistance against magecraft, and Riding, a sk
 
 
 # Archer
-{{< columns img-left medium >}}
+{{< columns img-right medium >}}
 ![](../media/archer.jpg) A Servant that makes use of powerful long-ranged weapons or skills. This class is referred to as one of the Three Knights, alongside Saber and Lancer.
 
 Posessing Anti-Magic and the Indipendent Action skill, which allows a Servant to act alone without a Master, this class is well suited for reconnaissance.
@@ -36,7 +36,7 @@ Posessing Anti-Magic and the Indipendent Action skill, which allows a Servant to
 
 
 # Lancer
-{{< columns img-left medium >}}
+{{< columns img-right medium >}}
 ![](../media/lancer.jpg) Applicable Heroic Spirits must anecdotally use spears or other long-handled weapons, and also posssess excellent attributes, particularly agility. This class is referred to as one of the Three Knights, alongside Saber and Archer.
 
 Posesses Anti-Magic, offering resistance against magecraft.
@@ -53,7 +53,7 @@ Posesses Anti-Magic, offering resistance against magecraft.
 
 
 # Rider
-{{< columns img-left medium >}}
+{{< columns img-right medium >}}
 ![](../media/rider.jpg) This class is suitable for Heroic Spirits capable of controlling a mount. Although required stats are lower than those of the Three Knigths classes, these Servants materialize with a variety of Noble Phantasms at their disposal.
 
 Other than Anti-Magic, which the Three Knights also posess, this lass has an extremely high-level Riding Skill.
@@ -68,7 +68,7 @@ Other than Anti-Magic, which the Three Knights also posess, this lass has an ext
 {{< /columns >}}
 
 # Caster
-{{< columns img-left medium >}}
+{{< columns img-right medium >}}
 ![](../media/caster.jpg) Applicable Heroic Spirits possess exceptionally strong magecraft and are usually spellcasters of some type. As a result, physical combat capabilites are often lacking.
 
 Possesses the Territory Creation skill, enabling the formation of powerful workshops, as well as Item Construction, which allows for the creation of magical tools.
@@ -86,7 +86,7 @@ Possesses the Territory Creation skill, enabling the formation of powerful works
 
 
 # Assassin
-{{< columns img-left medium >}}
+{{< columns img-right medium >}}
 ![](../media/assassin.jpg) Tales about these Servants often involve assassinations and poisonings. Though required attributes are low, there is no better class for killing enemy Masters.
 
 Possesses the skill Presence Concealment, allowing them to hide from not only enemy mages but other Servants as well.
@@ -103,7 +103,7 @@ Possesses the skill Presence Concealment, allowing them to hide from not only en
 
 
 # Berserker
-{{< columns img-left medium >}}
+{{< columns img-right medium >}}
 ![](../media/berserker.jpg) Applicable Heroic Spirits are those who are known to have gone berserk in battle. Though hard to control, they have unwavering determination.
 
 Possesses the Madness Enhancement skill, which allows a Heroic Spirit to surpass their normal limits - gaining overwhelming strength in exchange for their sanity. As such, this class can strengthen Heroic Spirits with low stats. But when used by an inherently powerful Heroic Spirit, the result is a fearsome foe indeed.
