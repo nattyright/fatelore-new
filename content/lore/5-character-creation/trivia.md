@@ -172,3 +172,20 @@ Attempting to establish a link to the Magic Circuits of another mage was like pr
 * *Mahōtsukai no Yoru, Visual Novel, Chapter 5 - Part 1, Night of Witches 3*
 
 {{< /details >}}
+
+{{< details title="***In most cases, a Mage will always have the advantage when operating in their own workshop and hindered when intruding on someone else's.***" open=false >}}
+
+"Please, no need for bluffs," the astrologer laughed, watching Luvia with one eye closed. "I may look like a mess, but I really am an astrologer. Sure, the Edelfelt's Jewel Magic is beyond my field of expertise, but if I walk in to an astrological ritual halfway there's no way I wouldn't recognize it. Oh and don't bother being flustered about it either, this is another magus' workshop. The land and the air themselves are against us. I guess it figures that Geryuon Ashbourne wouldn't set this up so it could all be solved in an instant with fortune-telling. Though I suppose we're still not sure if that killing was brought on by Geryuon himself."
+
+* *The Case Files of Lord El-Melloi II, Volume 1, Chapter 3*
+
+Flue dropped to the floor and sat down with a tired sigh.
+
+"That was exhausting."
+
+As he spoke, he wiped the sweat from his forehead with the back of his hand.\
+In reality, what he had done had taken the utmost concentration, which was reflected in Flue's complexion looking like he had just aged ten years. Naturally, this didn't happen every time he used magecraft. It was just that the barrier in the Castle of Separation was that powerful.
+
+* *The Case Files of Lord El-Melloi II, Volume 1, Chapter 4*
+
+{{< /details >}}
