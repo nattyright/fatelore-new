@@ -133,6 +133,18 @@ Though, it was the first time Ruler had witnessed of the phenomenon of prana cli
 
 {{< /details >}}
 
+# Fate/Grand Order
+
+{{< details title="***Servants can most certainly get drunk if they choose to.***" open=false >}}
+
+**Cursed Arm:** ...I did not know that Servants could get drunk.
+
+**Arturia Alter:** If we want to, yes. How strange; he seems like just a harmless old man when intoxicated.
+
+* *Fate/Grand Order, Mobile Game, Pseudo-Singularity I - Shinjuku*
+
+{{< /details >}}
+
 # The Case Files of Lord El-Melloi II (+Mahōtsukai no Yoru)
 
 {{< details title="***Connecting yourself to another Mage's Magic Circuits puts you completely at their mercy.***" open=false >}}
