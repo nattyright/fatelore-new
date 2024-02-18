@@ -2,7 +2,19 @@
 title: Trivia
 weight: 70
 ---
-# Fate/Stay Night (+Mahōtsukai no Yoru)
+# Kara no Kyoukai
+
+{{< details title="***Certain relics or beings that have accumulated enough history and mystery can obliterate magic formulae with the sheer crushing weight of their existence.***" open=false >}}
+
+“Shiki, I know that’s an old piece of history. Don’t even think of pulling that out unless you want to cut down the ward around this place.” Shiki freezes as soon as she says that. “It’s impressive and all, and I can even read the Kuji: ‘let the warrior-god light my way.’ It’s cool. But the wards that I’ve put up won’t be a match for a sword with that kind of history.”\
+\
+...\
+\
+“Old swords build up their own mystery and belief around their ancient history, and so become weapons capable of even cutting spells shaped from the Art,” explains Miss Tōko. “So don’t take that thing out again. I won’t be responsible for any eldritch horrors you may unleash spiriting you away.”
+
+* *Kara no Kyoukai, Light Novel, Volume 2, Part 5 - Paradox Spiral, Chapter 3*
+
+# {{< /details >}}Fate/Stay Night (+Mahōtsukai no Yoru)
 
 {{< details title="***Anything that produces it's own magical energy gains a natural amount of magic resistance.***" open=false >}}
 
