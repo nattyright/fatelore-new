@@ -173,7 +173,7 @@ Attempting to establish a link to the Magic Circuits of another mage was like pr
 
 {{< /details >}}
 
-{{< details title="***In most cases, a Mage will always have the advantage when operating in their own workshop and hindered when intruding on someone else's.***" open=false >}}
+{{< details title="***In most cases, a Mage will always have the advantage when operating in their own Workshop and hindered when intruding on someone else's, though the extent of this effect greatly depends on the quality of the Workshop and the Mage who maintains it.***" open=false >}}
 
 "Please, no need for bluffs," the astrologer laughed, watching Luvia with one eye closed. "I may look like a mess, but I really am an astrologer. Sure, the Edelfelt's Jewel Magic is beyond my field of expertise, but if I walk in to an astrological ritual halfway there's no way I wouldn't recognize it. Oh and don't bother being flustered about it either, this is another magus' workshop. The land and the air themselves are against us. I guess it figures that Geryuon Ashbourne wouldn't set this up so it could all be solved in an instant with fortune-telling. Though I suppose we're still not sure if that killing was brought on by Geryuon himself."
 
