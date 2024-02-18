@@ -14,7 +14,9 @@ weight: 70
 
 * *Kara no Kyoukai, Light Novel, Volume 2, Part 5 - Paradox Spiral, Chapter 3*
 
-# {{< /details >}}Fate/Stay Night (+Mahōtsukai no Yoru)
+{{< /details >}}
+
+# Fate/Stay Night (+Mahōtsukai no Yoru)
 
 {{< details title="***Anything that produces it's own magical energy gains a natural amount of magic resistance.***" open=false >}}
 
