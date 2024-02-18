@@ -112,6 +112,27 @@ Assassin, who understood his Master’s intentions, silently gazed at the battle
 
 {{< /details >}}
 
+# Fate/Apocrypha
+
+{{< details title="***Even mundane objects, like rocks and twigs, can damage a Servant if laced with magical energy to allow for mere physical objects to affect a spiritual being.***" open=false >}}
+
+Five eyes, located in various places on Berserker’s shoulders, neck and abdomen, all turned to glare at Archer of Red and Ruler. The two female Servants instantly separated to the left and right respectively as if flicked away. Not caring about that, Berserker of Red swung his sword with all his might.
+
+Pieces of the ground that he blew away and smashed apart flew at Ruler and Archer like high‐explosive projectiles.
+
+“Guh—!”
+
+“Kuh…!!”
+
+Rocks tore through their skin and even damaged part of Ruler’s armor. An attack without prana accompanying it could never harm a Servant. But prana had been loaded to the point of bursting into the sword he swung, and it had even contaminated the broken pieces of stone.
+
+It was the same as a Servant throwing dirks with prana loaded into them…\
+Though, it was the first time Ruler had witnessed of the phenomenon of prana clinging even to fragments smashed apart with a sword.
+
+* *Fate/Apocrypha, Light Novel, Volume 2, Chapter 3*
+
+{{< /details >}}
+
 # The Case Files of Lord El-Melloi II (+Mahōtsukai no Yoru)
 
 {{< details title="***Connecting yourself to another Mage's Magic Circuits puts you completely at their mercy.***" open=false >}}
