@@ -6,8 +6,32 @@
       height: 100%;
       margin: 0;
       overflow: hidden;
+      cursor: url('_media/cursors/auto/frame0.png'), auto;
+      -webkit-animation: cursor 400ms infinite;
+      animation: cursor 400ms infinite;
     }
     
+    @-webkit-keyframes cursor {
+      0% {cursor: url('_media/cursors/auto/frame0.png'), auto;}
+      15% {cursor: url('_media/cursors/auto/frame1.png'), auto;}
+      30% {cursor: url('_media/cursors/auto/frame2.png'), auto;}
+      45% {cursor: url('_media/cursors/auto/frame3.png'), auto;}
+      60% {cursor: url('_media/cursors/auto/frame4.png'), auto;}
+      75% {cursor: url('_media/cursors/auto/frame5.png'), auto;}
+      90% {cursor: url('_media/cursors/auto/frame6.png'), auto;}
+      100% {cursor: url('_media/cursors/auto/frame7.png'), auto;}
+    } 
+
+    @keyframes cursor {
+      0% {cursor: url('_media/cursors/auto/frame0.png'), auto;}
+      15% {cursor: url('_media/cursors/auto/frame1.png'), auto;}
+      30% {cursor: url('_media/cursors/auto/frame2.png'), auto;}
+      45% {cursor: url('_media/cursors/auto/frame3.png'), auto;}
+      60% {cursor: url('_media/cursors/auto/frame4.png'), auto;}
+      75% {cursor: url('_media/cursors/auto/frame5.png'), auto;}
+      90% {cursor: url('_media/cursors/auto/frame6.png'), auto;}
+      100% {cursor: url('_media/cursors/auto/frame7.png'), auto;}
+    }
     .bg {
       /* The image used */
       background-image: url(_media/kaminami_yoshitaka.jpg);
