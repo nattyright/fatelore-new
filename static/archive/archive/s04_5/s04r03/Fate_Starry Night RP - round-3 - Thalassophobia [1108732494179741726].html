@@ -1,0 +1,457 @@
+<!DOCTYPE html><html lang=en><head><title>Fate/Starry Night RP - Thalassophobia</title><meta charset=utf-8><meta name=viewport content="width=device-width"><style>@font-face{src:url("discord_assets/ggsans-normal-400-1456D.woff2");font-family:gg sans;font-weight:400;font-style:normal}@font-face{src:url("discord_assets/ggsans-normal-500-89CE5.woff2");font-family:gg sans;font-weight:500;font-style:normal}@font-face{src:url("discord_assets/ggsans-normal-600-C1EA8.woff2");font-family:gg sans;font-weight:600;font-style:normal}@font-face{src:url("discord_assets/ggsans-normal-700-1949A.woff2");font-family:gg sans;font-weight:700;font-style:normal}@font-face{src:url("discord_assets/ggsans-normal-800-58487.woff2");font-family:gg sans;font-weight:800;font-style:normal}@font-face{src:url("discord_assets/ggsans-italic-400-E988B.woff2");font-family:gg sans;font-weight:400;font-style:italic}@font-face{src:url("discord_assets/ggsans-italic-500-0777F.woff2");font-family:gg sans;font-weight:500;font-style:italic}@font-face{src:url("discord_assets/ggsans-italic-600-CB411.woff2");font-family:gg sans;font-weight:600;font-style:italic}@font-face{src:url("discord_assets/ggsans-italic-700-891AC.woff2");font-family:gg sans;font-weight:700;font-style:italic}@font-face{src:url("discord_assets/ggsans-italic-800-D36B0.woff2");font-family:gg sans;font-weight:800;font-style:italic}html,body{margin:0;padding:0;background-color:#36393e;color:#dcddde;font-family:"gg sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:17px;font-weight:400;scroll-behavior:smooth}a{color:#00aff4;text-decoration:none}a:hover{text-decoration:underline}img{object-fit:contain;image-rendering:high-quality;image-rendering:-webkit-optimize-contrast}.preamble{display:grid;grid-template-columns:auto 1fr;max-width:100%;padding:1rem}.preamble__guild-icon-container{grid-column:1}.preamble__guild-icon{max-width:88px;max-height:88px}.preamble__entries-container{grid-column:2;margin-left:1rem}.preamble__entry{margin-bottom:0.15rem;color:#ffffff;font-size:1.4rem}.preamble__entry--small{font-size:1rem}.chatlog{padding:1rem 0;width:100%;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(255,255,255,0.1)}.chatlog__message-group{margin-bottom:1rem}.chatlog__message-container{background-color:transparent;transition:background-color 1s ease}.chatlog__message-container--highlighted{background-color:rgba(114,137,218,0.2)}.chatlog__message-container--pinned{background-color:rgba(249,168,37,0.05)}.chatlog__message{display:grid;grid-template-columns:auto 1fr;padding:0.15rem 0;direction:ltr;unicode-bidi:bidi-override}.chatlog__message:hover{background-color:#32353b}.chatlog__message:hover .chatlog__short-timestamp{display:block}.chatlog__message-aside{grid-column:1;width:72px;padding:0.15rem 0.15rem 0 0.15rem;text-align:center}.chatlog__reply-symbol{height:10px;margin:6px 4px 4px 36px;border-left:2px solid #4f545c;border-top:2px solid #4f545c;border-radius:8px 0 0 0}.chatlog__avatar{width:40px;height:40px;border-radius:50%}.chatlog__short-timestamp{display:none;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__message-primary{grid-column:2;min-width:0}.chatlog__reply{display:flex;margin-bottom:0.15rem;align-items:center;color:#b5b6b8;font-size:0.875rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.chatlog__reply-avatar{width:16px;height:16px;margin-right:0.25rem;border-radius:50%}.chatlog__reply-author{margin-right:0.3rem;font-weight:600}.chatlog__reply-content{overflow:hidden;text-overflow:ellipsis}.chatlog__reply-link{cursor:pointer}.chatlog__reply-link *{display:inline;pointer-events:none}.chatlog__reply-link .chatlog__markdown-quote{display:inline}.chatlog__reply-link .chatlog__markdown-pre{display:inline}.chatlog__reply-link:hover{color:#ffffff}.chatlog__reply-link:hover *:not(.chatlog__markdown-spoiler){color:inherit}.chatlog__reply-edited-timestamp{margin-left:0.25rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__system-notification-icon{width:18px;height:18px}.chatlog__system-notification-author{font-weight:500;color:#ffffff}.chatlog__system-notification-content{color:#96989d}.chatlog__system-notification-link{font-weight:500;color:#ffffff}.chatlog__system-notification-timestamp{margin-left:0.3rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__system-notification-timestamp a{color:inherit}.chatlog__header{margin-bottom:0.1rem}.chatlog__author{font-weight:500;color:#ffffff}.chatlog__author-tag{position:relative;top:-0.1rem;margin-left:0.3rem;padding:0.05rem 0.3rem;border-radius:3px;background-color:#5865F2;color:#ffffff;font-size:0.625rem;font-weight:500;line-height:1.3}.chatlog__timestamp{margin-left:0.3rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__timestamp a{color:inherit}.chatlog__content{padding-right:1rem;font-size:0.95rem;word-wrap:break-word}.chatlog__edited-timestamp{margin-left:0.15rem;color:#a3a6aa;font-size:0.75rem;font-weight:500}.chatlog__attachment{position:relative;width:fit-content;margin-top:0.3rem;border-radius:3px;overflow:hidden}.chatlog__attachment--hidden{cursor:pointer;box-shadow:0 0 1px 1px rgba(0,0,0,0.1)}.chatlog__attachment--hidden *{pointer-events:none}.chatlog__attachment-spoiler-caption{display:none;position:absolute;left:50%;top:50%;z-index:999;padding:0.4rem 0.8rem;border-radius:20px;transform:translate(-50%,-50%);background-color:rgba(0,0,0,0.9);color:#dcddde;font-size:0.9rem;font-weight:600;letter-spacing:0.05rem}.chatlog__attachment--hidden .chatlog__attachment-spoiler-caption{display:block}.chatlog__attachment--hidden:hover .chatlog__attachment-spoiler-caption{color:#fff}.chatlog__attachment-media{max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__attachment--hidden .chatlog__attachment-media{filter:blur(44px)}.chatlog__attachment-generic{max-width:520px;width:100%;height:40px;padding:10px;border:1px solid #292b2f;border-radius:3px;background-color:#2f3136;overflow:hidden}.chatlog__attachment--hidden .chatlog__attachment-generic{filter:blur(44px)}.chatlog__attachment-generic-icon{float:left;width:30px;height:100%;margin-right:10px}.chatlog__attachment-generic-size{color:#72767d;font-size:12px}.chatlog__attachment-generic-name{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.chatlog__embed{display:flex;margin-top:0.3rem;max-width:520px}.chatlog__embed-color-pill{flex-shrink:0;width:0.25rem;border-top-left-radius:3px;border-bottom-left-radius:3px}.chatlog__embed-color-pill--default{background-color:#202225}.chatlog__embed-content-container{display:flex;flex-direction:column;padding:0.5rem 0.6rem;border:1px solid rgba(46,48,54,0.6);border-top-right-radius:3px;border-bottom-right-radius:3px;background-color:rgba(46,48,54,0.3)}.chatlog__embed-content{display:flex;width:100%}.chatlog__embed-text{flex:1}.chatlog__embed-author-container{display:flex;margin-bottom:0.5rem;align-items:center}.chatlog__embed-author-icon{width:20px;height:20px;margin-right:0.5rem;border-radius:50%}.chatlog__embed-author{color:#ffffff;font-size:0.875rem;font-weight:600;direction:ltr;unicode-bidi:bidi-override}.chatlog__embed-author-link{color:#ffffff}.chatlog__embed-title{margin-bottom:0.5rem;color:#ffffff;font-size:0.875rem;font-weight:600}.chatlog__embed-description{color:#dcddde;font-weight:500;font-size:0.85rem}.chatlog__embed-fields{display:flex;flex-wrap:wrap;gap:0 0.5rem}.chatlog__embed-field{flex:0;min-width:100%;max-width:506px;padding-top:0.6rem;font-size:0.875rem}.chatlog__embed-field--inline{flex:1;flex-basis:auto;min-width:50px}.chatlog__embed-field-name{margin-bottom:0.2rem;color:#ffffff;font-weight:600}.chatlog__embed-field-value{color:#dcddde;font-weight:500}.chatlog__embed-thumbnail{flex:0;max-width:80px;max-height:80px;margin-left:1.2rem;border-radius:3px}.chatlog__embed-images{display:grid;margin-top:0.6rem;grid-template-columns:repeat(2,1fr);gap:0.25rem}.chatlog__embed-images--single{display:block}.chatlog__embed-image{object-fit:cover;object-position:center;max-width:500px;max-height:400px;width:100%;height:100%;border-radius:3px}.chatlog__embed-footer{margin-top:0.6rem;color:#dcddde}.chatlog__embed-footer-icon{width:20px;height:20px;margin-right:0.2rem;border-radius:50%;vertical-align:middle}.chatlog__embed-footer-text{vertical-align:middle;font-size:0.75rem;font-weight:500}.chatlog__embed-invite-container{min-width:320px;padding:0.6rem 0.7rem;border:1px solid rgba(46,48,54,0.6);border-radius:3px;background-color:rgba(46,48,54,0.3)}.chatlog__embed-invite-title{margin:0 0 0.8rem 0;color:#b9bbbe;font-size:0.75rem;font-weight:700;text-transform:uppercase}.chatlog__embed-invite{display:flex}.chatlog__embed-invite-guild-icon{width:50px;height:50px;border-radius:0.85rem}.chatlog__embed-invite-info{margin-left:1rem}.chatlog__embed-invite-guild-name{color:#ffffff;font-weight:600}.chatlog__embed-invite-guild-name a{color:inherit}.chatlog__embed-invite-channel-icon{width:18px;height:18px;vertical-align:bottom}.chatlog__embed-invite-channel-name{font-size:0.9rem;font-weight:600}.chatlog__embed-generic-image{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-generic-video{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-generic-gifv{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-spotify{border:0}.chatlog__embed-youtube-container{margin-top:0.6rem}.chatlog__embed-youtube{border:0;border-radius:3px}.chatlog__sticker{width:180px;height:180px}.chatlog__sticker--media{max-width:100%;max-height:100%}.chatlog__reactions{display:flex}.chatlog__reaction{display:flex;margin:0.35rem 0.1rem 0.1rem 0;padding:0.125rem 0.375rem;border:1px solid transparent;border-radius:8px;background-color:#2f3136;align-items:center}.chatlog__reaction:hover{border:1px solid hsla(0,0%,100%,.2);background-color:transparent}.chatlog__reaction-count{min-width:9px;margin-left:0.35rem;color:#b9bbbe;font-size:0.875rem}.chatlog__reaction:hover .chatlog__reaction-count{color:#dcddde}.chatlog__markdown{max-width:100%;line-height:1.3;overflow-wrap:break-word}.chatlog__markdown h1{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1.5rem;line-height:1}.chatlog__markdown h2{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1.25rem;line-height:1}.chatlog__markdown h3{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1rem;line-height:1}.chatlog__markdown h1:first-child,h2:first-child,h3:first-child{margin-top:0.5rem}.chatlog__markdown ul,ol{margin:0 0 0 1rem;padding:0}.chatlog__markdown-preserve{white-space:pre-wrap}.chatlog__markdown-spoiler{background-color:rgba(255,255,255,0.1);padding:0 2px;border-radius:3px}.chatlog__markdown-spoiler--hidden{cursor:pointer;background-color:#202225;color:rgba(0,0,0,0)}.chatlog__markdown-spoiler--hidden:hover{background-color:rgba(32,34,37,0.8)}.chatlog__markdown-spoiler--hidden::selection{color:rgba(0,0,0,0)}.chatlog__markdown-quote{display:flex;margin:0.05rem 0}.chatlog__markdown-quote-border{margin-right:0.5rem;border:2px solid #4f545c;border-radius:3px}.chatlog__markdown-pre{background-color:#2f3136;font-family:"Consolas","Courier New",Courier,monospace;font-size:0.85rem;text-decoration:inherit}.chatlog__markdown-pre--multiline{display:block;margin-top:0.25rem;padding:0.5rem;border:2px solid #282b30;border-radius:5px;color:#b9bbbe}.chatlog__markdown-pre--multiline.hljs{background-color:#2f3136;color:#b9bbbe}.chatlog__markdown-pre--inline{display:inline-block;padding:2px;border-radius:3px}.chatlog__markdown-mention{border-radius:3px;padding:0 2px;background-color:rgba(88,101,242,.3);color:#dee0fc;font-weight:500}.chatlog__markdown-mention:hover{background-color:#5865f2;color:#ffffff}.chatlog__markdown-timestamp{background-color:rgba(255,255,255,0.1);padding:0 2px;border-radius:3px}.chatlog__emoji{width:1.325rem;height:1.325rem;margin:0 0.06rem;vertical-align:-0.4rem}.chatlog__emoji--small{width:1rem;height:1rem}.chatlog__emoji--large{width:2.8rem;height:2.8rem}.postamble{padding:1.25rem}.postamble__entry{color:#ffffff}</style><link rel=stylesheet href="discord_assets/solarized-dark.min-BA98F.css"><script src="discord_assets/highlight.min-D8D27.js"></script><script>document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.chatlog__markdown-pre--multiline').forEach(e=>hljs.highlightBlock(e));});</script><script src="discord_assets/lottie.min-99657.js"></script><script>document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.chatlog__sticker--media[data-source]').forEach(e=>{const anim=lottie.loadAnimation({container:e,renderer:'svg',loop:true,autoplay:true,path:e.getAttribute('data-source')});anim.addEventListener('data_failed',()=>e.innerHTML='<strong>[Sticker cannot be rendered]</strong>');});});</script><script>function scrollToMessage(event,id){const element=document.getElementById('chatlog__message-container-'+id);if(!element)
+return;event.preventDefault();element.classList.add('chatlog__message-container--highlighted');window.scrollTo({top:element.getBoundingClientRect().top-document.body.getBoundingClientRect().top-(window.innerHeight/2),behavior:'smooth'});window.setTimeout(()=>element.classList.remove('chatlog__message-container--highlighted'),2000);}
+function showSpoiler(event,element){if(!element)
+return;if(element.classList.contains('chatlog__attachment--hidden')){event.preventDefault();element.classList.remove('chatlog__attachment--hidden');}
+if(element.classList.contains('chatlog__markdown-spoiler--hidden')){event.preventDefault();element.classList.remove('chatlog__markdown-spoiler--hidden');}}</script><svg style=display:none xmlns=http://www.w3.org/2000/svg><defs><symbol id=attachment-icon viewBox="0 0 720 960"><path fill=#f4f5fb d=M50,935a25,25,0,0,1-25-25V50A25,25,0,0,1,50,25H519.6L695,201.32V910a25,25,0,0,1-25,25Z /><path fill=#7789c4 d=M509.21,50,670,211.63V910H50V50H509.21M530,0H50A50,50,0,0,0,0,50V910a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50h0V191Z /><path fill=#f4f5fb d=M530,215a25,25,0,0,1-25-25V50a25,25,0,0,1,16.23-23.41L693.41,198.77A25,25,0,0,1,670,215Z /><path fill=#7789c4 d=M530,70.71,649.29,190H530V70.71M530,0a50,50,0,0,0-50,50V190a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50Z /></symbol><symbol id=join-icon viewBox="0 0 18 18"><path fill=#3ba55c d="m0 8h14.2l-3.6-3.6 1.4-1.4 6 6-6 6-1.4-1.4 3.6-3.6h-14.2" /></symbol><symbol id=leave-icon viewBox="0 0 18 18"><path fill=#ed4245 d="m3.8 8 3.6-3.6-1.4-1.4-6 6 6 6 1.4-1.4-3.6-3.6h14.2v-2" /></symbol><symbol id=call-icon viewBox="0 0 18 18"><path fill=#3ba55c fill-rule=evenodd d="M17.7163041 15.36645368c-.0190957.02699568-1.9039523 2.6680735-2.9957762 2.63320406-3.0676659-.09785935-6.6733809-3.07188394-9.15694343-5.548738C3.08002193 9.9740657.09772497 6.3791404 0 3.3061316v-.024746C0 2.2060575 2.61386252.3152347 2.64082114.2972376c.7110335-.4971705 1.4917101-.3149497 1.80959713.1372281.19320342.2744561 2.19712724 3.2811005 2.42290565 3.6489167.09884826.1608492.14714912.3554431.14714912.5702838 0 .2744561-.07975258.5770327-.23701117.8751101-.1527655.2902036-.65262318 1.1664385-.89862055 1.594995.2673396.3768148.94804468 1.26429792 2.351016 2.66357424 1.39173858 1.39027775 2.28923588 2.07641807 2.67002628 2.34187563.4302146-.2452108 1.3086162-.74238132 1.5972981-.89423205.5447887-.28682915 1.0907006-.31944893 1.4568885-.08661115.3459689.2182151 3.3383754 2.21027167 3.6225641 2.41611376.2695862.19234426.4144887.5399137.4144887.91672846 0 .2969525-.089862.61190215-.2808189.88523346" /></symbol><symbol id=pencil-icon viewBox="0 0 18 18"><path fill=#99aab5 d="m0 14.25v3.75h3.75l11.06-11.06-3.75-3.75zm17.71-10.21c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75z" /></symbol><symbol id=pin-icon viewBox="0 0 18 18"><path fill=#b9bbbe d="m16.908 8.39684-8.29587-8.295827-1.18584 1.184157 1.18584 1.18584-4.14834 4.1475v.00167l-1.18583-1.18583-1.185 1.18583 3.55583 3.55502-4.740831 4.74 1.185001 1.185 4.74083-4.74 3.55581 3.555 1.185-1.185-1.185-1.185 4.1475-4.14836h.0009l1.185 1.185z" /></symbol><symbol id=channel-icon viewBox="0 0 24 24"><path fill=#b9bbbe d="M5.88657 21C5.57547 21 5.3399 20.7189 5.39427 20.4126L6.00001 17H2.59511C2.28449 17 2.04905 16.7198 2.10259 16.4138L2.27759 15.4138C2.31946 15.1746 2.52722 15 2.77011 15H6.35001L7.41001 9H4.00511C3.69449 9 3.45905 8.71977 3.51259 8.41381L3.68759 7.41381C3.72946 7.17456 3.93722 7 4.18011 7H7.76001L8.39677 3.41262C8.43914 3.17391 8.64664 3 8.88907 3H9.87344C10.1845 3 10.4201 3.28107 10.3657 3.58738L9.76001 7H15.76L16.3968 3.41262C16.4391 3.17391 16.6466 3 16.8891 3H17.8734C18.1845 3 18.4201 3.28107 18.3657 3.58738L17.76 7H21.1649C21.4755 7 21.711 7.28023 21.6574 7.58619L21.4824 8.58619C21.4406 8.82544 21.2328 9 20.9899 9H17.41L16.35 15H19.7549C20.0655 15 20.301 15.2802 20.2474 15.5862L20.0724 16.5862C20.0306 16.8254 19.8228 17 19.5799 17H16L15.3632 20.5874C15.3209 20.8261 15.1134 21 14.8709 21H13.8866C13.5755 21 13.3399 20.7189 13.3943 20.4126L14 17H8.00001L7.36325 20.5874C7.32088 20.8261 7.11337 21 6.87094 21H5.88657ZM9.41045 9L8.35045 15H14.3504L15.4104 9H9.41045Z" /></symbol><symbol id=thread-icon viewBox="0 0 24 24"><path fill=#b9bbbe d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274C2.06819 17 2.01168 16.9327 2.02453 16.8593L2.33253 15.0993C2.34258 15.0419 2.39244 15 2.45074 15H6.34991L7.40991 9H3.55274C3.47819 9 3.42168 8.93274 3.43453 8.85931L3.74253 7.09931C3.75258 7.04189 3.80244 7 3.86074 7H7.75991L8.45234 3.09903C8.46251 3.04174 8.51231 3 8.57049 3H10.3267C10.4014 3 10.4579 3.06746 10.4449 3.14097L9.75991 7H15.7599L16.4523 3.09903C16.4625 3.04174 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.06746 18.4449 3.14097L17.7599 7H21.6171C21.6916 7 21.7481 7.06725 21.7353 7.14069L21.4273 8.90069C21.4172 8.95811 21.3674 9 21.3091 9H17.4099L17.0495 11.04H15.05L15.4104 9H9.41035L8.35035 15H10.5599V17H7.99991L7.30749 20.901C7.29732 20.9583 7.24752 21 7.18934 21H5.43309Z" /><path fill=#b9bbbe d="M13.4399 12.96C12.9097 12.96 12.4799 13.3898 12.4799 13.92V20.2213C12.4799 20.7515 12.9097 21.1813 13.4399 21.1813H14.3999C14.5325 21.1813 14.6399 21.2887 14.6399 21.4213V23.4597C14.6399 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6622 21.2695 17.8916 21.1813 18.1294 21.1813H22.5599C23.0901 21.1813 23.5199 20.7515 23.5199 20.2213V13.92C23.5199 13.3898 23.0901 12.96 22.5599 12.96H13.4399Z" /></symbol></defs></svg><body><div class=preamble><div class=preamble__guild-icon-container><img class=preamble__guild-icon src="discord_assets/a_14958677705c78f552a8308a4ef73755-EBAC4.gif" alt="Guild icon" loading=lazy></div><div class=preamble__entries-container><div class=preamble__entry>Fate/Starry Night RP</div><div class=preamble__entry>Season 4.5 / round-3 / Thalassophobia</div></div></div>
+<div class="chatlog">
+
+<div class=chatlog__message-group><div id=chatlog__message-container-1108732494179741726 class=chatlog__message-container data-message-id=1108732494179741726><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/305cbdb3b227d74c6fc9693d25d1e37f-C78B3.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(130,255,181) title=tachipoyo data-user-id=155195388498935808>Tachi</span> <span class=chatlog__timestamp title="Thursday, May 18, 2023 7:27 AM"><a href=#chatlog__message-container-1108732494179741726>5/18/2023 7:27 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Just an innocent fishing trip is all</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1108732528514318336 class=chatlog__message-container data-message-id=1108732528514318336><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/ee9bd0107e6875a7f9d2a1c40f5979fd-7F396.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Philoctetes || Heracles's Successor" data-user-id=1100589454785253481>Philoctetes || Heracles&#x27;s Successor</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Thursday, May 18, 2023 7:27 AM"><a href=#chatlog__message-container-1108732528514318336>5/18/2023 7:27 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>It was difficult to label Philoctetes a man of the sea, when compared to others who made a living off of the profession. The person himself, though, would loudly declare himself as one. Troy was quite the distance off via sea from Greece, and he had spent a significant portion of his life atop an island. And while Lemnos had a rich variety of mountains, when your foot was swollen from a painful poison, fishing was a much more appealing recreational activity. After all, rowing a boat required significantly less foot movement than hiking.
+
+So when given the opportunity to do so, being brought near the ocean, he immediately… ‘borrowed’ a small kayak for himself, and started rowing out. The concept of a one-person ship was still a little bit confusing to him, though. Part of the fun in setting out to the seas was the chatter present everywhere around the ship. Getting to tease the others over accidentally stumbling into Scylla and Charybdis’s channel was always a fun experience.
+
+He never understood those who claimed to be afraid of the ocean. It was dangerous, to be sure, but was it anymore terrifying than marching into battle? An argument often made was that the unknown underneath the oceans felt terrifying, but as someone who has spent a majority of his life fishing, he couldn’t help but think that whatever was underneath couldn’t possibly be <em>that</em> crazy. A couple of fish, and then a couple of bigger fish.
+
+As far as Philoctetes was concerned, the storms and raging waves were far scarier. Things that were visible from above the surface. Even when it came to the deadly creatures that people might hypothesize to exist, the well-known ocean threats were all above the water. As long as one kept your sight peeled, and themselves well-fed, all would be good.</span></div></div></div></div><div id=chatlog__message-container-1108732538094096495 class=chatlog__message-container data-message-id=1108732538094096495><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Thursday, May 18, 2023 7:27 AM">7:27 AM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>—Oh, speaking of meals! Something <em>finally</em> caught onto his lure! Based on the weight, seemed like a huge one, too.
+
+“Seems like we’ll easily have enough portions for two tonight!”
+
+Provided he could pull it up, that was. He was determined to eat fresh seafood for the first time since his summoning, though. He had taken quite a liking to McDonalds over the course of his summoning, but their Fillet-O-Fish was good on its own right, but it didn’t scratch the itch.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1108732548147843073 class=chatlog__message-container data-message-id=1108732548147843073><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/305cbdb3b227d74c6fc9693d25d1e37f-C78B3.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(130,255,181) title=tachipoyo data-user-id=155195388498935808>Tachi</span> <span class=chatlog__timestamp title="Thursday, May 18, 2023 7:27 AM"><a href=#chatlog__message-container-1108732548147843073>5/18/2023 7:27 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>(<span class="chatlog__markdown-mention" title="Deleted User">@Deleted User</span>)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1108811387871961180 class=chatlog__message-container data-message-id=1108811387871961180><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/5ed764a468170335719ae34785d08897-18E4E.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title=Lindwyrm data-user-id=1100589454785253481>Lindwyrm</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Thursday, May 18, 2023 12:40 PM"><a href=#chatlog__message-container-1108811387871961180>5/18/2023 12:40 PM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Only muted sounds reached the beast’s ears as it swam, the disturbed riverbed sands swirling and curling around its slithering form as it cut through the water with unpracticed ease.
+
+It was hungry. Always hungry.
+
+Its Master neglected or was unable to provide it with any magical energy to make up for its incredibly wasteful spending, and denied the attempt of taking her flesh and blood as recompense, it was instead forced to give in to its primal instinct to feed. To gorge itself on the tasteless impoverished masses which acted as a mere trickle to Lindwyrm’s parched appetite. What the people lacked in quality, it was compelled to make up for in quantity, and so it had sunk many a ship in its nightly forays across the Nile.
+
+Today appeared to be a special occasion, however.
+
+A meal, robust and brimming with vitality. Its presence practically shone with unparalleled brilliance, similar in form to that headache of a jester, but far far more delectable. A single bite, a mere nibble of this soul would be of more substantial value than any of its past victims, and starved for such a feast, Lindwyrm allowed its rumbling belly to decide its next course of action before whatever semblance of sentience left to it had the opportunity to object.
+<em> </em></span></div></div></div></div><div id=chatlog__message-container-1108811444390199388 class=chatlog__message-container data-message-id=1108811444390199388><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Thursday, May 18, 2023 12:40 PM">12:40 PM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Its limbs shifted, correcting its course.
+Whereas it has been aimlessly meandering beneath the river’s surface before, now it made a beeline for the middle of the river from where it could sense the presence of its prey. Despite being submerged in water, already it could feel its saliva building in its maw, the promise of easy prey carelessly wandering in its claimed hunting ground a mouth-watering thought.
+
+Yet before it struck, something unexpected captured its attention.
+Something shiny. Something curved. A wriggling pest tied to the metal hook for no reason it could discern.
+
+<code class="chatlog__markdown-pre chatlog__markdown-pre--inline">“...”</code>
+
+Lindwyrm was momentarily mesmerized by the sight for no explicable reason, its eyes following the gentle sway of the fishhook as it failed to capture any fish… which naturally had nothing to do with the presence of the enormous dragon causing any potential catches to flee for their lives.
+Just like that it floated there, eyes fixed on the hook, deliberating on whether or not to give in to a peculiar growing urge. Until. Inevitably. The beast took the bait.
+
+With a hearty chomp it devoured the freely offered bait, the hunter now seemingly becoming the hunted without its knowledge, though it was debatable whether or not anyone would consider what had just happened ‘hunting’.
+<em> </em></span></div></div></div></div><div id=chatlog__message-container-1108811487595724981 class=chatlog__message-container data-message-id=1108811487595724981><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Thursday, May 18, 2023 12:40 PM">12:40 PM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>The lure had performed admirably, netting in a catch worthy of even the greatest of heroes, though it was unclear whether or not Philoctetes had ever even intended to contend with something of this size for what was supposed to be his relaxing day off.
+
+The hook had pierced soft flesh, and reminded of the wounds it had received not all too long ago, Lindwyrm immediately erupted into a pained rage, breaching the water&#39;s surface to ease the pain of the fishing line’s violent tugging by moving towards it rather than fighting it. To its surprise, it was greeted by the sight of a handsome hero, his mere presence radiating enough magical energy to make him forget about the thorn in its cheek.
+Perfect. Reminded of its forgotten objective, Lindwyrm descended upon its prey with a delightful roar, seeking to swallow him whole and enjoy every last mote of his existence.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1108811512107245628 class=chatlog__message-container data-message-id=1108811512107245628><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/3-FB033.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Deleted User" data-user-id=456226577798135808>Deleted User</span> <span class=chatlog__timestamp title="Thursday, May 18, 2023 12:41 PM"><a href=#chatlog__message-container-1108811512107245628>5/18/2023 12:41 PM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve><span class="chatlog__markdown-mention" title="tachipoyo">@Tachi</span></span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1109815990574919770 class=chatlog__message-container data-message-id=1109815990574919770><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/ee9bd0107e6875a7f9d2a1c40f5979fd-7F396.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Philoctetes || Heracles's Successor" data-user-id=1100589454785253481>Philoctetes || Heracles&#x27;s Successor</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Sunday, May 21, 2023 7:12 AM"><a href=#chatlog__message-container-1109815990574919770>5/21/2023 7:12 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Philoctetes excitedly pulled up the catch. You could usually tell how big a creature was based on nothing but how strongly it resisted being reeled in. If he hadn’t lost touch, the fish on the other side of the hook seemed to be… maybe a shark? A bit unorthodox, but so long as it filled the stomach, he couldn’t complain. More than that, pulling up something as menacing as a shark was a first for him. It was worth making it surface, if for that alone.
+
+There it was, rapidly approaching the water’s surface! Philoctetes knew his strength best, but even he was surprised at how effectively he was managing to pull up the shark. Based on the paleness of the flesh, he surmised this was what they called a ‘Great White’. Just a little bit more, and…
+
+… Calming down for a moment, all things said and done, wasn’t it a little bit <em>too</em> easy to pull up? 
+
+Only when the Phantasmal Beast peeked its head out of the waters did that realization occur. It wasn’t that he was feeling something as heavy as a shark, it was just that something much heavier than a shark was actively working <em>to</em> surface, making it feel lighter than he’d perhaps otherwise expect.
+
+Dragons were all but extinct in the modern world, weren’t they? Must have been a Servant… although admittedly, seeing the sight of the albinic serpent lunging towards him made it clear that their exact nature was the least of his concerns.
+
+“Crap.”
+
+While a cold sweat ran down his face, Philoctetes began to row the boat as quickly as he could. He paid much mind to Lindwyrm’s agape jaw, but refused to look anywhere but directly forwards, concentrating on getting his vessel out of the way of the attack.</span></div></div></div></div><div id=chatlog__message-container-1109816001454932078 class=chatlog__message-container data-message-id=1109816001454932078><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Sunday, May 21, 2023 7:12 AM">7:12 AM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Although, in comparison to how quickly the serpent began its attack, Philoctetes had much less time to prepare himself. He could only generate so much momentum in a short burst, no matter how much of his strength he exerted. Lindwyrm’s fangs tore through the boat, splitting it in half— although miraculously, Philoctetes had managed to avoid the strike. Perhaps he should be thankful with that alone.
+
+Standing on the helm of the half-boat, Philoctetes summoned his bow into his hands, and finally stared down at the enemy whilst taking in a deep breath.
+
+… Wasn’t this thing way too big, no matter how you sliced it? How long had it been lurking underneath the seas?
+
+“My ship’s… sorry. My <em>ships</em> are barely floating, my fishing pole is dangling from the dragon’s mouth, and I’m about half an hour’s distance away from shore. Got nothing but a bow to my name.”
+
+If he was gonna aim, he should go for critical locations, such as eyes and the throat first.
+
+“Seems like a perfect conditions to hunt for eels!”
+
+Or so he exclaimed, covering up the fear.
+
+Maybe he understood a <em>bit</em> of what his crew meant come now. This was properly scary.
+
+Still though, to start with, his arrows flew swift. Two arrows released near simultaneously— both headed towards the beast’s eyes. Even if they didn’t land, they would cover the Berserker’s sights for a moment.
+
+Encroaching godspeed, he released a third, aimed towards its right wing. While for a creature so large, he hardly expected the arrows aimed at the eyes to land without being deflected, it should take the beast’s attention away from the surprise shot towards the wing.
+
+—Immediately after shooting the third shot, Philoctetes felt a tingle go up his arms. Even just releasing three at such quick succession was still stressful for his arms.
+
+That was no good. He’d want to at least be able to bring out a ninth of Heracles’s speed by default.
+
+The dragon in front of him had 1/9th of the number of heads the Hydra did, after all.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1109816008526544896 class=chatlog__message-container data-message-id=1109816008526544896><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/305cbdb3b227d74c6fc9693d25d1e37f-C78B3.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(130,255,181) title=tachipoyo data-user-id=155195388498935808>Tachi</span> <span class=chatlog__timestamp title="Sunday, May 21, 2023 7:12 AM"><a href=#chatlog__message-container-1109816008526544896>5/21/2023 7:12 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>(<span class="chatlog__markdown-mention" title="Deleted User">@Deleted User</span>)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1110198737508257822 class=chatlog__message-container data-message-id=1110198737508257822><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/5ed764a468170335719ae34785d08897-18E4E.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title=Lindwyrm data-user-id=1100589454785253481>Lindwyrm</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Monday, May 22, 2023 8:33 AM"><a href=#chatlog__message-container-1110198737508257822>5/22/2023 8:33 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve><code class="chatlog__markdown-pre chatlog__markdown-pre--inline">“!?”</code>
+
+Its attack was dodged, its prey proving to be nimble. What it had taken for an easy meal was in fact another predator boldly encroaching on its turf, arrogant enough to not even hide its presence. The similarities between his presence and that jester’s now made sense.
+Memories of that night came flooding back. Recent wounds, though already healed, aching as if the very memory alone invoked a sort of phantom pain.
+
+Driven purely by this reminder of its blinded eye, Lindwyrm reflexively twisted its head aside to prevent the same wounds from reopening after having only just closed thanks to its belligerent feeding, instead receiving Philoctetes’ arrows with its scalp and ear. Their sharpened tips penetrated the beast’s hide… but not completely.
+
+Though they no doubt proved effective, Lindwyrm’s charge halted as it thrashed about in pain and tore apart whatever remained of the hero’s lawfully ‘borrowed’ boat, their shafts did not penetrate nowhere nearly as deeply as one would expect. Was it simply that its hide was thickest near its head? No. As mere moments later, the final arrow connected with its wing, the thin membrane giving way to the loosened projectile as it mercilessly tore a hole into its taut surface, but yet again, its velocity slowed significantly, almost inexplicably, and limply fell into the river after having served its duty.
+<em> </em></span></div></div></div></div><div id=chatlog__message-container-1110198792046788690 class=chatlog__message-container data-message-id=1110198792046788690><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Monday, May 22, 2023 8:33 AM">8:33 AM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Though not quite the hydra laid low by his predecessor, this dragon yet proved itself worthy of its Phantasmal name, boasting some manner of trickery which allowed it to resist even a Greek Hero’s opening volley.
+Which now served only to deepen the fervor of its wrath. Wrath now directed at its attacker.
+
+Releasing an ear-splitting screech, Lindwyrm molded, compressed, and released its draconic essence in the form of a violent blizzard, tearing apart the surface of the water and causing the spontaneous and violent growth of numerous piercing icicles which gradually encroached on Philoctetes. Ironically this only served to furnish him with more steady ground to place his feet, but that detail seemed to be lost on the raging beast.
+
+When the dust settled and the storm ceased its crackling howl, the white serpent was nowhere to be seen.
+
+Its wing now damaged, the sky would only cause it pain, and so it was clear which hunting ground it chose for its next attack. The river had long become its domain, and it would remind its prey of its familiarity with its waters.
+
+Already a shadow appeared beneath Philoctetes’ feet, the vague outline of a rose’s blooming petals growing ever larger on the ice’s surface, heralding Lindwyrm next attack.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1110198841338236968 class=chatlog__message-container data-message-id=1110198841338236968><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/3-FB033.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Deleted User" data-user-id=456226577798135808>Deleted User</span> <span class=chatlog__timestamp title="Monday, May 22, 2023 8:33 AM"><a href=#chatlog__message-container-1110198841338236968>5/22/2023 8:33 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve><span class="chatlog__markdown-mention" title="tachipoyo">@Tachi</span></span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1110502034815324170 class=chatlog__message-container data-message-id=1110502034815324170><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/ee9bd0107e6875a7f9d2a1c40f5979fd-7F396.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Philoctetes || Heracles's Successor" data-user-id=1100589454785253481>Philoctetes || Heracles&#x27;s Successor</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Tuesday, May 23, 2023 4:38 AM"><a href=#chatlog__message-container-1110502034815324170>5/23/2023 4:38 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>He expected the two decoy arrows to be completely deflected, but the stray projectiles managed to land on <em>something</em>. Not at all an unwelcome sign. Unlike the slowly sinking remnant of what used to be a boat that Philoctetes was barely managing to balance on.
+
+The beast’s wings were damaged, but far from rendered unusable. Not the outcome he had wanted, but it did let him gather some vital information. Even if most of it was bad news.
+
+First— through some mysterious means, the beast could reduce the damage from his arrows. The arrows seemed to fall to the ground, stopped right in their tracks. It was too soon to tell the exact mechanisms, though. Whether his arrows grew slower and slower the closer they approached the Berserker, or if the damage itself was directly reduced, was difficult to distinguish.
+
+Second— not all parts of the dragon were protected. It likely had some weak points. Otherwise it would not make sense for it to dodge the arrows headed for its eyes. Just like armor couldn’t cover all parts of the human body without compromising movement, the serpent’s barrier left some <u>weak spots</u>. 
+
+Considering its reptilian nature, maybe it had scales that interfered with Philoctetes’s attacks? Scales over eyes would rather severely compromise vision.
+
+His assumption that the serpent had weak spots was a correct one. He had just misjudged the wing as one… or perhaps he just wishfully thought it would have been. It would have been much easier to battle the Phantasmal Beast if it could no longer move freely.
+
+Oh, before he could even realize, he was given a convenient third piece of information!
+
+Third— the dragon could release a very menacing breath of ice, as shown by the icicles that slowly approached him.</span></div></div></div></div><div id=chatlog__message-container-1110502072694079529 class=chatlog__message-container data-message-id=1110502072694079529><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Tuesday, May 23, 2023 4:38 AM">4:38 AM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>“Aghhh, whatever, its already a sinking ship!”
+
+Jumping far backwards from the boat, he left it to get crushed by the icicles, buying him enough time for the storm of icicles to pass by him. Of course, now the issue stood that he was headed straight down towards a what was effectively a frozen punji stick…
+
+“Come to me, <strong>「Pentematia」</strong>.”
+
+Five metallic satellites began to circle around Philoctetes. One of them moved underneath his foot for an instant, attempting to slow down his fall. An attempt is as far as it went, however. Considering how light the satellites would need to be in order to move around nimbly, it would struggle to support the weight of a whole falling man. Still, it <em>could</em> slow him down slightly, and more importantly— allow him to adjust his direction.
+
+Skewing his fall a few centimeters to the side, Philoctetes ensured his body would be stationed above only one of the icicles, rather than needing to risk being impaled by multiple. And to cover for the last icicle, he extended his left hand outwards, letting his palm get penetrated by the pointed tip.
+
+The pain was enough to make him want to shout out, but in exchange, he managed to slow his fall to a near halt. Although the momentum seemed to be great enough to break the tip of the icicle and send him tumbling to the surface of the lake, covered by only the bases of the icicles.
+
+“Tch—“
+
+He pulled out the pointed object from his palm. Gritting his teeth, he did his best to not shout out.</span></div></div></div></div><div id=chatlog__message-container-1110502085390254130 class=chatlog__message-container data-message-id=1110502085390254130><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Tuesday, May 23, 2023 4:38 AM">4:38 AM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Had Heracles been here, he would not have shown an ounce of pain.
+
+Had Heracles been here, he would have been able to avoid the spikes much more effectively.
+
+There wasn’t much room to allow himself to feel pain.
+
+Without giving Philoctetes much time to recover, a rose petal made Philoctetes’s predicament clear. He came with the intention to hunt, and yet before he realized, he had been turned into the prey. Thankfully, the ice breath created a platform for him to stand in— a platform that might be large enough to let him dodge the attack.
+
+Just as though a rabbit fleeing from a predator, Philoctetes began to move out of the rose’s way, before a critical thought crossed his mind.
+
+<code class="chatlog__markdown-pre chatlog__markdown-pre--inline">Had Heracles been here, he would not be fleeing.</code>
+
+“… I know that already, damn it.”
+
+<code class="chatlog__markdown-pre chatlog__markdown-pre--inline">Had Heracles been here, the battle would already be over.</code>
+
+Philoctetes took in a deep breath, clenching the icicle tightly in his hands.
+
+If he ran from the threat here, who else would he be able to rely on to defeat this monster?
+
+“Pentematia, Formation Delta.”
+
+The satellites that normally orbited Philoctetes closely spread out as far as possible. All five began circling him in an oblique orbit from a far distance. A distance optimized to see as large of an area as possible around him.
+
+“<strong>I’ll</strong> do it.”
+
+Standing directly in the center of the rose, hopefully right where Lindwyrm’s maw would be, Philoctetes readied himself with a cocky smile.
+
+“You want to eat me, don’t you? Come at me, then! I’ll have you know I’m very thorny!”
+
+Scales didn’t cover eyes. They didn’t cover throats, either. The moment the serpent swallowed him, he would retaliate by jabbing the icicle directly into its throat. He could keep an eye on its state with his satellites from outside until it puked out the disgusting meal.
+
+This was the rather impatient Killing Angle he came up with.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1110502098031890432 class=chatlog__message-container data-message-id=1110502098031890432><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/305cbdb3b227d74c6fc9693d25d1e37f-C78B3.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(130,255,181) title=tachipoyo data-user-id=155195388498935808>Tachi</span> <span class=chatlog__timestamp title="Tuesday, May 23, 2023 4:38 AM"><a href=#chatlog__message-container-1110502098031890432>5/23/2023 4:38 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>(<span class="chatlog__markdown-mention" title="Deleted User">@Deleted User</span>)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1110540135780593704 class=chatlog__message-container data-message-id=1110540135780593704><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/5ed764a468170335719ae34785d08897-18E4E.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title=Lindwyrm data-user-id=1100589454785253481>Lindwyrm</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Tuesday, May 23, 2023 7:10 AM"><a href=#chatlog__message-container-1110540135780593704>5/23/2023 7:10 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Lindwyrm’s prey did not move. Perfect. The Greek Hero seemed to have gotten trapped in the ice as it had hoped, and now unable to move, presented itself as an almost insultingly easy meal. One it would not keep itself from any longer.
+
+With a shattering burst, the ground around Philoctetes erupted into numerous glittering fragments as the submerged beast tore straight through it, fanged maw leading the way and closing around him before he even had the chance to become aware of his predicament.
+
+<code class="chatlog__markdown-pre chatlog__markdown-pre--inline">“Ahhh…”</code>
+
+Lindwyrm allowed itself a satisfied purr at the promise of an unforgettable meal, its body crashing back down into the river and lazily floating upon its surface, when suddenly-
+
+Something did not feel quite right.
+
+It did not intellectually note this oddity, but rather felt something was off on an instinctual level.
+What were these stars that floated around him? Had they always been there? Did it remember to chew and tear its victim into pieces, or did it swallow him whole?
+
+An overwhelming dread washed over Lindwyrm, but it was far, far too late.
+The Hero it mistook as prey had been far from idle in its throat.</span> <span class=chatlog__edited-timestamp title="Tuesday, May 23, 2023 9:14 PM">(edited)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1110540156026494987 class=chatlog__message-container data-message-id=1110540156026494987><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/3-FB033.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Deleted User" data-user-id=456226577798135808>Deleted User</span> <span class=chatlog__timestamp title="Tuesday, May 23, 2023 7:10 AM"><a href=#chatlog__message-container-1110540156026494987>5/23/2023 7:10 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve><span class="chatlog__markdown-mention" title="tachipoyo">@Tachi</span></span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1110545048526934086 class=chatlog__message-container data-message-id=1110545048526934086><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/ee9bd0107e6875a7f9d2a1c40f5979fd-7F396.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Philoctetes || Heracles's Successor" data-user-id=1100589454785253481>Philoctetes || Heracles&#x27;s Successor</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Tuesday, May 23, 2023 7:29 AM"><a href=#chatlog__message-container-1110545048526934086>5/23/2023 7:29 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>A sharp pain penetrated Lindwyrm’s throat, as Philoctetes thrusted the icicle into the walls of its throat. Exactly what he wanted. Now, he had god knows how long before the icicle melted to do as much damage as he could. Hopefully by then, he could have the snake vomit him out safely.
+
+Perhaps his time would be even more limited based on what his viridian right eye showed him. The serpent was already growing suspicious. He was prepared to start retaliating even as it started biting down, but perhaps distracted by its famine, it rushed to swallow the Archer whole.
+
+In retaliation, the hero began to jab his arrows against the throat as hard as he could.
+
+With only one hand free, and his target so close-by, he didn’t need to draw his bow’s strings. He just needed to draw one from his quiver, jab it into the wall, and then use his divine steel to hammer it deeper into the flesh. Again, and again, and again.
+
+It would be ideal to render its throat useless, preventing it from breathing… but the scales would most likely stop the arrows from penetrating out the other side. Even still, the pain should be incomparable.
+
+… Every now and then, Philoctetes kept looking down deeper into the throat, before continuing to use his hammer. Simultaneously, he kept an eye on whether the dragon dived back underwater with his satellites. Both the possibility of the ice breath starting again, and water rushing in to try and drown him were something he needed to keep an eye out for.
+
+“… Ew.”
+
+It also served as a nice distraction from the deluge of saliva.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1110545056340918354 class=chatlog__message-container data-message-id=1110545056340918354><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/305cbdb3b227d74c6fc9693d25d1e37f-C78B3.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(130,255,181) title=tachipoyo data-user-id=155195388498935808>Tachi</span> <span class=chatlog__timestamp title="Tuesday, May 23, 2023 7:29 AM"><a href=#chatlog__message-container-1110545056340918354>5/23/2023 7:29 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>(<span class="chatlog__markdown-mention" title="Deleted User">@Deleted User</span>)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1112091757769916489 class=chatlog__message-container data-message-id=1112091757769916489><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/5ed764a468170335719ae34785d08897-18E4E.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title=Lindwyrm data-user-id=1100589454785253481>Lindwyrm</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Saturday, May 27, 2023 1:55 PM"><a href=#chatlog__message-container-1112091757769916489>5/27/2023 1:55 PM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Pain. Once again Lindwyrm was torn apart from the inside out.
+Against Triboulet it had lost its tongue, and against Philctotetes, its throat was now being punctured full of holes and turned into ostrich skin. It had no say in what happened next, as immediately its throat constricted around its attacker, walls of bleeding flesh convulsing and unfortunately only pushing Philoctetes’ arrows even deeper into its wounded tissue, all in an effort to regurgitate the source of its blinding torment.
+
+Lindwyrm’s whole body shuddered and retched as it violently spat out Philoctetes and sent him bouncing across the river’s surface, the very act paralyzing the beast as it had to grapple with the left-behind arrowheads carving deep gashes as they resisted their wielder’s forced expulsion.
+
+Moving. Growling. The very act of breathing caused its nerves to flare up, not even allowing it from doing so much as twitch as it thought to chase after its opponent, but was forced to remain idle instead. Unlike when it had its tongue cut, lacerations of the quantity and scale it had just received weren’t something it could simply ignore while giving itself into the numbing stupor of its rage. In which case it was left with no other choice.
+<em> </em></span></div></div></div></div><div id=chatlog__message-container-1112091830792765460 class=chatlog__message-container data-message-id=1112091830792765460><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Saturday, May 27, 2023 1:55 PM">1:55 PM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>The water’s surface rippled as Lindwyrm reared back its head and screamed a messy aching screech, the sound of rough gurgling and crunching preceding its next blast of its icy breath, although as expected, it veered straight off and impacted far enough where all that would reach Philoctetes would be the chill breeze of the frozen land-mass’ formation, only this time accompanied by the coppery stench of the beast’s blood that had been infused into the ice, dying it in a rich translucent red.
+
+Immediately after it charged forward, its movements erratic and clumsy, a hurt animal with a single-minded purpose, though what was curious was that it did not head for Philoctetes at all, instead violently slamming its body against the thorny spikes of the small glacier. Repeatedly. Over and over. Scraping and rasping its body against it in a frenzy, until finally… the results showed.
+
+Its scales cracked and split, skin catching itself on the ice and peeling itself off Lindwyrm to reveal its hide to be unblemished, even by Philoctetes’ previous arrows that had embedded itself in its head, the movement of its neck now smooth and unbothered as if miraculously healed of its internal injuries. What was most striking however was the massive release of magical energy that bled out as soon as the hide was torn off, as if lifting a blanket that had kept the accumulated smoke of a roaring campfire at bay, all of it escaping into the air and released from its host. In other words, lost and wasted.
+<em> </em></span></div></div></div></div><div id=chatlog__message-container-1112091875474690078 class=chatlog__message-container data-message-id=1112091875474690078><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Saturday, May 27, 2023 1:56 PM">1:56 PM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Lindwyrm’s potency, the might emanating from its very being, had now noticeably plummeted by roughly a tenth of what it once was, and although the beast now relished in the relief and escape from its pain, an experienced warrior on the level of a great hero of the Trojan War would be able to note a slight sluggishness now present in its movements that had certainly not been there before.
+
+Whatever the process that had just occurred was, it appeared incredibly taxing on the beast.
+And dangerous.
+The act had taken some time, leaving it completely vulnerable to its attacker, and even as it turned to face him now, it had left itself wide open, not leaving itself enough time to recommence the attack.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1112091891492716585 class=chatlog__message-container data-message-id=1112091891492716585><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/3-FB033.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Deleted User" data-user-id=456226577798135808>Deleted User</span> <span class=chatlog__timestamp title="Saturday, May 27, 2023 1:56 PM"><a href=#chatlog__message-container-1112091891492716585>5/27/2023 1:56 PM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve><span class="chatlog__markdown-mention" title="tachipoyo">@Tachi</span></span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1112601708674166804 class=chatlog__message-container data-message-id=1112601708674166804><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/ee9bd0107e6875a7f9d2a1c40f5979fd-7F396.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Philoctetes || Heracles's Successor" data-user-id=1100589454785253481>Philoctetes || Heracles&#x27;s Successor</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Sunday, May 28, 2023 11:41 PM"><a href=#chatlog__message-container-1112601708674166804>5/28/2023 11:41 PM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Philoctetes maniacally continued stabbing the serpent’s throat, even as he got covered by more and more of its gooey saliva. Thankfully, one of the satellites and the jugular movement of the beast conveyed to him that it wouldn’t last much longer. The refreshing slam into the water’s surface cracked some bones, but cleansed away the nasty fluid with each bounce.
+
+The beast squirmed. Perfect! In comparison to his first volley, it was a clear sign of pain. The only issue now was that diving into the beast’s throat to bypass whatever defense it had was… far from a repeatable plan. Next time, it might bite down. Or even worse, freeze Philoctetes while he was powerless inside. <em>Maybe</em> he could take one or two blasts of ice, but it wasn’t a risk he was happy about taking.
+
+While Philoctetes was stuck as to continue his attack, Lindwyrm began to split its skin apart, emerging out of the ritual in a perfectly healed state. Not just the internal wounds, but the ones caused from his first arrows were erased as well.
+
+… That was a surprise. The Servant was unmistakably a serpent, but Philoctetes didn’t expect it to <em>shed</em> its skin. That was unmistakably what had happened, right?
+
+Seeing the Berserker in an exhausted state, barely being able to keep itself moving, gave Philoctetes a flash of inspiration. Although admittedly, it was a lot more brutish of a solution than he preferred.
+
+In its current weakened state, if Philoctetes could force it beyond the shedding’s healing capabilities, he could slay the beast.
+
+Philoctetes emerged atop the crimson ice before taking in a deep breath. He was no Heracles, but he thought of himself as above the God of Strength when it came to sorting his enemy’s weaknesses and exploiting them. In spite of that, it was almost ironic that Philoctetes ended up coming to the same conclusion as <em>him</em>.
+
+The difference being, of course, whether or not Philoctetes could pull off the same technique as Heracles.</span></div></div></div></div><div id=chatlog__message-container-1112601719810052116 class=chatlog__message-container data-message-id=1112601719810052116><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Sunday, May 28, 2023 11:42 PM">11:42 PM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>“<img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘐"
+    title="𝘐"
+    src="discord_assets/1d610-40323.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘯"
+    title="𝘯"
+    src="discord_assets/1d62f-A6A5A.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘪"
+    title="𝘪"
+    src="discord_assets/1d62a-AAE4F.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘵"
+    title="𝘵"
+    src="discord_assets/1d635-D1992.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘪"
+    title="𝘪"
+    src="discord_assets/1d62a-AAE4F.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘢"
+    title="𝘢"
+    src="discord_assets/1d622-2353C.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘵"
+    title="𝘵"
+    src="discord_assets/1d635-D1992.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘦"
+    title="𝘦"
+    src="discord_assets/1d626-68002.svg"> <img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘈"
+    title="𝘈"
+    src="discord_assets/1d608-B5719.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘭"
+    title="𝘭"
+    src="discord_assets/1d62d-D5819.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘤"
+    title="𝘤"
+    src="discord_assets/1d624-F8A27.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘢"
+    title="𝘢"
+    src="discord_assets/1d622-2353C.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘦"
+    title="𝘦"
+    src="discord_assets/1d626-68002.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘶"
+    title="𝘶"
+    src="discord_assets/1d636-4E152.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘴"
+    title="𝘴"
+    src="discord_assets/1d634-1C6C9.svg"> <img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘚"
+    title="𝘚"
+    src="discord_assets/1d61a-C0CEC.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘪"
+    title="𝘪"
+    src="discord_assets/1d62a-AAE4F.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘮"
+    title="𝘮"
+    src="discord_assets/1d62e-8270C.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘶"
+    title="𝘶"
+    src="discord_assets/1d636-4E152.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘭"
+    title="𝘭"
+    src="discord_assets/1d62d-D5819.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘢"
+    title="𝘢"
+    src="discord_assets/1d622-2353C.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘵"
+    title="𝘵"
+    src="discord_assets/1d635-D1992.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘪"
+    title="𝘪"
+    src="discord_assets/1d62a-AAE4F.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘰"
+    title="𝘰"
+    src="discord_assets/1d630-828BC.svg"><img
+    loading="lazy"
+    class="chatlog__emoji "
+    alt="𝘯"
+    title="𝘯"
+    src="discord_assets/1d62f-A6A5A.svg">.”
+
+Following a momentary robotic cadence, Pentematia disabled, and instead, a veil of dark armor began wrapping over the Archer’s body. The meager bow within his hands took on a golden hue and unfurled its wings, fully taking the shape of the Divine Construct.
+
+Once the bodysuit fully took over Philoctetes, he began trying to move his arm— only to be met with great resistance. With each quiver of his muscles, the red veins would glow in proportion to how much strength the Archer put into his body.
+
+A simulation of Heracles’s might, imposed onto his successor’s flesh.
+
+“— Damn, its been a while, but its even tougher than I remember it.”
+
+No matter how much he practiced with the weapon, Philoctetes failed to draw out the full strength of the bow. It took years of practice to even be able to move his arms with reasonable ease within the armor. A physical proof to the fact that he was unable to live up to Heracles’s glory.
+
+Last time, he managed to shoot fifty arrows before bleeding from his arms.
+
+Time to see how many he could shoot now
+
+“<strong>[Scion] Nine Lives.</strong>”</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1112601726416060427 class=chatlog__message-container data-message-id=1112601726416060427><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/305cbdb3b227d74c6fc9693d25d1e37f-C78B3.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(130,255,181) title=tachipoyo data-user-id=155195388498935808>Tachi</span> <span class=chatlog__timestamp title="Sunday, May 28, 2023 11:42 PM"><a href=#chatlog__message-container-1112601726416060427>5/28/2023 11:42 PM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>(<span class="chatlog__markdown-mention" title="Deleted User">@Deleted User</span>)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1113405350364860468 class=chatlog__message-container data-message-id=1113405350364860468><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/5ed764a468170335719ae34785d08897-18E4E.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title=Lindwyrm data-user-id=1100589454785253481>Lindwyrm</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Wednesday, May 31, 2023 4:55 AM"><a href=#chatlog__message-container-1113405350364860468>5/31/2023 4:55 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Lindwyrm had only just finished its recovery, but it would appear its opponent would not be so kind as to grant it that momentary reprieve.
+
+Already a massive burst of energy swirled around the Greek Hero, his very guise approaching levels of the divine as the stars that had orbited him before vanished, replaced instead by a terrifying armor which draped over the Hero’s very flesh, his bow now burning with the majesty of a weapon meant to slay beasts. Beasts not unlike itself.
+
+Wasting no time, it charged at the bowman before he could fire his first shot, but what had already been put into motion was now impossible to stop. Its instincts told the beast that it was too late, and to continue forward would only deliver it into the coming hail sooner. Spreading its wings, it was about to take to the skies to make use of its superior maneuverability, but even generating enough lift to lift itself above the water would expose it for too long. Instead Lindwyrm’s full unfurled width cut into the river’s surface like a blade in an attempt to escape its attacker’s sight below, but all of its sluggish deliberation had cost it precious time.
+
+It had only just emerged from its molting, hence its movements lacked the precision and nimbleness from before.
+Meanwhile Philoctetes only needed a single second, a single chance to let loose his arrows and let his bowstring sing.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1113405377300664401 class=chatlog__message-container data-message-id=1113405377300664401><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/3-FB033.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Deleted User" data-user-id=456226577798135808>Deleted User</span> <span class=chatlog__timestamp title="Wednesday, May 31, 2023 4:55 AM"><a href=#chatlog__message-container-1113405377300664401>5/31/2023 4:55 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve><span class="chatlog__markdown-mention" title="tachipoyo">@Tachi</span></span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1113640311881744406 class=chatlog__message-container data-message-id=1113640311881744406><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/ee9bd0107e6875a7f9d2a1c40f5979fd-7F396.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Philoctetes || Heracles's Successor" data-user-id=1100589454785253481>Philoctetes || Heracles&#x27;s Successor</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Wednesday, May 31, 2023 8:29 PM"><a href=#chatlog__message-container-1113640311881744406>5/31/2023 8:29 PM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>The technique left behind by Heracles, Nine Lives, aimed to outpace the target’s regeneration with sheer speed. Replicating the technique was a tall order, and required two superhuman capabilities from its wielder.
+
+The first was the physical capability to land fatal blows against the target repeatedly. Each hit could not be haphazard— if each were not brought out with the user’s full strength, it would make the attack that much exponentially weaker.
+
+
+<code class="chatlog__markdown-pre chatlog__markdown-pre--inline">Simulation Initiated.</code>
+
+<code class="chatlog__markdown-pre chatlog__markdown-pre--inline">Failed to recreate necessary strength parameters. Recalibrating. 20%… 40%… 60%… successfully regenerated 80% of maximum output.</code>
+
+The first criterion was not met by Philoctetes— at least not fully. 80% of Heracles’s strength would still be enough for a mock copy of the technique, even if far from perfect.
+
+
+The second was the sharp aim and snap judgement to identify which parts of the opponent would be most vital to strike at first. Which head would regenerate first, at what speed? How many milliseconds of leeway could Heracles afford to give himself while cutting off the other heads?
+
+<code class="chatlog__markdown-pre chatlog__markdown-pre--inline">Targets set. Please set target priority.</code>
+
+Philoctetes’s excellence when it came to the second criterion, a clear-cut vision to a Killing Angle that surpassed even Heracles’s own, was what allowed him access to the technique— at a high enough proficiency to constitute a True Name Release.
+
+<em>”Being generous and I have what, forty shots? Five to each wing at split time-intervals. Not like More than one shot will have a profound effect with its defenses. A majority should be concentrated on the face, where there are plenty of soft targets… three to the eye, seven to the mouth in hopes one enters the throat, a couple to the nose and ears, and the rest to the joints.”</em></span></div></div></div></div><div id=chatlog__message-container-1113640321398616085 class=chatlog__message-container data-message-id=1113640321398616085><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Wednesday, May 31, 2023 8:29 PM">8:29 PM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>Normally, Archers would adapt to the situation at hand before deciding where to shoot with their arrow. Heroes moved <em>fast</em>, which meant a plan they’d create in a split second could suddenly turn impossible to pull off after just a second passed and their position shifted.
+
+In Philoctetes’s case, though, by the moment he fired his first arrow, the image of his next forty moves had already been drawn in his head. A rarity whose mind moved faster than his arms.
+
+Each arrow drew a swift arc, leaving a trail of crimson particles behind themselves while preparing to mercilessly pierce Lindwyrm.
+
+“—!”
+
+Although, ultimately, his inability to meet the first criterion continued standing on his side as though a thorn.
+
+Forty was far too generous, it seemed— after his twenty-first arrow, Philoctetes began feeling his muscles cramping.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1113640330605105202 class=chatlog__message-container data-message-id=1113640330605105202><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/305cbdb3b227d74c6fc9693d25d1e37f-C78B3.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(130,255,181) title=tachipoyo data-user-id=155195388498935808>Tachi</span> <span class=chatlog__timestamp title="Wednesday, May 31, 2023 8:29 PM"><a href=#chatlog__message-container-1113640330605105202>5/31/2023 8:29 PM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>(<span class="chatlog__markdown-mention" title="Deleted User">@Deleted User</span>)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1113765180615172096 class=chatlog__message-container data-message-id=1113765180615172096><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/5ed764a468170335719ae34785d08897-18E4E.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title=Lindwyrm data-user-id=1100589454785253481>Lindwyrm</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Thursday, June 1, 2023 4:45 AM"><a href=#chatlog__message-container-1113765180615172096>6/1/2023 4:45 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>The arrows’ trails were reminiscent of shooting stars, as was the weight with which they impacted against Lindwyrm’s hide. Like nails being driven into its flesh by a divine hammer, they effortlessly overcame its haphazard attempt to escape into the water by blasting it away with sheer force, a violent geyser erupting from the river where they landed and completely depriving the beast of its cover.
+
+First its wings were pinned to the side and prevented from changing its course to defend itself.
+Next was its face, mutilated beyond recognition as the arrows tore blesh from bone, the very fact that it remained attached a miracle that beggared belief. In fact, how was it that the beast managed to receive the repeated blows of a Noble Phantasm to its head without having its Spirit Core utterly obliterated?
+
+It would not take long for the answer to present itself, even if in an unexpected form.
+
+Two rose petals, brilliant white and unblemished by dirt or grime, floated to the water’s surface after the wildly churning waters had settled, with Lindwyrm now presumably bolted to the bottom of the river by Philoctetes’ uncompromising hail. These petals were too large to belong to any naturally occurring flower however, their length sufficient to cover a person from head to toe if worn. A beautiful golden seam embroidered its outline with golden embroidery, and upon closer inspection, the fabric was revealed to be no more than a beautiful cloak. Perhaps an article belonging to one of Lindwyrm’s victims, one which it had previously consumed, but then why were there two of them? Perhaps even a third, stuck to the crimson glacier it had used for its first molting?
+<em> </em></span></div></div></div></div><div id=chatlog__message-container-1113765230766469221 class=chatlog__message-container data-message-id=1113765230766469221><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="Thursday, June 1, 2023 4:45 AM">4:45 AM</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>The mystery of the cloaks would have to wait however, as the beast’s presence was quickly fading. Not due to its demise, unfortunately, but because it seemed to… flee?
+
+The hurried ripples it left on the Nile as it remained submerged, clinging to the riverbed in an effort to evade its hunter’s sight, were a clear indication of its escape.
+Though it had thought the river to be its hunting ground, it did not account for its prey to be an Archer, one who excelled at keeping it at bay in an environment that lacked any and all cover. His arrows were powerful enough to pierce the water, and the ice it was able to generate could only slow him down at best. While it managed to inflict him with some manner of injury at least, it was clear that it was at a disadvantage in this terrain, though having said, it wasn’t like Lindwyrm was consciously processing these thoughts to begin with.
+There was only one predominant instinct driving its mind: hunger.
+
+It was hungry. Already it had lost roughly a third of its innate vitality and essence due to the costly regeneration of its flesh facilitated by the shedding of its skins. It had already lost three in the course of a battle that lasted no more than minutes, a loss so detrimental that even a mindlessly raging beast was unable to ignore it.
+
+And so it retreated. To civilization. People. Buildings.
+Cover and food.
+Whether conscious of it or not, but the presence of its bride near the shore informed its destination, redoubling its efforts to recover its strength so that it may resume its hunt.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1113765259312902214 class=chatlog__message-container data-message-id=1113765259312902214><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/3-FB033.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Deleted User" data-user-id=456226577798135808>Deleted User</span> <span class=chatlog__timestamp title="Thursday, June 1, 2023 4:45 AM"><a href=#chatlog__message-container-1113765259312902214>6/1/2023 4:45 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve><span class="chatlog__markdown-mention" title="tachipoyo">@Tachi</span></span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1114076776839254146 class=chatlog__message-container data-message-id=1114076776839254146><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/ee9bd0107e6875a7f9d2a1c40f5979fd-7F396.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title="Philoctetes || Heracles's Successor" data-user-id=1100589454785253481>Philoctetes || Heracles&#x27;s Successor</span> <span class=chatlog__author-tag>BOT</span> <span class=chatlog__timestamp title="Friday, June 2, 2023 1:23 AM"><a href=#chatlog__message-container-1114076776839254146>6/2/2023 1:23 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve><code class="chatlog__markdown-pre chatlog__markdown-pre--inline">WARNING: Biometric Limits Exceeded. Situation Deemed Critical. Initiating Shutdown.</code> 
+
+The red bodysuit melted off of Philoctetes, stripping away the boosted strength and only leaving behind severe pain. Some tissues in his arms were torn, and the fatigue was indescribable.
+
+Even at such a cost, forcing him to suppress screams of agony, his hail of arrows were far from perfect. Still, it was enough to severely harm the creature, as evident by its attempts to flee underneath the waters.
+
+That much was enough to make a small smile emerge on Philoctetes’s face. The odds most certainly seemed to be against him, but he managed to vanquish the beast properly! 
+
+Although, the beast was unmistakably weaker than the Hydra, and Heracles was in significantly much less pain when he slayed it…
+
+… That thought did put a bit of a sour taste in his mouth, but it didn’t last for long once he noticed where the serpent was headed to now.
+
+Leaving behind mysterious petals, it now began to dash away from him— and towards the city. The implications were clear, and any thoughts that held him compared to Heracles melted away.
+
+Wasn’t he supposed to be a hero? How was he going to let himself leave a job half-unfinished, let his shortcomings cost unneeded civilian sacrifices, and be satisfied with himself?
+
+<u>Before anyone else could see the beast, Philoctetes needed to defeat it himself.</u> It was a battle he started. He wouldn’t let anyone else take the glory, nor would he let anyone else risk their lives in his stead.
+
+His arms were tattered. He could still fire arrows, even at the cost of great pain. His legs were… still <em>functional</em>, at the very least.
+
+Objectively speaking, his odds of defeating the snake before it reached civilization was most likely low beyond comparison.
+
+But still, his legs gave chase.</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1114076787740258356 class=chatlog__message-container data-message-id=1114076787740258356><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src="discord_assets/305cbdb3b227d74c6fc9693d25d1e37f-C78B3.png" alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(130,255,181) title=tachipoyo data-user-id=155195388498935808>Tachi</span> <span class=chatlog__timestamp title="Friday, June 2, 2023 1:23 AM"><a href=#chatlog__message-container-1114076787740258356>6/2/2023 1:23 AM</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>(<span class="chatlog__markdown-mention" title="Deleted User">@Deleted User</span>)</span></div></div></div></div></div>
+
+</div>
+<div class=postamble><div class=postamble__entry>Exported 39 message(s)</div><div class=postamble__entry>Timezone: UTC-6</div></div>
