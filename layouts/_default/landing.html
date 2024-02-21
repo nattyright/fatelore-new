@@ -5,7 +5,7 @@
   <meta property="og:description" content="Narrative Discord roleplay set in the world of Fate">
   <meta property="og:image" content="/img/embed.webp">
 
-  <link rel="stylesheet" href="/css/layouts/rain.css">
+  <!--<link rel="stylesheet" href="/css/layouts/rain.css">-->
   <style>
     body, html {
       height: 100%;
@@ -154,9 +154,63 @@
     <p>Active since 2020 and always welcoming new members: <a href="https://discord.gg/UVKkvYdY2Z">Join our Discord here!</a></p>
   </footer>
 
-  
-<i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i><i class="rain"></i>
-  
+  <script>
+    function rain() {
+      let amount = window.innerWidth * 0.1;
+      let body = document.querySelector('body');
+      let i = 0;
+      while(i < amount) {
+        let drop = document.createElement('i');
+        let size = Math.random() * 1;
+        //let posX = Math.floor(Math.random() * window.innerWidth);
+        let posX = Math.random() * 100;
+        let posYInit = Math.random() * -50;
+        let delay = Math.random() * -20;
+        let duration = Math.random() * 5;
+
+
+        drop.className = "rain";
+        drop.style.width = size + 'px';
+        //drop.style.left = posX + 'px';
+        drop.style.left = posX + '%';
+        drop.style.top = posYInit + '%';
+        drop.style.animationDelay = delay + 's';
+        drop.style.animationDuration = 5 + duration + 's';
+
+
+
+        body.appendChild(drop);
+        i++;
+      }
+    }
+
+    rain();
+  </script>
+
+  <style>
+    .rain {
+      z-index: 2000;
+      background: white;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2));
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+
+      position: absolute;
+      height: 50px;
+      width: 1px;
+
+      animation: animate 5s linear infinite;
+    }
+    @keyframes animate {
+      0% {
+        /*top: 0%;*/
+      }
+      100% {
+        top: 100%;
+        opacity: 0;
+      }
+    }
+  </style>
 </body>
 </html>
 
