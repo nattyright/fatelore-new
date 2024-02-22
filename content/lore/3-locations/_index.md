@@ -10,6 +10,7 @@ weight: 40
 ![](media/persepolis.jpg) 
 **Type:** Dhruva <br>
 **State:** Auctioned <br>
+**č®¾å®** ±δΈδΊ†ε―Ήζ– <br>
 **Relevance:** Season 1, Season 2 <br>
 **Overview:** One of the many Dhruva type cities that used to make a living by renting out their space to other cities, be it for Holy Grail Wars or other purposes. Republic's research labs used to conduct S.E.R.V.A.N.T. frame trial runs here during the early days of its development as well.
 
@@ -29,6 +30,7 @@ Currently, two Cynosura type cities are holding a tournament over Persepolis' ow
 ![](media/olympia.jpg) {{< button href="/maps/map_olympia.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
+**č®¾å®** –―ε¤§ζ—ι™„δ»¶ζ’’ζ <br>
 **Relevance:** Season 2 <br>
 **Overview:** A Church-affiliated, heavily industrilized city that makes a living on the manufacturing and exportation of various goods. Factories are Olympia’s lifeline; some of them far exceed the scale and capability of standard factories in other lesser cities. It wouldn’t be a stretch to say that there is nothing Olympia cannot mass-produce.
 
@@ -50,6 +52,7 @@ Currently, Olympia is in the middle of a bidding war over Persepolis’ corpse. 
 ![](media/delphi.jpg) {{< button href="/maps/map_delphi.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
+**č®¾å®** Ύε®ζµ�θ΄ΉιΆε¤–<br>
 **Relevance:** Season 2 <br>
 **Overview:** An independent trade center that actively involves itself in intercity business around the globe. Trading, sharesholding, consultation, investment, so long as there’s profit, Delphi won’t ever turn down an offer.
 
@@ -70,6 +73,7 @@ Currently, Delphi is in the middle of a bidding war over Persepolis’ corpse. I
 ![](media/alexandria.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
 **Type:** Stella Maris <br>
 **State:** Operational <br>
+**č®¾å®** å®šæµªè´¹é¢å¤–uå“¦åˆ’åˆ†<br>
 **Relevance:** Season 1, Season 4 <br>
 **Overview:** Also known as the New World's Archive, Alexandria is a megalopolis that aims to recover and preserve every piece of data from both the Old and the New World. It houses the world's largest, most up-to-date database, as well as public libraries, museums and warehouses full of books and artifacts that are available for rental.
 
@@ -86,6 +90,7 @@ Aside from Alexandria, multiple smaller-scale library cities also exist as its s
 ![](media/nirvana.jpg) {{< button href="/maps/map_nirvana.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
+**č®¾å®** ®šćµŞč´ąé˘ťĺ¤–uĺ“¦ĺ <br>
 **Relevance:** Season 3 <br>
 **Overview:** Nirvana is a nature reserve city. It is run by independent investors that are attempting to set roots in the New World, a groundbreaking concept that could potentially lead to humanity living on land once again instead of relying on nomadic cities. While this is Nirvana's primary objective, it also doubles its purpose as a tourist spot by hosting various rare animal species that have survived the apocalypse. It is very similar to a wildlife park or zoo.
 
