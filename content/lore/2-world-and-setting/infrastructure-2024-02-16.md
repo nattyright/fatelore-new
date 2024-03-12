@@ -44,6 +44,7 @@ Each nomadic city takes on the shape of a star with either 8, 6, 4, or 2 arms. T
 | ----------------- | ---------------- |
 | **Capacity (humans)** | Up to 10 million |
 | **Number of Stars**   | ~30              |
+| Land Area | Comparable to London |
 {{< /columns >}}
 
 
@@ -58,6 +59,7 @@ Each nomadic city takes on the shape of a star with either 8, 6, 4, or 2 arms. T
 | ----------------- | --------------- |
 | **Capacity (humans)** | Up to 5 million |
 | **Number of Stars**   | ~150            | 
+| Land Area | Comparable to Singapore |
 {{< /columns >}}
 
 
@@ -72,6 +74,7 @@ Each nomadic city takes on the shape of a star with either 8, 6, 4, or 2 arms. T
 | ----------------- | --------------- |
 | **Capacity (humans)** | Up to 1 million |
 | **Number of Stars**   | ~600            | 
+| Land Area | Comparable to Honolulu |
 {{< /columns >}}
 
 
