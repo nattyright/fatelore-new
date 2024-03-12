@@ -15,7 +15,7 @@ Cities who have lost contact are not included in the census. As such, the follow
 
 |  |  |
 | ---- | ---- |
-| **Population** | ~1.5 billion |
+| **Population** | ~1.3 billion |
 | **Number of Stars (Cities)** | ~800 |
 | **Landforms** | The world has been completely flooded. The water is only a few thousand meters deep, yet for some reason, even the tallest mountains have disappeared from the surface. The water itself remains nigh impenetrable past the 1000 meters mark. |
 | **Natural Resources** | Scarce. The natural generation of resources such as ore and fuel remains a highly specialized craft. Cities that have successfully manipulated their leylines and foundations to do so are highly coveted. |
