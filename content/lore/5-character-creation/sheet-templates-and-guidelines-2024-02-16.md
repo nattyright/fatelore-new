@@ -2,7 +2,6 @@
 title: Templates and Guides
 weight: 30
 ---
-
 <br>
 <div style="text-align:center; font-weight: bold;">
 {{< button href="https://docs.google.com/document/d/1AlHDXzhkIwCN7zn_OCtl30sHC59_vtEm4YjxN5zpuSQ/edit?usp=sharing" >}}Master Sheet Template{{< /button >}}
@@ -12,6 +11,8 @@ weight: 30
 # Character Guidelines
 
 Players are advised to follow the listed Guidelines. Characters that are unjustifiably edgy, simplistic, or whose exaggerated or lacking character traits otherwise do not contribute to creating a compelling character will most likely be rejected. There are ways of incorporating extreme character traits of course, but doing so requires care, attention, and balance, and such effort is usually rewarded with much more memorable characters.
+
+No Plagiarism. Whether it be articles from Wikipedia you intend to use for your Backstory, or salvaged parts from Amino Apps Servants, please be aware that this still counts as you cheapening your own work and disrespecting not only the legend you are adapting, but also taking away from the original source of whichever idea you are plagiarizing.  Please do not misunderstand. Drawing inspiration and adapting ideas from Wikipedia, and yes, even Amino Apps, is totally fine so long as they simply inform your own creative process, and could even be considered a form of flattery, but simply stealing, or minimally altering other's ideas to parade as your own will not be accepted on this Server.
 
 Additionally, please keep in mind that no pure Gods, Divine Spirits, or Pseudo Servants are allowed as characters on this server. The natural exceptions to this rule are demigods or Divine Servants that were once mortal, lost their divinity, or gained it over the course of their life. The most notable example of this would be Heracles.
 
@@ -39,7 +40,8 @@ Please note that you are technically still allowed to make characters with such 
 8. Time Manipulation and Time Control abilities are allowed, but must be balanced extremely well to be considered for approval. Anything that breaks the rules above will be met with an instant rejection. Do not be surprised if your sheet gets rejected for having Time Manipulation, since it’s a very tricky ability to handle correctly.
 
 {{< hint "danger" >}}
-## **Note** 
+
+## **Note**
 
 This list should be considered a Living Document. Do not be surprised if more abilities are added or removed from the list, nor should you consider the absence of a similarly controversial ability as a sign that it is allowed.
 
