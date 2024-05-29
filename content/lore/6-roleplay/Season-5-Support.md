@@ -19,7 +19,7 @@ The thread pausing feature has been implemented to help tide players over short-
 
 *Usage* 👈👈👈
 
-- To pause a thread, use `f.pause` within the thread itself. Doing so will lock the thread.
+- To pause a thread, please use the `/pause` command within the thread itself. Doing so will lock the thread.
 
 *Ruling*
 
