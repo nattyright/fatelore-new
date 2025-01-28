@@ -144,6 +144,14 @@ Though, it was the first time Ruler had witnessed of the phenomenon of prana cli
 
 {{< /details >}}
 
+{{< details title="**An Alter is a Servant who has denied the core of their Spirit Origin.**" open=false >}}
+
+**Xquic:** One who lived as a saint would have to deny their sainthood. A warrior who refused to become a king would have to become the very sort of king they despised. To become an Alter means to betray your life, your principles, everything that makes you a Heroic Spirit, and to do so knowingly, willingly, by your own hand.
+
+* *Fate/Grand Order, Mobile Game, Lostbelt 7 - Golden Sea of Trees, Nahui Mictlān*
+
+{{< /details >}}
+
 # The Case Files of Lord El-Melloi II (+Mahōtsukai no Yoru)
 
 {{< details title="**Connecting yourself to another Mage's Magic Circuits puts you completely at their mercy.**" open=false >}}
