@@ -40,6 +40,21 @@ Please note that you are technically still allowed to make characters with such 
 8. Time Manipulation and Time Control abilities are allowed, but must be balanced extremely well to be considered for approval. Anything that breaks the rules above will be met with an instant rejection. Do not be surprised if your sheet gets rejected for having Time Manipulation, since it’s a very tricky ability to handle correctly.
 9. While there is no hard limit, be mindful of how many abilities you put into one skill or NP. If we feel like a skill/NP has multiple unrelated abilities attached to it without a strong central theme, we will ask to tone it down.
 
+# NPC Guidelines
+
+The server allows for players to make, and write, NPC characters at their own discretion. They can fill the same diverse roles as Player Characters, but they cannot fill them in the same capacity, nor should they outshine Player Characters in their level of importance or ability.
+
+Here are some general guidelines to keep in mind when writing them.
+
+1. Provide context or background for PCs, help set up certain scenarios or encounters, or act as catalysts for plot development. However, they should not directly resolve challenges meant for PCs to tackle.
+
+2. NPCs should come with limited skills and operate within said limited skills. If their skills are stronger or make bigger impacts than PCs, they cannot operate in such a way that violates rule 1.
+ - In the same vein, NPCs should not take up positions that affect the RP in a way that violates rule 1.
+
+3. NPCs should act as supporting characters. They should not overshadow or straight up replace a PC in importance or relevance. They should not grant a PC any items, buffs, or intel that gives them an unfair advantage against other PCs or the overarching plot, unless these items, buffs, or intel would have been earned by the PC through RP interactions without the NPC’s involvement.
+
+The above list is not exhaustive. An NPC’s role and skills are always subject to review during a season or event by the moderation team.
+
 {{< hint "danger" >}}
 
 ## **Note**
