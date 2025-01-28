@@ -38,6 +38,7 @@ Please note that you are technically still allowed to make characters with such 
 6. No mind control or charm abilities that can control other player characters that are not your own without consent. If you still want to submit these abilities, you must add a consent clause, in which players who do not wish to play with such effects instead receive an alternate lesser debuff.
 7. No abilities that grant omniscience or omnipotence, such as Sha Naqba Imuru or high ranks of Clairvoyance.
 8. Time Manipulation and Time Control abilities are allowed, but must be balanced extremely well to be considered for approval. Anything that breaks the rules above will be met with an instant rejection. Do not be surprised if your sheet gets rejected for having Time Manipulation, since it’s a very tricky ability to handle correctly.
+9. While there is no hard limit, be mindful of how many abilities you put into one skill or NP. If we feel like a skill/NP has multiple unrelated abilities attached to it without a strong central theme, we will ask to tone it down.
 
 {{< hint "danger" >}}
 
