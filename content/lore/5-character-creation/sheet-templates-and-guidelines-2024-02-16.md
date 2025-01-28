@@ -4,8 +4,16 @@ weight: 30
 ---
 <br>
 <div style="text-align:center; font-weight: bold;">
-{{< button href="https://docs.google.com/document/d/1AlHDXzhkIwCN7zn_OCtl30sHC59_vtEm4YjxN5zpuSQ/edit?usp=sharing" >}}Master Sheet Template{{< /button >}}
-{{< button href="https://docs.google.com/document/d/1gy_UPFkEup8EqP57KU2CfPA3BS-FYWRPZeU31CYZpBU/edit?usp=sharing" >}}Servant Sheet Template{{< /button >}}
+{{< button href="https://docs.google.com/document/d/1rok_e0g63mEHLnPV69zcmasdLCdtGfKZYaViUvPdahU/edit?tab=t.0" >}}Master Sheet Template V2{{< /button >}}
+{{< button href="https://docs.google.com/document/d/1xu3ww0r1Zs1ZXmcuyy8VLv2f21lenweukq4KKdQxqSs/edit?tab=t.0" >}}Servant Sheet Template V3{{< /button >}}
+</div>
+<div style="text-align:center; font-weight: bold;">
+{{< button href="https://docs.google.com/document/d/1LLmUJrl-LNOClYOm84YFfC5eGF6qDbHu1QZsF9lwe9s/edit?resourcekey=0-DqI0GisYwKAupvWg2a6wQg&tab=t.s5rex428do8v" >}}Master Sheet Template V3 (Dark) {{< /button >}}
+{{< button href="https://docs.google.com/document/d/1e1TWSPGaa4viZMAC3nYv9ThfaWzpZ6p2UPiZngbIRn0/edit?resourcekey=0-dIzWSQImfENBRGXZ5scXfA&tab=t.aitk331crtbd" >}}Servant Sheet Template V3 (Dark) {{< /button >}}
+</div>
+<div style="text-align:center; font-weight: bold;">
+{{< button href="https://docs.google.com/document/d/1iE7qzFvkEcS0xjscZzbnC7cCCFX5TrgJI_r_iua-UQQ/edit?tab=t.s5rex428do8v" >}}Master Sheet Template V3 (Light) {{< /button >}}
+{{< button href="https://docs.google.com/document/d/1_E9TT8kd0NfCkJuz5bi3UgFxI6ZKJdpeW7_j5SKpEw4/edit?tab=t.aitk331crtbd" >}}Servant Sheet Template V3 (Light) {{< /button >}}
 </div>
 
 # Character Guidelines
