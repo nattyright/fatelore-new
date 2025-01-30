@@ -224,7 +224,7 @@ An additional functionality is unlocked when certain conditions are met:
 - the Church operator has the reinforcement skill at `rank A`
 - the weapon is used against a Servant and manages to land a successful hit.
 
-When the above condition are met and fueled by a Church operator’s mana, these weapons become powerful tranquilizers that are able to partially paralyze a Servant upon direct contact with their S.E.R.V.A.N.T. frame. 
+When the above conditions are met and fueled by a Church operator’s mana, these weapons become powerful tranquilizers that are able to partially paralyze a Servant upon direct contact with their S.E.R.V.A.N.T. frame. 
 
 Area of Effect:
 A well-placed shot will paralyze the target area of impact and a small surrounding radius. For instance, striking a limb, a portion of the torso, or the head will cause paralysis or a stunning effect in the immediate area.
