@@ -191,6 +191,7 @@ Rank: C
 Type: Mystic Code (Church)
 
 Description: 
+
 Reinforcement magecraft has been worked into the fabric, providing protection against physical and mental harm.
 
 **Unless completely vaporized, the uniform can be mended while out of combat. A Church operator is also permitted to carry multiple changes of the uniform while on remote duty.**
@@ -216,6 +217,7 @@ Rank: C
 Type: Mystic Code (Church)
 
 Description: 
+
 All Church weapons have a flat C across all parameters, including durability. Against non-Servants, they behave like your average C-ranked Mystic Codes, with varying functions that are dependent on each weapon’s design.
 
 **This weaspon can be broken. Once broken, it cannot be repaired or reissued unless it has been taken back to NHE HQ.**
@@ -227,15 +229,19 @@ An additional functionality is unlocked when certain conditions are met:
 When the above conditions are met and fueled by a Church operator’s mana, these weapons become powerful tranquilizers that are able to partially paralyze a Servant upon direct contact with their S.E.R.V.A.N.T. frame. 
 
 Area of Effect:
+
 A well-placed shot will paralyze the target area of impact and a small surrounding radius. For instance, striking a limb, a portion of the torso, or the head will cause paralysis or a stunning effect in the immediate area.
 
 Duration:
+
 A few seconds up to a minute, depending on the weapon's design and the Church operator's reinforcement skill.
 
 Cost:
+
 Equivalent to using your character's Trump Card.
 
 Naming Scheme:
+
 All Church weapons adopt the following naming convention:
 
 Mxxx [Prototype] [Bird name] [Make]
@@ -247,6 +253,7 @@ Bird name = A bird species. Birds of prey are preferred.
 Make = version number.
 
 Example: 
+
 M100 Prototype Bateleur Mk-I = a prototype weapon on its 1st version and designed/produced in year 2104 (100th year)
 
 A list of approved Church weapons can be found here: [TBD, a list of taken bird names.]
@@ -262,5 +269,7 @@ Rank: A-E. If ranked at E, must explain in the character's backstory why their f
 
 Type: Faith
 
-Description: Please refer to the previous section titled `RP Help` on the purpose of this skill.
+Description: 
+
+Please refer to the previous section titled `RP Help` on the purpose of this skill.
 {{< /hint >}}
