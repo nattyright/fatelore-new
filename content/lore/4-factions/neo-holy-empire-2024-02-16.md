@@ -88,7 +88,7 @@ To disagree with such a thing is foolishness, nothing more.
 
 ## Hierarchy
 
-Roughly 1000 executors operate worldwide at any given time. However, it’s important to note that not all of them bear the full qualifications associated with the title. Only a small handful of them can genuinely be recognized as fully qualified executors.
+Roughly 1000 executors operate worldwide at any given time. However, it’s important to note that `not all of them bear the full qualifications associated with the title`. Only a small handful of them can genuinely be recognized as fully qualified executors.
 
 Below is a general breakdown of their internal structure:
 
@@ -172,4 +172,82 @@ How does low faith come into play then?
 
 Executors with low faith may exhibit erratic behavior, complain more, or have normal-ish values and morals compared to Executors with high faith. However, no matter what they do or what they think and no matter how you may need to write crack to justify yourself IRP, they still place the utmost trust in the Church and will not doubt the Church under any circumstances.
 
+{{< /hint >}}
+
+# Executors in Roleplay
+
+*Currently, we do not accept full-fledged executors (the 10%) as roleplayable characters. Only executors in name only, such as trainees, bodyguards, instructors, law enforcements and church officials that take up other roles within the NHE are accepted.
+
+## Mandatory Items
+{{< hint "info" >}}
+## Reinforced Uniform (Optional)
+
+*This item is optional. If your character carries it, it will take up a C rank item slot.*
+
+Item Name: Reinforced Uniform
+
+Rank: C
+
+Type: Mystic Code (Church)
+
+Description: 
+Reinforcement magecraft has been worked into the fabric, providing protection against physical and mental harm.
+
+All Church operator uniforms follow a simple color scheme of black and white. Accents are permitted so long as they don’t occupy more than 10% of the fabric. All operators have the option to have their uniform tailor made to taste. Otherwise, the standardized version is offered.
+
+Functions:
+- Offers partial insulation to attacks ranked D and below.
+- Offers minimal insulation to attacks ranked C and above.
+
+The above applies to both Mage and Servant stats/skills equally, as the Church’s extensive study on Servants grants it an edge when producing anti-Servant techwear. Any damage that passes through will need additional insulation via your character’s Reinforcement skill, weapon, or other means. 
+{{< /hint >}}
+
+{{< hint "info" >}}
+## Church Weapon (Optional)
+
+*This item is optional. If your character carries it, it will take up a C rank item slot.*
+
+Item Name: Varies. See `Naming Scheme` at the end.
+
+Rank: C
+
+Type: Mystic Code (Church)
+
+Description: 
+All Church weapons have a flat C across all parameters, including durability. Against non-Servants, they behave like your average C-ranked Mystic Codes, with varying functions that are dependent on each weapon’s design.
+
+An additional functionality is unlocked when certain conditions are met:
+- the Church operator has the reinforcement skill at `rank A`
+- the weapon is used against a Servant and manages to land a successful hit.
+
+When the above condition are met and fueled by a Church operator’s mana, these weapons become powerful tranquilizers that are able to paralyze a Servant upon direct contact with their S.E.R.V.A.N.T. frame. The area of effect and the strength of the paralyzer is dependent on the weapon’s design and the Church operator's reinforcement skill.
+
+Naming Scheme:
+All Church weapons adopt the following naming convention:
+
+Mxxx [Prototype] [Bird name] [Make]
+
+M = Miracle
+xxx = The year of production. The holy empire marks 2004 as the new genesis. As such, 2004 = 000, 2005 = 001…and so on.
+[prototype] = optional tag for weapons in testing
+Bird name = A bird species. Birds of prey are preferred.
+Make = version number.
+
+Example: 
+M100 Prototype Bateleur Mk-I = a prototype weapon on its 1st version and designed/produced in year 2104 (100th year)
+
+A list of approved Church weapons can be found here: [TBD, a list of taken bird names.]
+{{< /hint >}}
+
+## Mandatory Skill
+{{< hint "info" >}}
+## Faith
+
+Skill Name: Faith
+
+Rank: A-E. If ranked at E, must explain in the character's backstory why their faith is so lacking. 
+
+Type: Faith
+
+Description: Please refer to the previous section titled **RP Help** on the purpose of this skill.
 {{< /hint >}}
