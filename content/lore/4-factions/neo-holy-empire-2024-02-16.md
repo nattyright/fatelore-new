@@ -220,6 +220,7 @@ The above applies to both Mage and Servant stats/skills equally, as the Churchâ€
 
 An additional functionality is unlocked when certain conditions are met:
 - the Church operator has the reinforcement skill at `rank A`
+- the weapon is used by the Church operator to whom it is issued
 - the weapon is used against a Servant and manages to land a successful hit.
 
 When the above conditions are met and fueled by a Church operatorâ€™s mana, these weapons become powerful tranquilizers that are able to partially paralyze a Servant upon direct contact with their S.E.R.V.A.N.T. frame. 
@@ -251,13 +252,11 @@ A list of approved Church weapons can be found here: [TBD, a list of taken bird 
 {{< hint "info" >}}
 ### Faith
 
-Skill Name: Faith
+**Skill Name:** Faith
 
-Rank: A-E. If ranked at E, must explain in the character's backstory why their faith is so lacking. 
+**Rank:** A-E. If ranked at E, must explain in the character's backstory why their faith is so lacking. 
 
-Type: Faith
+**Type:** Faith
 
-Description: 
-
-Please refer to the previous section titled `RP Help` on the purpose of this skill.
+**Description:** Please refer to the previous section titled `RP Help` on the purpose of this skill.
 {{< /hint >}}
