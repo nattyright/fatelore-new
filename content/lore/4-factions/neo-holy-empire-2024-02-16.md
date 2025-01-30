@@ -178,7 +178,7 @@ Executors with low faith may exhibit erratic behavior, complain more, or have no
 
 *Currently, we do not accept full-fledged executors (the 10%) as roleplayable characters. Only executors in name only, such as trainees, bodyguards, instructors, law enforcements and church officials that take up other roles within the NHE are accepted.*
 
-## Mandatory Items
+## Optional Items
 {{< hint "info" >}}
 ### Reinforced Uniform (Optional)
 
