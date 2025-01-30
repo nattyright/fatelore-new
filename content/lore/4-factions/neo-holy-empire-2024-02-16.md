@@ -205,7 +205,7 @@ The above applies to both Mage and Servant stats/skills equally, as the Church�
 {{< /hint >}}
 
 {{< hint "info" >}}
-### Church Weapon (Optional)
+### S.E.R.V.A.N.T. Frame Decoder (Optional)
 
 *This item is optional. If your character carries it, it will take up a C rank item slot.*
 
@@ -224,7 +224,16 @@ An additional functionality is unlocked when certain conditions are met:
 - the Church operator has the reinforcement skill at `rank A`
 - the weapon is used against a Servant and manages to land a successful hit.
 
-When the above condition are met and fueled by a Church operator’s mana, these weapons become powerful tranquilizers that are able to paralyze a Servant upon direct contact with their S.E.R.V.A.N.T. frame. The area of effect and the strength of the paralyzer is dependent on the weapon’s design and the Church operator's reinforcement skill.
+When the above condition are met and fueled by a Church operator’s mana, these weapons become powerful tranquilizers that are able to partially paralyze a Servant upon direct contact with their S.E.R.V.A.N.T. frame. 
+
+Area of Effect:
+A well-placed shot will paralyze the target area of impact and a small surrounding radius. For instance, striking a limb, a portion of the torso, or the head will cause paralysis or a stunning effect in the immediate area.
+
+Duration:
+A few seconds up to a minute, depending on the weapon's design and the Church operator's reinforcement skill.
+
+Cost:
+Equivalent to using your character's Trump Card.
 
 Naming Scheme:
 All Church weapons adopt the following naming convention:
