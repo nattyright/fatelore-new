@@ -176,11 +176,11 @@ Executors with low faith may exhibit erratic behavior, complain more, or have no
 
 # Executors in Roleplay
 
-*Currently, we do not accept full-fledged executors (the 10%) as roleplayable characters. Only executors in name only, such as trainees, bodyguards, instructors, law enforcements and church officials that take up other roles within the NHE are accepted.
+*Currently, we do not accept full-fledged executors (the 10%) as roleplayable characters. Only executors in name only, such as trainees, bodyguards, instructors, law enforcements and church officials that take up other roles within the NHE are accepted.*
 
 ## Mandatory Items
 {{< hint "info" >}}
-## Reinforced Uniform (Optional)
+### Reinforced Uniform (Optional)
 
 *This item is optional. If your character carries it, it will take up a C rank item slot.*
 
@@ -205,7 +205,7 @@ The above applies to both Mage and Servant stats/skills equally, as the Churchâ€
 {{< /hint >}}
 
 {{< hint "info" >}}
-## Church Weapon (Optional)
+### Church Weapon (Optional)
 
 *This item is optional. If your character carries it, it will take up a C rank item slot.*
 
@@ -245,7 +245,7 @@ A list of approved Church weapons can be found here: [TBD, a list of taken bird 
 
 ## Mandatory Skill
 {{< hint "info" >}}
-## Faith
+### Faith
 
 Skill Name: Faith
 
@@ -253,5 +253,5 @@ Rank: A-E. If ranked at E, must explain in the character's backstory why their f
 
 Type: Faith
 
-Description: Please refer to the previous section titled **RP Help** on the purpose of this skill.
+Description: Please refer to the previous section titled `RP Help` on the purpose of this skill.
 {{< /hint >}}
