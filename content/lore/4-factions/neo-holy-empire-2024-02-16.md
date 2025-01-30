@@ -197,8 +197,8 @@ Executors with low faith may exhibit erratic behavior, complain more, or have no
 All Church operator uniforms follow a simple color scheme of black and white. Accents are permitted so long as they don’t occupy more than 10% of the fabric. All operators have the option to have their uniform tailor made to taste. Otherwise, the standardized version is offered.
 
 **Functions:**
-- Offers partial insulation to attacks ranked D and below.
-- Offers minimal insulation to attacks ranked C and above.
+- Offers partial insulation against attacks ranked D and below (or attacks of equivalent power).
+- Offers minimal insulation against attacks ranked C and above (or attacks of equivalent power).
 
 The above applies to both Mage and Servant stats/skills equally, as the Church’s extensive study on Servants grants it an edge when producing anti-Servant techwear. Any damage that passes through will need additional insulation via your character’s Reinforcement skill, weapon, or other means. 
 {{< /hint >}}
