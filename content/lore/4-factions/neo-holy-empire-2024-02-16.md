@@ -184,21 +184,19 @@ Executors with low faith may exhibit erratic behavior, complain more, or have no
 
 *This item is optional. If your character carries it, it will take up a C rank item slot.*
 
-Item Name: Reinforced Uniform
+**Item Name:** Reinforced Uniform
 
-Rank: C
+**Rank:** C
 
-Type: Mystic Code (Church)
+**Type:** Mystic Code (Church)
 
-Description: 
+**Description:** Reinforcement magecraft has been worked into the fabric, providing protection against physical and mental harm.
 
-Reinforcement magecraft has been worked into the fabric, providing protection against physical and mental harm.
-
-**Unless completely vaporized, the uniform can be mended while out of combat. A Church operator is also permitted to carry multiple changes of the uniform while on remote duty.**
+*Unless completely vaporized, the uniform can be mended while out of combat. A Church operator is also permitted to carry multiple changes of the uniform while on remote duty.*
 
 All Church operator uniforms follow a simple color scheme of black and white. Accents are permitted so long as they don’t occupy more than 10% of the fabric. All operators have the option to have their uniform tailor made to taste. Otherwise, the standardized version is offered.
 
-Functions:
+**Functions:**
 - Offers partial insulation to attacks ranked D and below.
 - Offers minimal insulation to attacks ranked C and above.
 
@@ -210,17 +208,15 @@ The above applies to both Mage and Servant stats/skills equally, as the Church�
 
 *This item is optional. If your character carries it, it will take up a C rank item slot.*
 
-Item Name: Varies. See `Naming Scheme` at the end.
+**Item Name:** Varies. See `Naming Scheme` at the end.
 
-Rank: C
+**Rank:** C
 
-Type: Mystic Code (Church)
+**Type:** Mystic Code (Church)
 
-Description: 
+**Description:** All Church weapons have a flat C across all parameters, including durability. Against non-Servants, they behave like your average C-ranked Mystic Codes, with varying functions that are dependent on each weapon’s design.
 
-All Church weapons have a flat C across all parameters, including durability. Against non-Servants, they behave like your average C-ranked Mystic Codes, with varying functions that are dependent on each weapon’s design.
-
-**This weaspon can be broken. Once broken, it cannot be repaired or reissued unless it has been taken back to NHE HQ.**
+*This weaspon can be broken. Once broken, it cannot be repaired or reissued unless it has been taken back to NHE HQ.*
 
 An additional functionality is unlocked when certain conditions are met:
 - the Church operator has the reinforcement skill at `rank A`
@@ -228,31 +224,23 @@ An additional functionality is unlocked when certain conditions are met:
 
 When the above conditions are met and fueled by a Church operator’s mana, these weapons become powerful tranquilizers that are able to partially paralyze a Servant upon direct contact with their S.E.R.V.A.N.T. frame. 
 
-Area of Effect:
+**Area of Effect:** A well-placed shot will paralyze the target area of impact and a small surrounding radius. For instance, striking a limb, a portion of the torso, or the head will cause paralysis or a stunning effect in the immediate area.
 
-A well-placed shot will paralyze the target area of impact and a small surrounding radius. For instance, striking a limb, a portion of the torso, or the head will cause paralysis or a stunning effect in the immediate area.
+**Duration:** A few seconds at most.
 
-Duration:
+**Cost:** Equivalent to using your character's Trump Card.
 
-A few seconds up to a minute, depending on the weapon's design and the Church operator's reinforcement skill.
+**Naming Scheme:** All Church weapons adopt the following naming convention:
 
-Cost:
+`Mxxx [Prototype] [Bird name] [Make]`
 
-Equivalent to using your character's Trump Card.
+- M = Miracle
+- xxx = The year of production. The holy empire marks 2004 as the new genesis. As such, 2004 = 000, 2005 = 001…and so on.
+- [prototype] = optional tag for weapons in testing
+- Bird name = A bird species. Birds of prey are preferred.
+- Make = version number.
 
-Naming Scheme:
-
-All Church weapons adopt the following naming convention:
-
-Mxxx [Prototype] [Bird name] [Make]
-
-M = Miracle
-xxx = The year of production. The holy empire marks 2004 as the new genesis. As such, 2004 = 000, 2005 = 001…and so on.
-[prototype] = optional tag for weapons in testing
-Bird name = A bird species. Birds of prey are preferred.
-Make = version number.
-
-Example: 
+**Example:**
 
 M100 Prototype Bateleur Mk-I = a prototype weapon on its 1st version and designed/produced in year 2104 (100th year)
 
