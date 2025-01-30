@@ -193,6 +193,8 @@ Type: Mystic Code (Church)
 Description: 
 Reinforcement magecraft has been worked into the fabric, providing protection against physical and mental harm.
 
+**Unless completely vaporized, the uniform can be mended while out of combat. A Church operator is also permitted to carry multiple changes of the uniform while on remote duty.**
+
 All Church operator uniforms follow a simple color scheme of black and white. Accents are permitted so long as they don’t occupy more than 10% of the fabric. All operators have the option to have their uniform tailor made to taste. Otherwise, the standardized version is offered.
 
 Functions:
@@ -215,6 +217,8 @@ Type: Mystic Code (Church)
 
 Description: 
 All Church weapons have a flat C across all parameters, including durability. Against non-Servants, they behave like your average C-ranked Mystic Codes, with varying functions that are dependent on each weapon’s design.
+
+**This weaspon can be broken. Once broken, it cannot be repaired or reissued unless it has been taken back to NHE HQ.**
 
 An additional functionality is unlocked when certain conditions are met:
 - the Church operator has the reinforcement skill at `rank A`
