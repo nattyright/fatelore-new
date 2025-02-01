@@ -104,7 +104,9 @@ As of March 2105, the City is currently under quarantine, with further measures 
 # Shangri-La
 
 {{< columns img-left >}}
-![](media/shangri-la.jpg)
+![](media/shangri-la.jpg) {{< button href="https://docs.google.com/document/d/1gcrQlCgPYtJBXMEnyts_xsYTpdoKyIzK3XFxK-uYVDs/edit?tab=t.0" >}}City Doc{{< /button >}}
+
+
 **Type:** Polaris <br>
 **State:** Operational <br>
 **Relevance:** Rest of the World <br>
@@ -114,3 +116,16 @@ Shangri-La makes trips around the world visiting various Stella Maris cities, an
 {{< /columns >}}
 
 
+# Neo Pompeii
+
+{{< columns img-left >}}
+![](media/neopompeii.png) {{< button href="https://docs.google.com/document/d/1klrcc7H8JhzIYt1J70atEYgR3ck3HM67fuINJD8DmsA/edit?tab=t.0" >}}City Doc{{< /button >}}
+**Type:** Polaris <br>
+**State:** Operational <br>
+**Relevance:** Rest of the World, Cage Fight Event <br>
+**Overview:** Neo Pompeii exists as an independent city-state apart from the factions of Republic and the Holy Empire. The remains of decimated Nomadic Cities were converted through the combined efforts of a vast black market network into a Polaris Class City. One of the first decrees of this city was that all those of great stature were welcome to partake in the pleasures that lie within, and that none would be barred from their escape to more “delicious delights.”
+
+Neo Pompeii came from the mind of a single enigmatic figure, known only to visitors and employees alike as “Dashwood.” It’s rumored that Dashwood’s own political connections reach far and wide across the World, allowing the benefactor to remain in the loop regarding major events, while also keeping Neo Pompeii’s eclectic tastes and figures under tight wraps. 
+
+At the heart of Neo Pompeii's entertainment are the Cage Fights, where arenas of all shapes and sizes are created by the Casters governing the city to pit Servants against one another in no-holds-barred combat. Spectators wage fortunes on the outcomes of these fights while spectating from behind the protection of the areas' reinforced structure. There is only ever one rule for these fights: a match is not won until either side perishes.
+{{< /columns >}}
