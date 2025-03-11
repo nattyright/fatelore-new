@@ -1,6 +1,7 @@
 ---
 title: The Story So Far...
 weight: 15
+icon: story-so-far 
 ---
 {{< hint "danger" >}}
 # Warning

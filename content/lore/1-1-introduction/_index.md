@@ -1,6 +1,7 @@
 ---
 title: Introduction
 weight: 10
+icon: introduction
 ---
 Fate/Starry Night is a narrative roleplay based in Discord and set in the world of Fate.
 

@@ -12,7 +12,9 @@ $sub-color: #2f3b4d;
 @import 'css/shortcodes/idcard', 'css/shortcodes/tupper', 'css/shortcodes/columns', 'css/shortcodes/spoiler.scss';
 
 
-.fa-folder { color: $folder-icon-color; }
+.fa-folder,
+.fa-star,
+.fa-file-video-o { color: $folder-icon-color; }
 .fa-file { color: $file-icon-color; }
 nav {
 	ul {
