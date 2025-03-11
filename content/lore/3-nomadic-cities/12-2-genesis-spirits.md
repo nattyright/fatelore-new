@@ -5,7 +5,7 @@ weight: 20
 
 # A City's Core
 
-While most humans know of nomadic cities as being powered by sea-faring runes and [[NAT|NATs]], there is actually a third element at play to sustain a nomadic city's structure and grandeur. Every rune attached to a nomadic city is actually an engraving that represents a certain **animal species**, and a physical representation of said species is usually found in the deepest parts of a nomadic city, inside its own core. These entities are known as **Genesis Spirits.**
+While most humans know of nomadic cities as being powered by sea-faring runes and NATs, there is actually a third element at play to sustain a nomadic city's structure and grandeur. Every rune attached to a nomadic city is actually an engraving that represents a certain **animal species**, and a physical representation of said species is usually found in the deepest parts of a nomadic city, inside its own core. These entities are known as **Genesis Spirits.**
 
 So long as a Genesis Spirit exists and is attached to a nomadic city, the structural integrity of the city greatly increases, along with the city's overall authority. The city (and its Genesis Spirit) becomes capable of withstanding **S.E.R.V.A.N.T.-level attacks** and will only collapse once most of its resources and NATs have been depleted *OR* if the Genesis Spirit is killed. 
 
