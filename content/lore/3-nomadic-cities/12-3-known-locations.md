@@ -10,7 +10,7 @@ weight: 30
 ![](../media/persepolis.jpg) 
 **Type:** Dhruva <br>
 **State:** Auctioned <br>
-**č®¾å®** ±δΈδΊ†ε―Ήζ– <br>
+**Genesis Spirit:** ±δΈδΊ†ε―Ήζ– <br>
 **Relevance:** Season 1, Season 2 <br>
 **Overview:** One of the many Dhruva type cities that used to make a living by renting out their space to other cities, be it for Holy Grail Wars or other purposes. Republic's research labs used to conduct S.E.R.V.A.N.T. frame trial runs here during the early days of its development as well.
 
@@ -30,7 +30,7 @@ Currently, two Cynosura type cities are holding a tournament over Persepolis' ow
 ![](../media/olympia.jpg) {{< button href="/maps/map_olympia.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
-**č®¾å®** –―ε¤§ζ—ι™„δ»¶ζ’’ζ <br>
+**Genesis Spirit:** –―ε¤§ζ—ι™„δ»¶ζ’’ζ <br>
 **Relevance:** Season 2 <br>
 **Overview:** A Church-affiliated, heavily industrilized city that makes a living on the manufacturing and exportation of various goods. Factories are Olympia’s lifeline; some of them far exceed the scale and capability of standard factories in other lesser cities. It wouldn’t be a stretch to say that there is nothing Olympia cannot mass-produce.
 
@@ -52,7 +52,7 @@ Currently, Olympia is in the middle of a bidding war over Persepolis’ corpse. 
 ![](../media/delphi.jpg) {{< button href="/maps/map_delphi.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
-**č®¾å®** Ύε®ζµ�θ΄ΉιΆε¤–<br>
+**Genesis Spirit:** Ύε®ζµ�θ΄ΉιΆε¤–<br>
 **Relevance:** Season 2 <br>
 **Overview:** An independent trade center that actively involves itself in intercity business around the globe. Trading, sharesholding, consultation, investment, so long as there’s profit, Delphi won’t ever turn down an offer.
 
@@ -73,7 +73,7 @@ Currently, Delphi is in the middle of a bidding war over Persepolis’ corpse. I
 ![](../media/nirvana.jpg) {{< button href="/maps/map_nirvana.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
-**č®¾å®** ®šćµŞč´ąé˘ťĺ¤–uĺ“¦ĺ <br>
+**Genesis Spirit:** ®šćµŞč´ąé˘ťĺ¤–uĺ“¦ĺ <br>
 **Relevance:** Season 3 <br>
 **Overview:** Nirvana is a nature reserve city. It is run by independent investors that are attempting to set roots in the New World, a groundbreaking concept that could potentially lead to humanity living on land once again instead of relying on nomadic cities. While this is Nirvana's primary objective, it also doubles its purpose as a tourist spot by hosting various rare animal species that have survived the apocalypse. It is very similar to a wildlife park or zoo.
 
@@ -91,7 +91,7 @@ As of March 2105, the City is currently under quarantine, with further measures 
 ![](../media/alexandria.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
 **Type:** Stella Maris <br>
 **State:** Operational <br>
-**č®¾å®** å®šæµªè´¹é¢å¤–uå“¦åˆ’åˆ†<br>
+**Genesis Spirit:** å®šæµªè´¹é¢å¤–uå“¦åˆ’åˆ†<br>
 **Relevance:** Season 1, Season 4 <br>
 **Overview:** Also known as the New World's Archive, Alexandria is a megalopolis that aims to recover and preserve every piece of data from both the Old and the New World. It houses the world's largest, most up-to-date database, as well as public libraries, museums and warehouses full of books and artifacts that are available for rental.
 
@@ -105,25 +105,31 @@ Aside from Alexandria, multiple smaller-scale library cities also exist as its s
 # Berenice
 
 {{< columns img-left >}}
-![](../media/berenice.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
-**Type:**  <br>
-**State:**  <br>
-**č®¾å®** <br>
-**Relevance:** <br>
+![](../media/berenice.jpg) {{< button href="" >}}City Doc{{< /button >}}
+**Type:** Dhruva <br>
+**State:** Operational <br>
+**Genesis Spirit:** ??? <br>
+**Relevance:** Season 4.5 <br>
 **Overview:** 
+
+**Character Help:** 
 {{< /columns >}}
 
 
 
-# Epoque
+# Mont Saint-Michel de Epoque
 
 {{< columns img-left >}}
-![](../media/epoque.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
-**Type:**  <br>
-**State:**  <br>
-**č®¾å®** <br>
-**Relevance:** <br>
-**Overview:** 
+![](../media/epoque.png) {{< button href="https://docs.google.com/document/d/1Sh8pOXqV6smBJb4kd3yLn9HCvzVjbH-JSb2BumWJVLM/edit?usp=sharing" >}}City Doc{{< /button >}}
+**Type:** Cynosura + Dhruva + Dhruva <br>
+**State:** Operational <br>
+**Genesis Spirit:** Nessaea Hewitsoni<br>
+**Relevance:** Season 5 <br>
+**Overview:** Mont Saint-Michel de Époque (commonly called Epoque) is an independent city with a strong focus on old aesthetics, history and culture from various time periods between the 18th to 19th Century, ranging from the Georgian era, to the Edwardian and Belle-Epoque era. To live in Mont Saint-Michel is to embrace the past, with streets occupied by mechanical carriages and horses. Inhabitants following customs and traditions of bygone eras and even entertainment focusing on theater, ballrooms and fashion displays.
+
+Comprised of three cities, Epoque's central city is known as **Epoque**, and is on the level of a Cynosura, while its affiliated cities that are physically connected to it are known as **Mont-Saint** and **Mont-Michel**. Mont-Saint is mostly a farmland with some expansive forests, making it the ideal place for Epoque's agriculture scene and for rich aristocrats to have summer retreats. Mont-Michel is where Epoque's primary docks and trading centres are located at, and usually where tourists come and go.
+
+When it comes to relationships with others, Epoque is neutral. They have an amicable relationship with the Church, but have not really meddled in each other's affairs: The Church has not approached them beyond the usual requests for trade, and Epoque doesn't care much for other cities beyond itself. The city is self-managed and held together by a wealthy aristocracy that funds most of its projects, along with being filled by a thriving tourism scene due to its uniqueness. However, much of the labour is built on the sweat and back of the commoners who live in the city, sometimes creating tensions between the rich and the poor. 
 {{< /columns >}}
 
 
@@ -162,10 +168,16 @@ At the heart of Neo Pompeii's entertainment are the Cage Fights, where arenas of
 # Mictlān
 
 {{< columns img-left >}}
-![](../media/mictlan.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
-**Type:**  <br>
-**State:**  <br>
-**č®¾å®** <br>
-**Relevance:** <br>
-**Overview:** 
+![](../media/mictlan.png) {{< button href="https://docs.google.com/document/d/1uPIWUsTcPdojrcDcxaH-O9rcTGW8uQOKetj1noOEVks/edit?usp=sharing" >}}City Doc{{< /button >}}
+**Type:**  Polaris <br>
+**State:** 90% Operational <br>
+**Genesis Spirit:** Plecostomus <br>
+**Relevance:** Rest of the World <br>
+**Overview:** Fulfilling the desires of those who wish to be interred in a world without natural dry land, Mictlān was founded as a non-profit collaboration between the Neo Holy Empire and multiple other very generous donors to service the world's funeral needs.  The Mictlān burial service covers not only the main Polaris-class city itself, but a number of satellite vessels that travel between the central hub and many other Stella Marii - the time needed to travel by sea is prohibitive for keeping corpses looking fresh.
+
+The city itself is very non-standard, among other reasons because it lacks a weather dome entirely.  Instead, it's entirely built as one large, concrete ziggurat, with miles of catacomb tunnels winding through it endlessly.  The vast majority of the structure is uninhabited, solely reserved for future space to store urns, coffins, mausoleums.  One could walk for days without seeing a single living soul.
+
+Mictlān's permanent population only measures in the low hundreds, owing to cramped and utilitarian facilities and how it can remain distant from other cities for months at a time.  Many temporary workers come and go, along with visitors mourning the deceased, but only a handful stay year-round.  They're a very odd sort, given that almost all of them are employed in the funeral business.
+
+**Character Help:** Most characters would at least be aware of Mictlān's existence, though few have visited - it's not a cheap place to have a loved one rest, and most simply choose to have a cremation or burial at sea.
 {{< /columns >}}
