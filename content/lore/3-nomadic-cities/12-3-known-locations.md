@@ -105,14 +105,18 @@ Aside from Alexandria, multiple smaller-scale library cities also exist as its s
 # Berenice
 
 {{< columns img-left >}}
-![](../media/berenice.jpg) {{< button href="" >}}City Doc{{< /button >}}
+![](../media/berenice.png) {{< button href="/archive/index.html" >}}Season 4.5{{< /button >}}
 **Type:** Dhruva <br>
 **State:** Operational <br>
-**Genesis Spirit:** ??? <br>
+**Genesis Spirit:** è¡¥wå”¯å¤ªæ <br>
 **Relevance:** Season 4.5 <br>
-**Overview:** 
+**Overview:** Berenice was one of the many cities nominated for preservation following the flood, due to its significance as a site of a Holy Grail War that was directly observed, documented, and linked to the flood. Now grafted onto a Dhruva type city, much of its original structure remains intact, along with a portion of Aswan along its borders.
 
-**Character Help:** 
+In the present day, Berenice has settled into obscurity. It is neither remarkable nor famous, but simply existing as a place where people go about their lives in relative peace. Most of the original families from Berenice do not, nor are they interested in knowing why the city was selected as a Nomadic City in the first place.
+
+Still, for those drawn to the past, be it historians or people with personal ties to what once was, Berenice offers plenty to reminisce about…
+
+**Character Help:** If your character has ties to the events of Season 4.5, Berenice would probably ring a bell. Otherwise, this is simply a nice little city for the average citizen to reside in.
 {{< /columns >}}
 
 
