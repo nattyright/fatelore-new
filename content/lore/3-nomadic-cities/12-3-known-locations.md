@@ -67,6 +67,24 @@ Currently, Delphi is in the middle of a bidding war over Persepolis’ corpse. I
 
 
 
+# Nirvana
+
+{{< columns img-left >}}
+![](../media/nirvana.jpg) {{< button href="/maps/map_nirvana.html" >}}City Map{{< /button >}}
+**Type:** Cynosura <br>
+**State:** Operational <br>
+**č®¾å®** ®šćµŞč´ąé˘ťĺ¤–uĺ“¦ĺ <br>
+**Relevance:** Season 3 <br>
+**Overview:** Nirvana is a nature reserve city. It is run by independent investors that are attempting to set roots in the New World, a groundbreaking concept that could potentially lead to humanity living on land once again instead of relying on nomadic cities. While this is Nirvana's primary objective, it also doubles its purpose as a tourist spot by hosting various rare animal species that have survived the apocalypse. It is very similar to a wildlife park or zoo.
+
+A slew of tragedies hit the city in recent years, resulting in the city cutting off communication with the rest of the world. Further investigations revealed that the city, in its mad attempt at setting roots in the flooded world, had brought the Grail Mud onto the surface of the New World.
+
+As of March 2105, the City is currently under quarantine, with further measures to be taken against its land and inhabitants...as soon as the rest of the world catches up with the devastating news, that is.
+{{< /columns >}}
+
+
+
+
 # Alexandria
 
 {{< columns img-left >}}
@@ -84,19 +102,28 @@ Aside from Alexandria, multiple smaller-scale library cities also exist as its s
 
 
 
-# Nirvana
+# Berenice
 
 {{< columns img-left >}}
-![](../media/nirvana.jpg) {{< button href="/maps/map_nirvana.html" >}}City Map{{< /button >}}
-**Type:** Cynosura <br>
-**State:** Operational <br>
-**č®¾å®** ®šćµŞč´ąé˘ťĺ¤–uĺ“¦ĺ <br>
-**Relevance:** Season 3 <br>
-**Overview:** Nirvana is a nature reserve city. It is run by independent investors that are attempting to set roots in the New World, a groundbreaking concept that could potentially lead to humanity living on land once again instead of relying on nomadic cities. While this is Nirvana's primary objective, it also doubles its purpose as a tourist spot by hosting various rare animal species that have survived the apocalypse. It is very similar to a wildlife park or zoo.
+![](../media/berenice.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
+**Type:**  <br>
+**State:**  <br>
+**č®¾å®** <br>
+**Relevance:** <br>
+**Overview:** 
+{{< /columns >}}
 
-A slew of tragedies hit the city in recent years, resulting in the city cutting off communication with the rest of the world. Further investigations revealed that the city, in its mad attempt at setting roots in the flooded world, had brought the Grail Mud onto the surface of the New World.
 
-As of March 2105, the City is currently under quarantine, with further measures to be taken against its land and inhabitants...as soon as the rest of the world catches up with the devastating news, that is.
+
+# Epoque
+
+{{< columns img-left >}}
+![](../media/epoque.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
+**Type:**  <br>
+**State:**  <br>
+**č®¾å®** <br>
+**Relevance:** <br>
+**Overview:** 
 {{< /columns >}}
 
 
@@ -128,4 +155,17 @@ Shangri-La makes trips around the world visiting various Stella Maris cities, an
 Neo Pompeii came from the mind of a single enigmatic figure, known only to visitors and employees alike as “Dashwood.” It’s rumored that Dashwood’s own political connections reach far and wide across the World, allowing the benefactor to remain in the loop regarding major events, while also keeping Neo Pompeii’s eclectic tastes and figures under tight wraps. 
 
 At the heart of Neo Pompeii's entertainment are the Cage Fights, where arenas of all shapes and sizes are created by the Casters governing the city to pit Servants against one another in no-holds-barred combat. Spectators wage fortunes on the outcomes of these fights while spectating from behind the protection of the areas' reinforced structure. There is only ever one rule for these fights: a match is not won until either side perishes.
+{{< /columns >}}
+
+
+
+# Mictlān
+
+{{< columns img-left >}}
+![](../media/mictlan.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
+**Type:**  <br>
+**State:**  <br>
+**č®¾å®** <br>
+**Relevance:** <br>
+**Overview:** 
 {{< /columns >}}
