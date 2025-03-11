@@ -5,7 +5,7 @@ icon: story-so-far
 ---
 {{< hint "danger" >}}
 # Warning
-This page is a brief summary of all *RP Events* that occurred in the past Seasons in the Fate/Starry Night universe. Needless to say, *massive SPOILERS ahead.* If you care about reading past Seasons without spoilers, then click off this page. Otherwise, enjoy!
+This page is a brief summary of all *RP Events* that occurred in the past Seasons in the Fate/Starry Night universe. Needless to say, *massive SPOILERS ahead.* If you care about reading past Seasons without spoilers, then click off this page and head for the [Archive]({{< ref "/lore/7-archive/_index.md" >}}) instead. Otherwise, enjoy!
 {{< /hint >}}
 
 
@@ -95,7 +95,7 @@ The war ends with no winners, as the world is saved by the Grail's wish and Epoq
 {{< details title="**Spoilers**" open=false >}}
 Takes place in `redacted`, a grand mansion in the heart of `Mont Saint-Michel de Epoque`. For one reason or another, Masters and Servants across space and time receive an invitation, before finding themselves gathered at the mansion for a grand masquerade. 
 
-The masquerade is hosted by the illustrious **Gill Bates**, sef-appointed CEO of `Delphi`, who has just won the City Grail War of 2104. As the night goes on, a pair of assassins reveal themselves: an Assassin Class Servant, **Masque of the Red Death**, and a Caster Class Servant, **King in Yellow**. They both unleash their Noble Phantasms–a deadly plague spread by the Masque and the mansion that’s turned hostile by the King–both aimed at killing Gill Bates.
+The masquerade is hosted by the illustrious **Gill Bates**, sef-appointed CEO of `Delphi`, who has just won the City Grail War of 2104 (Season 2). As the night goes on, a pair of assassins reveal themselves: an Assassin Class Servant, **Masque of the Red Death**, and a Caster Class Servant, **King in Yellow**. They both unleash their Noble Phantasms–a deadly plague spread by the Masque and the mansion that’s turned hostile by the King–both aimed at killing Gill Bates.
 
 In an attempt to thwart the assassination, the guests work together and manage to flee. Just as the assassins vanish, everyone awakens in their respective time periods, only to discover that the entire night was merely a dream. Somewhere, a mysterious entity reveals themselves, having observed the night’s events from afar.
 {{< /details >}}
