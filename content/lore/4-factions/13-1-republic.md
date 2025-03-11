@@ -1,6 +1,6 @@
 ---
 title: Republic
-weight: 30
+weight: 10
 ---
 
 

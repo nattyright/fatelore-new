@@ -1,5 +1,5 @@
 ---
 title: Factions
 bookCollapseSection: true
-weight: 50
+weight: 40
 ---

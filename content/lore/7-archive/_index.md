@@ -1,6 +1,6 @@
 ---
 title: Archive
-weight: 80
+weight: 70
 ---
 
 Access past season archives [here]({{< static "/archive/index.html" >}}).

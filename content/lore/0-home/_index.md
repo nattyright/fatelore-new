@@ -1,6 +1,6 @@
 ---
 title: Home
-weight: 10
+weight: 1
 draft: true
 ---
 # Heading 1

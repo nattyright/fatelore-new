@@ -1,6 +1,6 @@
 ---
-title: Infrastructure
-weight: 60
+title: The World, 2100+
+weight: 30
 ---
 # The World at Large
 
@@ -174,3 +174,29 @@ Those who commit murder or severe crimes are exiled from the city altogether, us
 The law enforcement in nomadic cities varies, but most of the time it is controlled by the ruling class. Aristocrats, businessmen and governors will commonly elect a group of trusted Magi to serve as their watchful dogs that monitor the city. While this can lead to citizens being protected, it can also lead to abuse from those same enforcers. It isn’t a rare sight to see cities be filled with corrupted law enforcement.
 
 Church controlled cities have their own, unique brand of law enforcement which is composed of Executors that have failed the Executor exam. Despite lacking the aptitude to be an Executor of the Church, these ‘failures’ are far more capable than the average Magus and are unconditionally devout to the Church, resulting in low corruption rates amongst Church affiliated cities.
+
+# Global Services
+
+## ServantPedia™
+
+Much like magecraft, the widespread summoning of Heroic Spirits has caused humanity to devalue them as a whole. The identity of most Heroic Spirits can be deciphered from a quick online search via an app called ServantPedia™, which contains profiles of most summoned Servants to date. Each nomadic city keeps a copy of ServantPedia's database and syncs it periodically with the [Master Copy]({{< ref "/lore/4-factions/13-2-alexandria.md#servantpedia-head-offices--main-database" >}}) stored in Alexandria.
+
+{{< hint "info" >}}
+**RP Tips**
+
+Prior to a new Season, a Servant may not have their full information (character sheet) recorded on ServantPedia™. This depends on the Servant's popularity. However, **all Servants successfully summoned IRP are canonically recorded on ServantPedia™ at the end of each Season.**
+{{< /hint >}}
+
+## Fatechan Imageboard
+
+Fatechan is an imageboard service hosted by Alexandria and moderated by librarians. It is the only social platform that *works worldwide*. Alexandria being its host gave Fatechan much credibility, as it is allowed access in every functional city’s City Wide Web. 
+
+Moreover, the simplistic nature of an imageboard limits the types of data that can be posted (texts and images). This cuts down the cost of data transmission, allowing users of Fatechan to stay up to date with the latest posts even in the farthest reaches of the world.
+
+## HeroHeroSpirit
+
+A popular website accessible by most CWWs that focuses on writing, media, fanworks, fiction and much more. Originally created by a human, it was eventually inherited by their Servant, who is supposedly considered to be the 'first author' to exist in history. HeroHeroSpirit (sometimes abbreviated to HHS or H2S for short) markets itself as a site with no boundaries, producing all types of content in a free environment, along with allowing fan submissions and amateur authors to dip their feet into the entertainment sector.
+
+The site sparked plenty of clones and copycats, but the original holds some weight due to being the first fan site to generate traffic in the post apocalypse. In order to make up for the lack of a proper internet, HHS also collects its media into anthologies and collections that it packages in physical or digital releases. These are then shipped to other nomadic cities, turning the site into something of a global phenomenon and more of a publishing house than anything else.
+
+Currently, the website's printing house is located in Alexandria, who have agreed to provide distribution services in exchange for a small cut in profits of any successful sales.

@@ -44,3 +44,11 @@ The thread pausing feature has been implemented to help tide players over short-
 *Channel Permissions & Mod Duties*
 
 - Please `turn off ‘Add Reactions’` for the channel. The bot will use reactions to track the number of overdue threads in each Archive Request submission.
+
+
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+        server: '1069661864046374984', // Da Secret Library™
+        channel: '1069661864604209164' // #general
+    })
+</script>

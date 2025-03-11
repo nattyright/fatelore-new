@@ -24,7 +24,22 @@ collections: # A list of collections the CMS should be able to edit
   - name: 'introduction' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Introduction' # Used in the UI, ie.: "New Post"
     label_singular: 'Introduction Page'
-    folder: 'content/lore/1-introduction' # The path to the folder where the documents are stored
+    folder: 'content/lore/1-1-introduction' # The path to the folder where the documents are stored
+    media_folder: 'media'
+    public_folder: ''
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
+    editor:
+      preview: true
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'File', name: 'file', widget: 'file', required: false} # new
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'story-so-far' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'The Story So Far...' # Used in the UI, ie.: "New Post"
+    label_singular: 'The Story So Far Page'
+    folder: 'content/lore/1-2-story-so-far' # The path to the folder where the documents are stored
     media_folder: 'media'
     public_folder: ''
     create: true # Allow users to create new documents in this collection

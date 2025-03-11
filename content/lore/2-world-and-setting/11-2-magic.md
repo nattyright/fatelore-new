@@ -1,6 +1,6 @@
 ---
 title: Magic
-weight: 50
+weight: 20
 file: ""
 ---
 

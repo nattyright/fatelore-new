@@ -1,6 +1,6 @@
 ---
 title: Republic & NHE Frames
-weight: 80
+weight: 50
 ---
 
 # Repulic & Neo Holy Empire Frames

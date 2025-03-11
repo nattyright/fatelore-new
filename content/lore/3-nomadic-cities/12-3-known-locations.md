@@ -1,13 +1,13 @@
 ---
-title: Locations
-weight: 40
+title: Known Locations
+weight: 30
 ---
 
 
 # Persepolis
 
 {{< columns img-left >}}
-![](media/persepolis.jpg) 
+![](../media/persepolis.jpg) 
 **Type:** Dhruva <br>
 **State:** Auctioned <br>
 **č®¾å®** ±δΈδΊ†ε―Ήζ– <br>
@@ -27,7 +27,7 @@ Currently, two Cynosura type cities are holding a tournament over Persepolis' ow
 # Olympia
 
 {{< columns img-left >}}
-![](media/olympia.jpg) {{< button href="/maps/map_olympia.html" >}}City Map{{< /button >}}
+![](../media/olympia.jpg) {{< button href="/maps/map_olympia.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
 **č®¾å®** –―ε¤§ζ—ι™„δ»¶ζ’’ζ <br>
@@ -49,7 +49,7 @@ Currently, Olympia is in the middle of a bidding war over Persepolis’ corpse. 
 # Delphi
 
 {{< columns img-left >}}
-![](media/delphi.jpg) {{< button href="/maps/map_delphi.html" >}}City Map{{< /button >}}
+![](../media/delphi.jpg) {{< button href="/maps/map_delphi.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
 **č®¾å®** Ύε®ζµ�θ΄ΉιΆε¤–<br>
@@ -70,7 +70,7 @@ Currently, Delphi is in the middle of a bidding war over Persepolis’ corpse. I
 # Alexandria
 
 {{< columns img-left >}}
-![](media/alexandria.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
+![](../media/alexandria.jpg) {{< button href="/maps/map_alexandria.html" >}}City Map{{< /button >}}
 **Type:** Stella Maris <br>
 **State:** Operational <br>
 **č®¾å®** å®šæµªè´¹é¢å¤–uå“¦åˆ’åˆ†<br>
@@ -87,7 +87,7 @@ Aside from Alexandria, multiple smaller-scale library cities also exist as its s
 # Nirvana
 
 {{< columns img-left >}}
-![](media/nirvana.jpg) {{< button href="/maps/map_nirvana.html" >}}City Map{{< /button >}}
+![](../media/nirvana.jpg) {{< button href="/maps/map_nirvana.html" >}}City Map{{< /button >}}
 **Type:** Cynosura <br>
 **State:** Operational <br>
 **č®¾å®** ®šćµŞč´ąé˘ťĺ¤–uĺ“¦ĺ <br>
@@ -104,7 +104,7 @@ As of March 2105, the City is currently under quarantine, with further measures 
 # Shangri-La
 
 {{< columns img-left >}}
-![](media/shangri-la.jpg) {{< button href="https://docs.google.com/document/d/1gcrQlCgPYtJBXMEnyts_xsYTpdoKyIzK3XFxK-uYVDs/edit?tab=t.0" >}}City Doc{{< /button >}}
+![](../media/shangri-la.jpg) {{< button href="https://docs.google.com/document/d/1gcrQlCgPYtJBXMEnyts_xsYTpdoKyIzK3XFxK-uYVDs/edit?tab=t.0" >}}City Doc{{< /button >}}
 
 
 **Type:** Polaris <br>
@@ -119,7 +119,7 @@ Shangri-La makes trips around the world visiting various Stella Maris cities, an
 # Neo Pompeii
 
 {{< columns img-left >}}
-![](media/neopompeii.png) {{< button href="https://docs.google.com/document/d/1klrcc7H8JhzIYt1J70atEYgR3ck3HM67fuINJD8DmsA/edit?tab=t.0" >}}City Doc{{< /button >}}
+![](../media/neopompeii.png) {{< button href="https://docs.google.com/document/d/1klrcc7H8JhzIYt1J70atEYgR3ck3HM67fuINJD8DmsA/edit?tab=t.0" >}}City Doc{{< /button >}}
 **Type:** Polaris <br>
 **State:** Operational <br>
 **Relevance:** Rest of the World, Cage Fight Event <br>

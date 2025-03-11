@@ -1,6 +1,6 @@
 ---
 title: Alexandria
-weight: 40
+weight: 20
 ---
 
 
@@ -71,17 +71,21 @@ In order to satisfy the public's curiosity, high quality replicas of rare artifa
 
 # ServantPedia™ Head Offices & Main Database
 
-The ServantPedia head office is located in Alexandria. It maintains the most updated version of the Servant database. A *master copy*, if you will. 
+The [ServantPedia]({{< ref "/lore/2-world-and-setting/11-3-state-of-world.md#servantpedia" >}}) head office is located in Alexandria. It maintains the most updated version of the Servant database. A *master copy*, if you will. 
 
 All modifications made to Servant pages must be peer-reviewed by at least one staff member, even if said modification was made by a user in a different city. This is to prevent malicious edits.
 
 However, the system is not infallible. Skilled hackers and Servants can sometimes bypass security checks to gain access to the database. Thankfully, Alexandria has its own team of technicians and Servants to set up countermeasures, aiming to keep the data loss to a minimum.
 
-# Fatechan™ Imageboard
+# Other Global Services Offered
 
-Fatechan is an imageboard service hosted by Alexandria and moderated by librarians. It is the *only social platform that works worldwide*. Alexandria being its host gave Fatechan much credibility, as it is allowed access in every functional city’s City Wide Web. 
+## Fatechan™ Imageboard
 
-Moreover, the simplistic nature of an imageboard limits the types of data that can be posted (texts and images). This cuts down the cost of data transmission, allowing users of Fatechan to stay up to date with the latest posts even in the farthest reaches of the world.
+[State of the World -> Global Services -> Fatechan Imageboard]({{< ref "/lore/2-world-and-setting/11-3-state-of-world.md#fatechan-imageboard" >}})
+
+## HeroHeroSpirit
+
+[State of the World -> Global Services -> HeroHeroSpirit]({{< ref "/lore/2-world-and-setting/11-3-state-of-world.md#heroherospirit" >}})
 
 # Extra Lore + City Map
 

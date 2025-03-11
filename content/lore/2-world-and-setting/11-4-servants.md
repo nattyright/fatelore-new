@@ -1,6 +1,6 @@
 ---
 title: S.E.R.V.A.N.T.s
-weight: 70
+weight: 40
 ---
 
 {{< gallery class="content-gallery" >}}
@@ -32,7 +32,7 @@ Currently, all commercial S.E.R.V.A.N.T. factories are owned by a single organiz
 
 The Neo Holy Empire produces their own S.E.R.V.A.N.T. frames as well, albeit at a much smaller scale and not for sale to the common populace. Only church-affiliated individuals may purchase them. Their technology also slightly differs from that of Republic's.
 
-For more information, please refer to [Republic & NHE Frames]({{< ref "/lore/2-world-and-setting/republic-and-nhe-frames.md" >}} "Republic & NHE Frames").
+For more information, please refer to [Republic & NHE Frames]({{< ref "/lore/2-world-and-setting/11-5-frames.md" >}} "Republic & NHE Frames").
 {{< /hint >}}
 
 
@@ -132,7 +132,7 @@ At this point, the Mystic Code is considered more Servant than golem and it beco
 
 A Servant summoned via this method will retain all of its memories from the Throne of Heroes, along with the memories it obtained from the processor (what happened to humanity post cataclysm). A Servant will also realize the nature of its mechanical body, but most likely won't do anything about it since it is no different than having a body purely made of Ether (in FSN) or Data (in Fate/Extra).
 
-From here on, functions of Republic and Church frames begin to differ. Please refer to [Republic & NHE Frames]({{< ref "/lore/2-world-and-setting/republic-and-nhe-frames.md" >}} "Republic & NHE Frames") for a more detailed explanation.
+From here on, functions of Republic and Church frames begin to differ. Please refer to [Republic & NHE Frames]({{< ref "/lore/2-world-and-setting/11-5-frames.md" >}} "Republic & NHE Frames") for a more detailed explanation.
 {{< /columns >}}
 
 # Availability
@@ -155,13 +155,5 @@ Many skilled mages are willing to summon Heroic Spirits for buyers in exchange f
 
 These auctions are usually approved by Republic or the Neo Holy Empire and a license must be purchased in order to legally hold an auction. This doesn’t stop black market auctions from happening, however.
 
-# ServantPedia™
 
-Much like magecraft, the widespread summoning of Heroic Spirits has caused humanity to devalue them as a whole. The identity of most Heroic Spirits can be deciphered from a quick online search via an app called ServantPedia™, which contains profiles of most summoned Servants to date. Each nomadic city keeps a copy of ServantPedia's database and syncs it periodically via Republic's networks.
-
-{{< hint "info" >}}
-**RP Tips**
-
-Prior to a new Season, a Servant may not have their full information (character sheet) recorded on ServantPedia™. This depends on the Servant's popularity. However, **all Servants successfully summoned IRP are canonically recorded on ServantPedia™ at the end of each Season.**
-{{< /hint >}}
 

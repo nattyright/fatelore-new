@@ -1,7 +1,7 @@
 ---
 title: History
 file: ""
-weight: 40
+weight: 10
 ---
 
 {{< columns img-left >}}
