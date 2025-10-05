@@ -4,8 +4,8 @@ weight: 30
 ---
 <br>
 <div style="text-align:center; font-weight: bold;">
-{{< button href="https://docs.google.com/document/d/1rok_e0g63mEHLnPV69zcmasdLCdtGfKZYaViUvPdahU/edit?tab=t.0" >}}Master Sheet Template V2{{< /button >}}
-{{< button href="https://docs.google.com/document/d/1xu3ww0r1Zs1ZXmcuyy8VLv2f21lenweukq4KKdQxqSs/edit?tab=t.0" >}}Servant Sheet Template V3{{< /button >}}
+{{< button href="https://docs.google.com/document/d/1PcRPJiDTyIqtCntEeTvjKN_ZD0lO48jEYaGuZWqsMcw/edit?usp=sharing" >}}Master Sheet Template V2{{< /button >}}
+{{< button href="https://docs.google.com/document/d/1yiMHVtPZPJfCbKxoAUpJ_QfQDd0k6cc_TkjCJlOpyCE/edit?usp=sharing" >}}Servant Sheet Template V2{{< /button >}}
 </div>
 <div style="text-align:center; font-weight: bold;">
 {{< button href="https://docs.google.com/document/d/1LLmUJrl-LNOClYOm84YFfC5eGF6qDbHu1QZsF9lwe9s/edit?resourcekey=0-DqI0GisYwKAupvWg2a6wQg&tab=t.s5rex428do8v" >}}Master Sheet Template V3 (Dark) {{< /button >}}
@@ -55,9 +55,9 @@ The server allows for players to make, and write, NPC characters at their own di
 Here are some general guidelines to keep in mind when writing them.
 
 1. Provide context or background for PCs, help set up certain scenarios or encounters, or act as catalysts for plot development. However, they should not directly resolve challenges meant for PCs to tackle.
-
 2. NPCs should come with limited skills and operate within said limited skills. If their skills are stronger or make bigger impacts than PCs, they cannot operate in such a way that violates rule 1.
- - In the same vein, NPCs should not take up positions that affect the RP in a way that violates rule 1.
+
+* In the same vein, NPCs should not take up positions that affect the RP in a way that violates rule 1.
 
 3. NPCs should act as supporting characters. They should not overshadow or straight up replace a PC in importance or relevance. They should not grant a PC any items, buffs, or intel that gives them an unfair advantage against other PCs or the overarching plot, unless these items, buffs, or intel would have been earned by the PC through RP interactions without the NPC’s involvement.
 
